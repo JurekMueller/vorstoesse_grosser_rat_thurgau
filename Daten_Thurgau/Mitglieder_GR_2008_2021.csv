@@ -15,14 +15,10 @@ Jahr;Name;Vorname;Beruf;Ort;Bezirk;Fraktion;GR_Eintritt;Geb_Jahr;Partei;Geschlec
 2010;Ackerknecht;Wolfgang;eidg. dipl. Bankfachmann;Frauenfeld;Frauenfeld;EVP/EDU;2006;1956;EVP;männlich
 2011;Ackerknecht;Wolfgang;eidg. dipl. Bankfachmann;Frauenfeld;Frauenfeld;EVP/EDU;2006;1956;EVP;männlich
 2012;Ackerknecht;Wolfgang;eidg. dipl. Bankfachmann;Frauenfeld;Frauenfeld;EVP/EDU;2006;1956;EVP;männlich
-2013;Ackerknecht;Wolfgang;"eidg. dipl. Bankfachmann,
-Kirchenpfleger";Frauenfeld;Frauenfeld;EDU/EVP;2006;;EVP;männlich
-2014;Ackerknecht;Wolfgang;"eidg. dipl. Bankfachmann,
-Kirchenpfleger";Frauenfeld;Frauenfeld;EDU/EVP;2006;;EVP;männlich
-2015;Ackerknecht;Wolfgang;"eidg. dipl. Bankfachmann,
-Kirchenpfleger";Frauenfeld;Frauenfeld;EDU/EVP;2006;;EVP;männlich
-2016;Ackerknecht;Wolfgang;"eidg. dipl. Bankfachmann,
-Kirchenpfleger";Frauenfeld;Frauenfeld;EDU/EVP;2006;;EVP;männlich
+2013;Ackerknecht;Wolfgang;eidg. dipl. Bankfachmann,Kirchenpfleger;Frauenfeld;Frauenfeld;EDU/EVP;2006;;EVP;männlich
+2014;Ackerknecht;Wolfgang;eidg. dipl. Bankfachmann,Kirchenpfleger;Frauenfeld;Frauenfeld;EDU/EVP;2006;;EVP;männlich
+2015;Ackerknecht;Wolfgang;eidg. dipl. Bankfachmann,Kirchenpfleger;Frauenfeld;Frauenfeld;EDU/EVP;2006;;EVP;männlich
+2016;Ackerknecht;Wolfgang;eidg. dipl. Bankfachmann,Kirchenpfleger;Frauenfeld;Frauenfeld;EDU/EVP;2006;;EVP;männlich
 2017;Ackerknecht;Wolfgang;Kirchenpfleger;Frauenfeld;Frauenfeld;CVP/EVP;2006;;EVP;männlich
 2018;Ackerknecht;Wolfgang;Kirchenpfleger;Frauenfeld;Frauenfeld;CVP/EVP;2006;;EVP;männlich
 2019;Ackerknecht;Wolfgang;Kirchenpfleger;Frauenfeld;Frauenfeld;CVP/EVP;2006;;EVP;männlich
@@ -31,10 +27,8 @@ Kirchenpfleger";Frauenfeld;Frauenfeld;EDU/EVP;2006;;EVP;männlich
 2010;Aepli Stettler;Elsbeth;Rechtsanwältin, Stadträtin;Frauenfeld;Frauenfeld;CVP/GLP;1996;1964;CVP;weiblich
 2011;Aepli Stettler;Elsbeth;Rechtsanwältin, Stadträtin;Frauenfeld;Frauenfeld;CVP/GLP;1996;1964;CVP;weiblich
 2012;Aepli Stettler;Elsbeth;Rechtsanwältin, Stadträtin;Frauenfeld;Frauenfeld;CVP/GLP;1996;1964;CVP;weiblich
-2013;Aepli Stettler;Elsbeth;"lic. iur., Rechtsanwältin,
-Stadträtin";Frauenfeld;Frauenfeld;CVP/glp;2000;;CVP;weiblich
-2014;Aepli Stettler;Elsbeth;"lic. iur., Rechtsanwältin,
-Stadträtin";Frauenfeld;Frauenfeld;CVP/glp;2000;;CVP;weiblich
+2013;Aepli Stettler;Elsbeth;lic. iur., Rechtsanwältin,Stadträtin;Frauenfeld;Frauenfeld;CVP/glp;2000;;CVP;weiblich
+2014;Aepli Stettler;Elsbeth;lic. iur., Rechtsanwältin,Stadträtin;Frauenfeld;Frauenfeld;CVP/glp;2000;;CVP;weiblich
 2009;Aerne;Margrit;Geschäftsfrau, Gemeinderätin;Lanterswil;Weinfelden;SVP;2000;1960;SVP;weiblich
 2010;Aerne;Margrit;Geschäftsfrau, Gemeinderätin;Lanterswil;Weinfelden;SVP;2000;1960;SVP;weiblich
 2011;Aerne;Margrit;Geschäftsfrau, Gemeinderätin;Lanterswil;Weinfelden;SVP;2000;1960;SVP;weiblich
@@ -55,12 +49,9 @@ Stadträtin";Frauenfeld;Frauenfeld;CVP/glp;2000;;CVP;weiblich
 2014;Albrecht;Clemens;Unternehmer;Dussnang;Münchwilen;SVP;2008;;SVP;männlich
 2015;Albrecht;Clemens;Unternehmer;Dussnang;Münchwilen;SVP;2008;;SVP;männlich
 2016;Albrecht;Clemens;Unternehmer;Dussnang;Münchwilen;SVP;2008;;SVP;männlich
-2017;Albrecht;Clemens;"Unternehmer, 
-Immobilien Makler und Bewerter";Dussnang;Münchwilen;SVP;2008;;SVP;männlich
-2018;Albrecht;Clemens;"Unternehmer, 
-Immobilien Makler und Bewerter";Dussnang;Münchwilen;SVP;2008;;SVP;männlich
-2019;Albrecht;Clemens;"Unternehmer, 
-Immobilien Makler und Bewerter";Dussnang;Münchwilen;SVP;2008;;SVP;männlich
+2017;Albrecht;Clemens;Unternehmer,Immobilien Makler und Bewerter;Dussnang;Münchwilen;SVP;2008;;SVP;männlich
+2018;Albrecht;Clemens;Unternehmer,Immobilien Makler und Bewerter;Dussnang;Münchwilen;SVP;2008;;SVP;männlich
+2019;Albrecht;Clemens;Unternehmer,Immobilien Makler und Bewerter;Dussnang;Münchwilen;SVP;2008;;SVP;männlich
 2008;Altwegg;Hansjürg;Landwirt;Sulgen;Bischofszell;SVP;2007;;SVP;männlich
 2009;Altwegg;Hansjürg;Landwirt;Sulgen;Bischofszell;SVP;2007;1959;SVP;männlich
 2010;Altwegg;Hansjürg;Landwirt;Sulgen;Bischofszell;SVP;2007;1959;SVP;männlich
@@ -70,20 +61,14 @@ Immobilien Makler und Bewerter";Dussnang;Münchwilen;SVP;2008;;SVP;männlich
 2014;Altwegg;Hansjürg;Landwirt;Sulgen;Weinfelden;SVP;2007;;SVP;männlich
 2015;Altwegg;Hansjürg;Landwirt;Sulgen;Weinfelden;SVP;2007;;SVP;männlich
 2016;Altwegg;Hansjürg;Landwirt;Sulgen;Weinfelden;SVP;2007;;SVP;männlich
-2019;Altwegg;Isabelle;"Leitende Bankangestellte, 
-dipl. Finanzplanungsexpertin NDS HF";Sulgen;Weinfelden;SVP;2019;;SVP;weiblich
+2019;Altwegg;Isabelle;Leitende Bankangestellte,dipl. Finanzplanungsexpertin NDS HF;Sulgen;Weinfelden;SVP;2019;;SVP;weiblich
 2020;Altwegg;Isabelle;dipl. Finanzplanungsexpertin NDS HF;Sulgen;Weinfelden;SVP;2019;;SVP;weiblich
 2021;Altwegg;Isabelle;dipl. Finanzplanungsexpertin NDS HF;Sulgen;Weinfelden;SVP;2019;;SVP;weiblich
-2017;Ammann;Reto;"Bildungsunternehmer,
-lic. oec. HSG";Kreuzlingen;Kreuzlingen;glp/BDP;2016;;glp;männlich
-2018;Ammann;Reto;"Bildungsunternehmer,
-lic. oec. HSG";Kreuzlingen;Kreuzlingen;glp/BDP;2016;;glp;männlich
-2019;Ammann;Reto;"Bildungsunternehmer,
-lic. oec. HSG";Kreuzlingen;Kreuzlingen;glp/BDP;2016;;glp;männlich
-2020;Ammann;Reto;"Bildungsunternehmer,
-lic. oec. HSG";Kreuzlingen;Kreuzlingen;glp;2016;;GP;männlich
-2021;Ammann;Reto;"Unternehmer,
-lic. oec. HSG";Kreuzlingen;Kreuzlingen;glp;2016;;GP;männlich
+2017;Ammann;Reto;Bildungsunternehmer,lic. oec. HSG;Kreuzlingen;Kreuzlingen;glp/BDP;2016;;glp;männlich
+2018;Ammann;Reto;Bildungsunternehmer,lic. oec. HSG;Kreuzlingen;Kreuzlingen;glp/BDP;2016;;glp;männlich
+2019;Ammann;Reto;Bildungsunternehmer,lic. oec. HSG;Kreuzlingen;Kreuzlingen;glp/BDP;2016;;glp;männlich
+2020;Ammann;Reto;Bildungsunternehmer,lic. oec. HSG;Kreuzlingen;Kreuzlingen;glp;2016;;GP;männlich
+2021;Ammann;Reto;Unternehmer,lic. oec. HSG;Kreuzlingen;Kreuzlingen;glp;2016;;GP;männlich
 2018;Arnold;Josef;Unternehmer;Uttwil;Arbon;SVP;2017;;SVP;männlich
 2019;Arnold;Josef;Unternehmer;Uttwil;Arbon;SVP;2017;;SVP;männlich
 2020;Arnold;Josef;Unternehmer;Uttwil;Arbon;SVP;2017;;SVP;männlich
@@ -93,14 +78,10 @@ lic. oec. HSG";Kreuzlingen;Kreuzlingen;glp;2016;;GP;männlich
 2010;Arnold;Max;Vermessungsingenieur HTL/STV;Weiningen;Frauenfeld;SVP;2004;1947;SVP;männlich
 2011;Arnold;Max;Vermessungsingenieur HTL/STV;Weiningen;Frauenfeld;SVP;2004;1947;SVP;männlich
 2012;Arnold;Max;Vermessungsingenieur HTL/STV;Weiningen;Frauenfeld;SVP;2004;1947;SVP;männlich
-2013;Arnold;Max;"Vermessungsingenieur 
-FH/STV";Weiningen;Frauenfeld;SVP;2004;;SVP;männlich
-2014;Arnold;Max;"Vermessungsingenieur 
-FH/STV";Weiningen;Frauenfeld;SVP;2004;;SVP;männlich
-2015;Arnold;Max;"Vermessungsingenieur 
-FH/STV";Weiningen;Frauenfeld;SVP;2004;;SVP;männlich
-2016;Arnold;Max;"Vermessungsingenieur 
-FH/STV";Weiningen;Frauenfeld;SVP;2004;;SVP;männlich
+2013;Arnold;Max;Vermessungsingenieur FH/STV;Weiningen;Frauenfeld;SVP;2004;;SVP;männlich
+2014;Arnold;Max;Vermessungsingenieur FH/STV;Weiningen;Frauenfeld;SVP;2004;;SVP;männlich
+2015;Arnold;Max;Vermessungsingenieur FH/STV;Weiningen;Frauenfeld;SVP;2004;;SVP;männlich
+2016;Arnold;Max;Vermessungsingenieur FH/STV;Weiningen;Frauenfeld;SVP;2004;;SVP;männlich
 2014;Auer;Jakob;Sicherheitsbeauftragter;Arbon;Arbon;SP;2013;;SP;männlich
 2015;Auer;Jakob;Sicherheitsbeauftragter;Arbon;Arbon;SP;2013;;SP;männlich
 2016;Auer;Jakob;Sicherheitsbeauftragter;Arbon;Arbon;SP;2013;;SP;männlich
@@ -109,8 +90,8 @@ FH/STV";Weiningen;Frauenfeld;SVP;2004;;SVP;männlich
 2019;Auer;Jakob;Sicherheitsbeauftragter;Arbon;Arbon;SP;2013;;SP;männlich
 2020;Auer;Jakob;Sicherheitsbeauftragter;Arbon;Arbon;SP;2013;;SP;männlich
 2021;Auer;Jakob;Sicherheitsbeauftragter;Arbon;Arbon;SP;2013;;SP;männlich
-2020;Bachmann;Eveline;Bäuerin ;Frauenfeld;Frauenfeld;SVP;2020;;SVP;weiblich
-2021;Bachmann;Eveline;Bäuerin ;Frauenfeld;Frauenfeld;SVP;2020;;SVP;weiblich
+2020;Bachmann;Eveline;Bäuerin;Frauenfeld;Frauenfeld;SVP;2020;;SVP;weiblich
+2021;Bachmann;Eveline;Bäuerin;Frauenfeld;Frauenfeld;SVP;2020;;SVP;weiblich
 2008;Badertscher;Gabi;Geschäftsfrau, Familienfrau;Uttwil;Arbon;FDP;2004;;FDP;weiblich
 2009;Badertscher;Gabi;Kommunikations Management, MScom;Uttwil;Arbon;FDP;2004;1963;FDP;weiblich
 2010;Badertscher;Gabi;Senior Consultant, EMScom;Uttwil;Arbon;FDP;2004;1963;FDP;weiblich
@@ -163,20 +144,16 @@ FH/STV";Weiningen;Frauenfeld;SVP;2004;;SVP;männlich
 2011;Baumgartner;Thomas;Stadtammann;Steckborn;Steckborn;CVP/GLP;2008;1965;CVP;männlich
 2012;Baumgartner;Thomas;a. Stadtammann;Steckborn;Steckborn;CVP/GLP;2008;1965;CVP;männlich
 2008;Beerli;Urs-Peter;Arzt, Dr. med.;Märstetten;Weinfelden;EVP/EDU;2002;;EVP;männlich
-2009;Beerli;Urs-Peter;Dr. med., Arzt ;Märstetten;Weinfelden;EVP/EDU;2002;1953;EVP;männlich
-2010;Beerli;Urs-Peter;Dr. med., Arzt ;Märstetten;Weinfelden;EVP/EDU;2002;1953;EVP;männlich
-2011;Beerli;Urs-Peter;Dr. med., Arzt ;Märstetten;Weinfelden;EVP/EDU;2002;1953;EVP;männlich
-2012;Beerli;Urs-Peter;Dr. med., Arzt ;Märstetten;Weinfelden;EVP/EDU;2002;1953;EVP;männlich
+2009;Beerli;Urs-Peter;Dr. med., Arzt;Märstetten;Weinfelden;EVP/EDU;2002;1953;EVP;männlich
+2010;Beerli;Urs-Peter;Dr. med., Arzt;Märstetten;Weinfelden;EVP/EDU;2002;1953;EVP;männlich
+2011;Beerli;Urs-Peter;Dr. med., Arzt;Märstetten;Weinfelden;EVP/EDU;2002;1953;EVP;männlich
+2012;Beerli;Urs-Peter;Dr. med., Arzt;Märstetten;Weinfelden;EVP/EDU;2002;1953;EVP;männlich
 2013;Beerli;Urs-Peter;Dr. med., Arzt;Märstetten;Weinfelden;EDU/EVP;2002;;EVP;männlich
 2014;Beerli;Urs-Peter;Dr. med., Arzt;Märstetten;Weinfelden;EDU/EVP;2002;;EVP;männlich
-2013;Berner;Markus;"eidg. dipl.
-Betriebswirtschafter";Amriswil;Arbon;BDP;2012;;BDP;männlich
-2014;Berner;Markus;"eidg. dipl.
-Betriebswirtschafter";Amriswil;Arbon;BDP;2012;;BDP;männlich
-2015;Berner;Markus;"eidg. dipl.
-Betriebswirtschafter";Amriswil;Arbon;BDP;2012;;BDP;männlich
-2016;Berner;Markus;"eidg. dipl.
-Betriebswirtschafter";Amriswil;Arbon;BDP;2012;;BDP;männlich
+2013;Berner;Markus;eidg. dipl. Betriebswirtschafter;Amriswil;Arbon;BDP;2012;;BDP;männlich
+2014;Berner;Markus;eidg. dipl. Betriebswirtschafter;Amriswil;Arbon;BDP;2012;;BDP;männlich
+2015;Berner;Markus;eidg. dipl. Betriebswirtschafter;Amriswil;Arbon;BDP;2012;;BDP;männlich
+2016;Berner;Markus;eidg. dipl. Betriebswirtschafter;Amriswil;Arbon;BDP;2012;;BDP;männlich
 2013;Bernhard;Joos;dipl. El. Ing. FH;Sulgen;Weinfelden;CVP/glp;2010;;CVP;männlich
 2014;Bernhard;Joos;dipl. El. Ing. FH;Sulgen;Weinfelden;CVP/glp;2010;;CVP;männlich
 2015;Bernhard;Joos;dipl. El. Ing. FH;Sulgen;Weinfelden;CVP/glp;2010;;CVP;männlich
@@ -185,8 +162,8 @@ Betriebswirtschafter";Amriswil;Arbon;BDP;2012;;BDP;männlich
 2011;Bernhard;Joos;dipl. El. Ing. FH;Sulgen;Bischofszell;CVP/GLP;2010;1958;CVP;männlich
 2012;Bernhard;Joos;dipl. El. Ing. FH;Sulgen;Bischofszell;CVP/GLP;2010;1958;CVP;männlich
 2019;Bétrisey;Karin;dipl. Ing. ETH, Raumplanerin FSU, pat. Ing.-Geometerin;Kesswil;Arbon;GP;2018;;GP;weiblich
-2020;Bétrisey;Karin;dipl. Ing. ETH, Raumplanerin ;Kesswil;Arbon;GP;2018;;GP;weiblich
-2021;Bétrisey;Karin;dipl. Ing. ETH, Raumplanerin ;Kesswil;Arbon;GP;2018;;GP;weiblich
+2020;Bétrisey;Karin;dipl. Ing. ETH, Raumplanerin;Kesswil;Arbon;GP;2018;;GP;weiblich
+2021;Bétrisey;Karin;dipl. Ing. ETH, Raumplanerin;Kesswil;Arbon;GP;2018;;GP;weiblich
 2008;Bieri;Josef;a. Stadtammann;Kreuzlingen;Kreuzlingen;CVP;1996;;CVP;männlich
 2009;Bieri;Josef;a. Stadtammann;Kreuzlingen;Kreuzlingen;CVP/GLP;1996;1943;CVP;männlich
 2010;Bieri;Josef;a. Stadtammann;Kreuzlingen;Kreuzlingen;CVP/GLP;1996;1943;CVP;männlich
@@ -195,17 +172,12 @@ Betriebswirtschafter";Amriswil;Arbon;BDP;2012;;BDP;männlich
 2008;Binswanger;Andreas;Landwirt, Agro-Ing. HTL;Kreuzlingen;Kreuzlingen;SVP;1996;;SVP;männlich
 2009;Binswanger;Andreas;Landwirt, Agro-Ing. HTL;Tägerwilen;Kreuzlingen;SVP;1996;1950;SVP;männlich
 2013;Blatter;David;Kaufmann, Personalfachmann, Stadtrat;Kreuzlingen;Kreuzlingen;SVP;2008;;SVP;männlich
-2014;Blatter;David;"Kaufmann, Personal
-fachmann, Stadtrat";Kreuzlingen;Kreuzlingen;SVP;2008;;SVP;männlich
+2014;Blatter;David;Kaufmann, Personalfachmann, Stadtrat;Kreuzlingen;Kreuzlingen;SVP;2008;;SVP;männlich
 2015;Blatter;David;Kaufmann, Personalfachmann, Stadtrat;Kreuzlingen;Kreuzlingen;SVP;2008;;SVP;männlich
-2009;Blatter;David;"Kaufmann, 
-Stadtrat";Kreuzlingen;Kreuzlingen;SVP;2008;1967;SVP;männlich
-2010;Blatter;David;"Kaufmann, 
-Stadtrat";Kreuzlingen;Kreuzlingen;SVP;2008;1967;SVP;männlich
-2011;Blatter;David;"Kaufmann, 
-Stadtrat";Kreuzlingen;Kreuzlingen;SVP;2008;1967;SVP;männlich
-2012;Blatter;David;"Kaufmann, 
-Stadtrat";Kreuzlingen;Kreuzlingen;SVP;2008;1967;SVP;männlich
+2009;Blatter;David;Kaufmann,Stadtrat;Kreuzlingen;Kreuzlingen;SVP;2008;1967;SVP;männlich
+2010;Blatter;David;Kaufmann,Stadtrat;Kreuzlingen;Kreuzlingen;SVP;2008;1967;SVP;männlich
+2011;Blatter;David;Kaufmann,Stadtrat;Kreuzlingen;Kreuzlingen;SVP;2008;1967;SVP;männlich
+2012;Blatter;David;Kaufmann,Stadtrat;Kreuzlingen;Kreuzlingen;SVP;2008;1967;SVP;männlich
 2015;Bodenmann;Maja;Familienfrau, Kindergärtnerin;Diessenhofen;Frauenfeld;CVP/glp;2014;;CVP;weiblich
 2016;Bodenmann;Maja;Familienfrau, Kindergärtnerin;Diessenhofen;Frauenfeld;CVP/glp;2014;;CVP;weiblich
 2017;Bodenmann;Maja;Familienfrau, Kindergärtnerin;Diessenhofen;Frauenfeld;CVP/EVP;2014;;CVP;weiblich
@@ -215,10 +187,8 @@ Stadtrat";Kreuzlingen;Kreuzlingen;SVP;2008;1967;SVP;männlich
 2009;Böhni;Thomas;dipl. Ing. HTL, Biotechnologe;Frauenfeld;Frauenfeld;CVP/GLP;2008;1964;glp;männlich
 2010;Böhni;Thomas;dipl. Ing. HTL, Biotechnologe;Frauenfeld;Frauenfeld;CVP/GLP;2008;1964;glp;männlich
 2011;Böhni;Thomas;dipl. Ing. HTL, Biotechnologe;Frauenfeld;Frauenfeld;CVP/GLP;2008;1964;glp;männlich
-2017;Bommer;Marianne;"Berufsrichterin,
-lic. iur.,  Rechtsanwältin";Weinfelden;Weinfelden;CVP/EVP;2016;;CVP;weiblich
-2018;Bommer;Marianne;"Berufsrichterin,
-lic. iur.,  Rechtsanwältin";Weinfelden;Weinfelden;CVP/EVP;2016;;CVP;weiblich
+2017;Bommer;Marianne;Berufsrichterin,lic. iur.,  Rechtsanwältin;Weinfelden;Weinfelden;CVP/EVP;2016;;CVP;weiblich
+2018;Bommer;Marianne;Berufsrichterin,lic. iur.,  Rechtsanwältin;Weinfelden;Weinfelden;CVP/EVP;2016;;CVP;weiblich
 2013;Bon;David H.;Gemeindeammann;Romanshorn;Arbon;FDP;2010;;FDP;männlich
 2014;Bon;David H.;Gemeindeammann;Romanshorn;Arbon;FDP;2010;;FDP;männlich
 2015;Bon;David H.;Stadtammann;Romanshorn;Arbon;FDP;2010;;FDP;männlich
@@ -239,22 +209,18 @@ lic. iur.,  Rechtsanwältin";Weinfelden;Weinfelden;CVP/EVP;2016;;CVP;weiblich
 2016;Bornhauser;Thomas;dipl. Zimmermeister;Weinfelden;Weinfelden;FDP;2012;;FDP;männlich
 2017;Bornhauser;Thomas;dipl. Zimmermeister;Weinfelden;Weinfelden;FDP;2012;;FDP;männlich
 2008;Bösiger;Margrit;Geschäftsstellenleiterin;Wängi;Münchwilen;CVP;2007;;CVP;weiblich
-2008;Bosshard-Calmarini;Cäcilia;Lehrerin, Gemeinderätin;Wilen (Gottshaus);Bischofszell;CVP;2002;;CVP;weiblich
-2015;Bosshard-Calmarini;Cäcilia;Lehrerin;Bischofszell;Weinfelden;CVP/glp;2002;;CVP;weiblich
-2016;Bosshard-Calmarini;Cäcilia;Lehrerin;Bischofszell;Weinfelden;CVP/glp;2002;;CVP;weiblich
-2013;Bosshard-Calmarini;Cäcilia;Lehrerin;Wilen (Gottshaus);Weinfelden;CVP/glp;2002;;CVP;weiblich
-2014;Bosshard-Calmarini;Cäcilia;Lehrerin;Wilen (Gottshaus);Weinfelden;CVP/glp;2002;;CVP;weiblich
-2009;Bosshard-Calmarini;Cäcilia;"Lehrerin,
-Gemeinderätin";Wilen (Gottshaus);Bischofszell;CVP/GLP;2002;1951;CVP;weiblich
-2010;Bosshard-Calmarini;Cäcilia;"Lehrerin,
-Gemeinderätin";Wilen (Gottshaus);Bischofszell;CVP/GLP;2002;1951;CVP;weiblich
-2011;Bosshard-Calmarini;Cäcilia;"Lehrerin,
-Gemeinderätin";Wilen (Gottshaus);Bischofszell;CVP/GLP;2002;1951;CVP;weiblich
-2012;Bosshard-Calmarini;Cäcilia;"Lehrerin,
-Gemeinderätin";Wilen (Gottshaus);Bischofszell;CVP/GLP;2002;1951;CVP;weiblich
+2008;Bosshard-Galmarini;Cäcilia;Lehrerin, Gemeinderätin;Wilen (Gottshaus);Bischofszell;CVP;2002;;CVP;weiblich
+2015;Bosshard-Galmarini;Cäcilia;Lehrerin;Bischofszell;Weinfelden;CVP/glp;2002;;CVP;weiblich
+2016;Bosshard-Galmarini;Cäcilia;Lehrerin;Bischofszell;Weinfelden;CVP/glp;2002;;CVP;weiblich
+2013;Bosshard-Galmarini;Cäcilia;Lehrerin;Wilen (Gottshaus);Weinfelden;CVP/glp;2002;;CVP;weiblich
+2014;Bosshard-Galmarini;Cäcilia;Lehrerin;Wilen (Gottshaus);Weinfelden;CVP/glp;2002;;CVP;weiblich
+2009;Bosshard-Galmarini;Cäcilia;Lehrerin,Gemeinderätin;Wilen (Gottshaus);Bischofszell;CVP/GLP;2002;1951;CVP;weiblich
+2010;Bosshard-Galmarini;Cäcilia;Lehrerin,Gemeinderätin;Wilen (Gottshaus);Bischofszell;CVP/GLP;2002;1951;CVP;weiblich
+2011;Bosshard-Galmarini;Cäcilia;Lehrerin,Gemeinderätin;Wilen (Gottshaus);Bischofszell;CVP/GLP;2002;1951;CVP;weiblich
+2012;Bosshard-Galmarini;Cäcilia;Lehrerin,Gemeinderätin;Wilen (Gottshaus);Bischofszell;CVP/GLP;2002;1951;CVP;weiblich
 2008;Brack;Werner;Bauführer;Romanshorn;Arbon;SVP;2006;;SVP;männlich
-2017;Brägger;Joe;Sekundarlehrer phil. I;Amriswil;Arbon;GP;2010;;GP;männlich
-2018;Brägger;Joe;Sekundarlehrer phil. I;Amriswil;Arbon;GP;2010;;GP;männlich
+2017;Brägger;Josef;Sekundarlehrer phil. I;Amriswil;Arbon;GP;2010;;GP;männlich
+2018;Brägger;Josef;Sekundarlehrer phil. I;Amriswil;Arbon;GP;2010;;GP;männlich
 2013;Brägger;Josef;Sekundarlehrer phil. I;Amriswil;Arbon;GP;2010;;GP;männlich
 2014;Brägger;Josef;Sekundarlehrer phil. I;Amriswil;Arbon;GP;2010;;GP;männlich
 2015;Brägger;Josef;Sekundarlehrer phil. I;Amriswil;Arbon;GP;2010;;GP;männlich
@@ -273,14 +239,10 @@ Gemeinderätin";Wilen (Gottshaus);Bischofszell;CVP/GLP;2002;1951;CVP;weiblich
 2008;Bruggmann;Renate;Lehrerin;Kradolf;Bischofszell;SP;2000;;SP;weiblich
 2013;Bruggmann;Renate;Lehrerin;Kradolf;Weinfelden;SP;2000;;SP;weiblich
 2014;Bruggmann;Renate;Lehrerin;Kradolf;Weinfelden;SP;2000;;SP;weiblich
-2009;Bruggmann;Renate;"Lehrerin 
-";Kradolf;Bischofszell;SP;2000;1956;SP;weiblich
-2010;Bruggmann;Renate;"Lehrerin 
-";Kradolf;Bischofszell;SP;2000;1956;SP;weiblich
-2011;Bruggmann;Renate;"Lehrerin 
-";Kradolf;Bischofszell;SP;2000;1956;SP;weiblich
-2012;Bruggmann;Renate;"Lehrerin 
-";Kradolf;Bischofszell;SP;2000;1956;SP;weiblich
+2009;Bruggmann;Renate;Lehrerin;Kradolf;Bischofszell;SP;2000;1956;SP;weiblich
+2010;Bruggmann;Renate;Lehrerin;Kradolf;Bischofszell;SP;2000;1956;SP;weiblich
+2011;Bruggmann;Renate;Lehrerin;Kradolf;Bischofszell;SP;2000;1956;SP;weiblich
+2012;Bruggmann;Renate;Lehrerin;Kradolf;Bischofszell;SP;2000;1956;SP;weiblich
 2020;Brühlmann Zwahlen;Maja;Kauf- und Familienfrau;Sulgen;Weinfelden;SVP;2020;;SVP;weiblich
 2021;Brühlmann Zwahlen;Maja;Kauf- und Familienfrau;Sulgen;Weinfelden;SVP;2020;;SVP;weiblich
 2013;Brühwiler;Konrad;Stadtrat, Fahrlehrer;Frasnacht;Arbon;SVP;2008;;SVP;männlich
@@ -295,19 +257,13 @@ Gemeinderätin";Wilen (Gottshaus);Bischofszell;CVP/GLP;2002;1951;CVP;weiblich
 2009;Brühwiler;Konrad;Postangestellter FrontOffice;Frasnacht;Arbon;SVP;2008;1958;SVP;männlich
 2010;Brühwiler;Konrad;Postangestellter FrontOffice;Frasnacht;Arbon;SVP;2008;1958;SVP;männlich
 2011;Brühwiler;Konrad;Postangestellter FrontOffice;Frasnacht;Arbon;SVP;2008;1958;SVP;männlich
-2012;Brühwiler;Konrad;"Fahrleher 
-(in Ausbildung)";Frasnacht;Arbon;SVP;2008;1958;SVP;männlich
+2012;Brühwiler;Konrad;Fahrleher (in Ausbildung);Frasnacht;Arbon;SVP;2008;1958;SVP;männlich
 2008;Brunner;Guido;Statistiker;Frauenfeld;Frauenfeld;GP;2007;;GP;männlich
-2013;Brunner;Hansjörg;"Unternehmer,
-Techniker HF Polygrafie";Wallenwil;Münchwilen;FDP;2012;;FDP;männlich
-2014;Brunner;Hansjörg;"Unternehmer,
-Techniker HF Polygrafie";Wallenwil;Münchwilen;FDP;2012;;FDP;männlich
-2015;Brunner;Hansjörg;"Unternehmer,
-Techniker HF Polygrafie";Wallenwil;Münchwilen;FDP;2012;;FDP;männlich
-2016;Brunner;Hansjörg;"Unternehmer,
-Techniker HF Polygrafie";Wallenwil;Münchwilen;FDP;2012;;FDP;männlich
-2017;Brunner;Hansjörg;"Unternehmer,
-Techniker HF Polygrafie";Wallenwil;Münchwilen;FDP;2012;;FDP;männlich
+2013;Brunner;Hansjörg;Unternehmer,Techniker HF Polygrafie;Wallenwil;Münchwilen;FDP;2012;;FDP;männlich
+2014;Brunner;Hansjörg;Unternehmer,Techniker HF Polygrafie;Wallenwil;Münchwilen;FDP;2012;;FDP;männlich
+2015;Brunner;Hansjörg;Unternehmer,Techniker HF Polygrafie;Wallenwil;Münchwilen;FDP;2012;;FDP;männlich
+2016;Brunner;Hansjörg;Unternehmer,Techniker HF Polygrafie;Wallenwil;Münchwilen;FDP;2012;;FDP;männlich
+2017;Brunner;Hansjörg;Unternehmer,Techniker HF Polygrafie;Wallenwil;Münchwilen;FDP;2012;;FDP;männlich
 2008;Brunner;Max;a. Gemeindeammann;Romanshorn;Arbon;CVP;1992;;CVP;männlich
 2008;Brunner;Max;Amtsvormund, Fürsorger;Weinfelden;Weinfelden;SVP;1992;;SVP;männlich
 2013;Brunner;Max;Amtsleiter Berufsbeistandschaft;Weinfelden;Weinfelden;SVP;1992;;SVP;männlich
@@ -319,8 +275,7 @@ Techniker HF Polygrafie";Wallenwil;Münchwilen;FDP;2012;;FDP;männlich
 2019;Brunner;Max;a. Berufsbeistand;Weinfelden;Weinfelden;SVP;1992;;SVP;männlich
 2020;Brunner;Max;a. Berufsbeistand;Weinfelden;Weinfelden;SVP;1992;;SVP;männlich
 2021;Brunner;Max;a. Berufsbeistand;Weinfelden;Weinfelden;SVP;1992;;SVP;männlich
-2009;Brunner;Max;"Amtsvormund,
-Fürsorger";Weinfelden;Weinfelden;SVP;1992;1951;SVP;männlich
+2009;Brunner;Max;Amtsvormund,Fürsorger;Weinfelden;Weinfelden;SVP;1992;1951;SVP;männlich
 2010;Brunner;Max;Leiter Amtsvormundschaft;Weinfelden;Weinfelden;SVP;1992;1951;SVP;männlich
 2011;Brunner;Max;Leiter Amtsvormundschaft;Weinfelden;Weinfelden;SVP;1992;1951;SVP;männlich
 2012;Brunner;Max;Leiter Amtsvormundschaft;Weinfelden;Weinfelden;SVP;1992;1951;SVP;männlich
@@ -330,18 +285,14 @@ Fürsorger";Weinfelden;Weinfelden;SVP;1992;1951;SVP;männlich
 2016;Brütsch;Urban;dipl. Forstingenieur ETH;Diessenhofen;Frauenfeld;CVP/glp;2013;;CVP;männlich
 2020;Bühler;Peter;Betriebsökonom HWV;Ettenhausen;Münchwilen;CVP/EVP;2016;;CVP;männlich
 2021;Bühler;Peter;Betriebsökonom HWV;Ettenhausen;Münchwilen;CVP/EVP;2016;;CVP;männlich
-2017;Bühler-Trionfini;Peter;"Direktor RB Aadorf, 
-Betriebsökonom HWV";Ettenhausen;Münchwilen;CVP/EVP;2016;;CVP;männlich
-2018;Bühler-Trionfini;Peter;"Direktor RB Aadorf, 
-Betriebsökonom HWV";Ettenhausen;Münchwilen;CVP/EVP;2016;;CVP;männlich
-2019;Bühler-Trionfini;Peter;"Direktor RB Aadorf, 
-Betriebsökonom HWV";Ettenhausen;Münchwilen;CVP/EVP;2016;;CVP;männlich
+2017;Bühler-Trionfini;Peter;Direktor RB Aadorf,Betriebsökonom HWV;Ettenhausen;Münchwilen;CVP/EVP;2016;;CVP;männlich
+2018;Bühler-Trionfini;Peter;Direktor RB Aadorf,Betriebsökonom HWV;Ettenhausen;Münchwilen;CVP/EVP;2016;;CVP;männlich
+2019;Bühler-Trionfini;Peter;Direktor RB Aadorf,Betriebsökonom HWV;Ettenhausen;Münchwilen;CVP/EVP;2016;;CVP;männlich
 2020;Bünter;Katharina;Kindergärtnerin, Ausbilderin FA;Gerlikon;Frauenfeld;CVP/EVP;2017;;CVP;weiblich
-2021;Bünter;Katharina;"Kindergärtnerin, 
-Ausbilderin FA";Gerlikon;Frauenfeld;CVP/EVP;2017;;CVP;weiblich
-2017;Bünter-Hager  ;Katharina;Kindergärtnerin;Gerlikon;Frauenfeld;CVP/EVP;2017;;CVP;weiblich
-2018;Bünter-Hager  ;Katharina;Kindergärtnerin;Gerlikon;Frauenfeld;CVP/EVP;2017;;CVP;weiblich
-2019;Bünter-Hager  ;Katharina;Kindergärtnerin;Gerlikon;Frauenfeld;CVP/EVP;2017;;CVP;weiblich
+2021;Bünter;Katharina;Kindergärtnerin,Ausbilderin FA;Gerlikon;Frauenfeld;CVP/EVP;2017;;CVP;weiblich
+2017;Bünter-Hager;Katharina;Kindergärtnerin;Gerlikon;Frauenfeld;CVP/EVP;2017;;CVP;weiblich
+2018;Bünter-Hager;Katharina;Kindergärtnerin;Gerlikon;Frauenfeld;CVP/EVP;2017;;CVP;weiblich
+2019;Bünter-Hager;Katharina;Kindergärtnerin;Gerlikon;Frauenfeld;CVP/EVP;2017;;CVP;weiblich
 2008;Claus-Arnold;Erna;Kindergärtnerin;Bottighofen;Kreuzlingen;FDP;2004;;FDP;weiblich
 2009;Claus-Arnold;Erna;Kindergärtnerin;Bottighofen;Kreuzlingen;FDP;2004;1950;FDP;weiblich
 2010;Claus-Arnold;Erna;Kindergärtnerin;Bottighofen;Kreuzlingen;FDP;2004;1950;FDP;weiblich
@@ -354,19 +305,11 @@ Ausbilderin FA";Gerlikon;Frauenfeld;CVP/EVP;2017;;CVP;weiblich
 2008;Dickenmann;Werner;dipl. Baumeister, Stadtrat;Frauenfeld;Frauenfeld;SVP;1996;;SVP;männlich
 2020;Dietz;Mathias;Sozialpädagoge FH, Diakon;Eschlikon;Münchwilen;CVP/EVP;2020;;EVP;männlich
 2021;Dietz;Mathias;Sozialpädagoge FH, Diakon;Eschlikon;Münchwilen;CVP/EVP;2020;;EVP;männlich
-2017;Diezi;Dominik;"Berufsrichter, 
-Dr. iur., Rechtsanwalt,
-Kirchenpräsident";Stachen;Arbon;CVP/EVP;2016;;CVP;männlich
-2018;Diezi;Dominik;"Berufsrichter, 
-Dr. iur., Rechtsanwalt,
-Kirchenpräsident";Stachen;Arbon;CVP/EVP;2016;;CVP;männlich
-2019;Diezi;Dominik;"Berufsrichter, 
-Dr. iur., Rechtsanwalt,
-Kirchenpräsident";Stachen;Arbon;CVP/EVP;2016;;CVP;männlich
-2020;Diezi;Dominik;"Stadtpräsident, Dr. iur., RA
-";Stachen;Arbon;CVP/EVP;2016;;CVP;männlich
-2021;Diezi;Dominik;"Stadtpräsident, Dr. iur., RA
-";Stachen;Arbon;CVP/EVP;2016;;CVP;männlich
+2017;Diezi;Dominik;Berufsrichter,Dr. iur., Rechtsanwalt,Kirchenpräsident;Stachen;Arbon;CVP/EVP;2016;;CVP;männlich
+2018;Diezi;Dominik;Berufsrichter,Dr. iur., Rechtsanwalt,Kirchenpräsident;Stachen;Arbon;CVP/EVP;2016;;CVP;männlich
+2019;Diezi;Dominik;Berufsrichter,Dr. iur., Rechtsanwalt,Kirchenpräsident;Stachen;Arbon;CVP/EVP;2016;;CVP;männlich
+2020;Diezi;Dominik;Stadtpräsident, Dr. iur., RA;Stachen;Arbon;CVP/EVP;2016;;CVP;männlich
+2021;Diezi;Dominik;Stadtpräsident, Dr. iur., RA;Stachen;Arbon;CVP/EVP;2016;;CVP;männlich
 2013;Dransfeld;Peter;Architekt;Ermatingen;Kreuzlingen;SP;2012;;SP;männlich
 2014;Dransfeld;Peter;Architekt;Ermatingen;Kreuzlingen;SP;2012;;SP;männlich
 2015;Dransfeld;Peter;Architekt;Ermatingen;Kreuzlingen;SP;2012;;SP;männlich
@@ -376,20 +319,13 @@ Kirchenpräsident";Stachen;Arbon;CVP/EVP;2016;;CVP;männlich
 2019;Dransfeld;Peter;Architekt;Ermatingen;Kreuzlingen;GP;2012;;GP;männlich
 2020;Dransfeld;Peter;Architekt;Ermatingen;Kreuzlingen;GP;2012;;GP;männlich
 2021;Dransfeld;Peter;Architekt;Ermatingen;Kreuzlingen;GP;2012;;GP;männlich
-2013;Egger;Kurt;"Energiefachmann,
-Geschäftsleiter";Eschlikon;Münchwilen;GP;2012;;GP;männlich
-2014;Egger;Kurt;"Energiefachmann,
-Geschäftsleiter";Eschlikon;Münchwilen;GP;2012;;GP;männlich
-2015;Egger;Kurt;"Energiefachmann,
-Geschäftsleiter";Eschlikon;Münchwilen;GP;2012;;GP;männlich
-2016;Egger;Kurt;"Energiefachmann,
-Geschäftsleiter";Eschlikon;Münchwilen;GP;2012;;GP;männlich
-2017;Egger;Kurt;"Unternehmer,
-Energiefachmann";Eschlikon;Münchwilen;GP;2012;;GP;männlich
-2018;Egger;Kurt;"Unternehmer,
-Energiefachmann";Eschlikon;Münchwilen;GP;2012;;GP;männlich
-2019;Egger;Kurt;"Unternehmer,
-Energiefachmann";Eschlikon;Münchwilen;GP;2012;;GP;männlich
+2013;Egger;Kurt;Energiefachmann,Geschäftsleiter;Eschlikon;Münchwilen;GP;2012;;GP;männlich
+2014;Egger;Kurt;Energiefachmann,Geschäftsleiter;Eschlikon;Münchwilen;GP;2012;;GP;männlich
+2015;Egger;Kurt;Energiefachmann,Geschäftsleiter;Eschlikon;Münchwilen;GP;2012;;GP;männlich
+2016;Egger;Kurt;Energiefachmann,Geschäftsleiter;Eschlikon;Münchwilen;GP;2012;;GP;männlich
+2017;Egger;Kurt;Unternehmer,Energiefachmann;Eschlikon;Münchwilen;GP;2012;;GP;männlich
+2018;Egger;Kurt;Unternehmer,Energiefachmann;Eschlikon;Münchwilen;GP;2012;;GP;männlich
+2019;Egger;Kurt;Unternehmer,Energiefachmann;Eschlikon;Münchwilen;GP;2012;;GP;männlich
 2008;Eisenbart;August;Versicherungsberater;Sirnach;Münchwilen;CVP;2000;;CVP;männlich
 2009;Eisenbart;August;Versicherungsberater;Sirnach;Münchwilen;CVP/GLP;2000;1953;CVP;männlich
 2008;Engel;Kurt;Förster, Gemeindeammann;Schlatt;Diessenhofen;SVP;1996;;SVP;männlich
@@ -397,7 +333,7 @@ Energiefachmann";Eschlikon;Münchwilen;GP;2012;;GP;männlich
 2010;Engel;Kurt;Förster, Gemeindeammann;Schlatt;Diessenhofen;SVP;1996;1950;SVP;männlich
 2011;Engel;Kurt;Förster, Gemeindeammann;Schlatt;Diessenhofen;SVP;1996;1950;SVP;männlich
 2012;Engel;Kurt;Förster, Gemeindeammann;Schlatt;Diessenhofen;SVP;1996;1950;SVP;männlich
-2008;Engeler;Andreas;Betriebstechniker;Müllheim;Steckborn;GP ;1996;;GP;männlich
+2008;Engeler;Andreas;Betriebstechniker;Müllheim;Steckborn;GP;1996;;GP;männlich
 2009;Engeler;Andreas;Betriebstechniker;Müllheim;Steckborn;GP;1996;1945;GP;männlich
 2020;Engeli-Sager;Brigitta;dipl. Psychologin;Kreuzlingen;Kreuzlingen;GP;2019;;GP;weiblich
 2021;Engeli-Sager;Brigitta;dipl. Psychologin;Kreuzlingen;Kreuzlingen;GP;2019;;GP;weiblich
@@ -424,19 +360,13 @@ Energiefachmann";Eschlikon;Münchwilen;GP;2012;;GP;männlich
 2010;Eugster;Armin;Gemeindeammann;Bürglen;Weinfelden;CVP/GLP;1994;1944;CVP;männlich
 2011;Eugster;Armin;Gemeindeammann;Bürglen;Weinfelden;CVP/GLP;1994;1944;CVP;männlich
 2012;Eugster;Armin;a. Gemeindeammann;Bürglen;Weinfelden;CVP/GLP;1994;1944;CVP;männlich
-2015;Eugster;Daniel;"HaustechnikUnternehmer
-";Roggwil;Arbon;FDP;2014;;FDP;männlich
+2015;Eugster;Daniel;HaustechnikUnternehmer;Roggwil;Arbon;FDP;2014;;FDP;männlich
 2016;Eugster;Daniel;Haustechnik-Unternehmer;Freidorf;Arbon;FDP;2014;;FDP;männlich
-2017;Eugster;Daniel;"Haustechnikunternehmer
-";Freidorf;Arbon;FDP;2014;;FDP;männlich
-2018;Eugster;Daniel;"Haustechnikunternehmer
-";Freidorf;Arbon;FDP;2014;;FDP;männlich
-2019;Eugster;Daniel;"Haustechnikunternehmer
-";Freidorf;Arbon;FDP;2014;;FDP;männlich
-2020;Eugster;Daniel;"Haustechnikunternehmer
-";Freidorf;Arbon;FDP;2014;;FDP;männlich
-2021;Eugster;Daniel;"Haustechnikunternehmer
-";Freidorf;Arbon;FDP;2014;;FDP;männlich
+2017;Eugster;Daniel;Haustechnikunternehmer;Freidorf;Arbon;FDP;2014;;FDP;männlich
+2018;Eugster;Daniel;Haustechnikunternehmer;Freidorf;Arbon;FDP;2014;;FDP;männlich
+2019;Eugster;Daniel;Haustechnikunternehmer;Freidorf;Arbon;FDP;2014;;FDP;männlich
+2020;Eugster;Daniel;Haustechnikunternehmer;Freidorf;Arbon;FDP;2014;;FDP;männlich
+2021;Eugster;Daniel;Haustechnikunternehmer;Freidorf;Arbon;FDP;2014;;FDP;männlich
 2019;Eugster;Franz;Sekundarlehrer;Bischofszell;Weinfelden;CVP/EVP;2018;;CVP;männlich
 2020;Eugster;Franz;Sekundarlehrer;Bischofszell;Weinfelden;CVP/EVP;2018;;CVP;männlich
 2021;Eugster;Franz;Sekundarlehrer;Bischofszell;Weinfelden;CVP/EVP;2018;;CVP;männlich
@@ -444,64 +374,41 @@ Energiefachmann";Eschlikon;Münchwilen;GP;2012;;GP;männlich
 2018;Feuerle;Dieter;Schreiner, Baubiologe;Arbon;Arbon;GP;2013;;GP;männlich
 2019;Feuerle;Dieter;Schreiner, Baubiologe;Arbon;Arbon;GP;2013;;GP;männlich
 2020;Feuerle;Dieter;Schreiner, Baubiologe, Stadtrat;Arbon;Arbon;GP;2013;;GP;männlich
-2021;Feuerle;Dieter;"Schreiner, Baubiologe, 
-Stadtrat";Arbon;Arbon;GP;2013;;GP;männlich
+2021;Feuerle;Dieter;Schreiner, Baubiologe,Stadtrat;Arbon;Arbon;GP;2013;;GP;männlich
 2013;Feuerle;Dieter;Schreiner, Baubiologe;Arbon;Arbon;GP;2013;;GP;männlich
 2014;Feuerle;Dieter;Schreiner, Baubiologe;Arbon;Arbon;GP;2013;;GP;männlich
 2015;Feuerle;Dieter;Schreiner, Baubiologe;Arbon;Arbon;GP;2013;;GP;männlich
 2016;Feuerle;Dieter;Schreiner, Baubiologe;Arbon;Arbon;GP;2013;;GP;männlich
-2013;Feuz;Hans;"Unternehmer,
-eidg. dipl. Innendekorateur";Altnau;Kreuzlingen;CVP/glp;2012;;CVP;männlich
-2014;Feuz;Hans;"Unternehmer,
-eidg. dipl. Innendekorateur";Altnau;Kreuzlingen;CVP/glp;2012;;CVP;männlich
-2015;Feuz;Hans;"Unternehmer,
-eidg. dipl. Innendekorateur";Altnau;Kreuzlingen;CVP/glp;2012;;CVP;männlich
-2016;Feuz;Hans;"Unternehmer,
-eidg. dipl. Innendekorateur";Altnau;Kreuzlingen;CVP/glp;2012;;CVP;männlich
-2017;Feuz;Hans;"Gemeindepräsident, Unternehmer,
-eidg. dipl. Innendekorateur";Altnau;Kreuzlingen;CVP/EVP;2012;;CVP;männlich
-2018;Feuz;Hans;"Gemeindepräsident, Unternehmer,
-eidg. dipl. Innendekorateur";Altnau;Kreuzlingen;CVP/EVP;2012;;CVP;männlich
-2019;Feuz;Hans;"Gemeindepräsident, Unternehmer,
-eidg. dipl. Innendekorateur";Altnau;Kreuzlingen;CVP/EVP;2012;;CVP;männlich
+2013;Feuz;Hans;Unternehmer,eidg. dipl. Innendekorateur;Altnau;Kreuzlingen;CVP/glp;2012;;CVP;männlich
+2014;Feuz;Hans;Unternehmer,eidg. dipl. Innendekorateur;Altnau;Kreuzlingen;CVP/glp;2012;;CVP;männlich
+2015;Feuz;Hans;Unternehmer,eidg. dipl. Innendekorateur;Altnau;Kreuzlingen;CVP/glp;2012;;CVP;männlich
+2016;Feuz;Hans;Unternehmer,eidg. dipl. Innendekorateur;Altnau;Kreuzlingen;CVP/glp;2012;;CVP;männlich
+2017;Feuz;Hans;Gemeindepräsident, Unternehmer,eidg. dipl. Innendekorateur;Altnau;Kreuzlingen;CVP/EVP;2012;;CVP;männlich
+2018;Feuz;Hans;Gemeindepräsident, Unternehmer,eidg. dipl. Innendekorateur;Altnau;Kreuzlingen;CVP/EVP;2012;;CVP;männlich
+2019;Feuz;Hans;Gemeindepräsident, Unternehmer,eidg. dipl. Innendekorateur;Altnau;Kreuzlingen;CVP/EVP;2012;;CVP;männlich
 2020;Feuz;Hans;Unternehmer, Gemeindepräsident;Altnau;Kreuzlingen;CVP/EVP;2012;;CVP;männlich
 2021;Feuz;Hans;Unternehmer, Gemeindepräsident;Altnau;Kreuzlingen;CVP/EVP;2012;;CVP;männlich
-2014;Fisch ;Ueli;"Unternehmer,
-Betriebsökonom FH";Ottoberg;Weinfelden;CVP/glp;2012;;glp;männlich
-2015;Fisch ;Ueli;"Unternehmer,
-Betriebsökonom FH";Ottoberg;Weinfelden;CVP/glp;2012;;glp;männlich
-2016;Fisch ;Ueli;"Unternehmer,
-Betriebsökonom FH";Ottoberg;Weinfelden;CVP/glp;2012;;glp;männlich
-2017;Fisch ;Ueli;"Unternehmer,
-Betriebsökonom FH";Ottoberg;Weinfelden;glp/BDP;2012;;glp;männlich
-2018;Fisch ;Ueli;"Unternehmer,
-Betriebsökonom FH";Ottoberg;Weinfelden;glp/BDP;2012;;glp;männlich
-2019;Fisch ;Ueli;"Unternehmer,
-Betriebsökonom FH";Ottoberg;Weinfelden;glp/BDP;2012;;glp;männlich
-2020;Fisch ;Ueli;Betriebsökonom FH, Unternehmer;Ottoberg;Weinfelden;glp;2012;;GP;männlich
-2021;Fisch ;Ueli;Betriebsökonom FH, Unternehmer;Ottoberg;Weinfelden;glp;2012;;GP;männlich
-2013;Fisch ;Ueli;"Unternehmer,
-Betriebsökonom FH";Ottoberg;Weinfelden;CVP/glp;2012;;glp;männlich
+2014;Fisch;Ueli;Unternehmer,Betriebsökonom FH;Ottoberg;Weinfelden;CVP/glp;2012;;glp;männlich
+2015;Fisch;Ueli;Unternehmer,Betriebsökonom FH;Ottoberg;Weinfelden;CVP/glp;2012;;glp;männlich
+2016;Fisch;Ueli;Unternehmer,Betriebsökonom FH;Ottoberg;Weinfelden;CVP/glp;2012;;glp;männlich
+2017;Fisch;Ueli;Unternehmer,Betriebsökonom FH;Ottoberg;Weinfelden;glp/BDP;2012;;glp;männlich
+2018;Fisch;Ueli;Unternehmer,Betriebsökonom FH;Ottoberg;Weinfelden;glp/BDP;2012;;glp;männlich
+2019;Fisch;Ueli;Unternehmer,Betriebsökonom FH;Ottoberg;Weinfelden;glp/BDP;2012;;glp;männlich
+2020;Fisch;Ueli;Betriebsökonom FH, Unternehmer;Ottoberg;Weinfelden;glp;2012;;GP;männlich
+2021;Fisch;Ueli;Betriebsökonom FH, Unternehmer;Ottoberg;Weinfelden;glp;2012;;GP;männlich
+2013;Fisch;Ueli;Unternehmer,Betriebsökonom FH;Ottoberg;Weinfelden;CVP/glp;2012;;glp;männlich
 2008;Forrer;Roger;Bezirksstatthalter;Steckborn;Steckborn;SVP;2004;;SVP;männlich
 2009;Forrer;Roger;Bezirksstatthalter;Steckborn;Steckborn;SVP;2004;1965;SVP;männlich
-2020;Forrer ;Roger;Geschäftsführer;Steckborn;Frauenfeld;SVP;2020;;SVP;männlich
-2021;Forrer ;Roger;Geschäftsführer;Steckborn;Frauenfeld;SVP;2020;;SVP;männlich
-2013;Frei;Alex;"Rechtsanwalt,
-Gerichtspräsident";Eschlikon;Münchwilen;CVP/glp;2010;;CVP;männlich
-2014;Frei;Alex;"Rechtsanwalt,
-Gerichtspräsident";Eschlikon;Münchwilen;CVP/glp;2010;;CVP;männlich
-2015;Frei;Alex;"Rechtsanwalt,
-Gerichtspräsident";Eschlikon;Münchwilen;CVP/glp;2010;;CVP;männlich
-2016;Frei;Alex;"Rechtsanwalt,
-Gerichtspräsident";Eschlikon;Münchwilen;CVP/glp;2010;;CVP;männlich
-2017;Frei;Alex;"Rechtsanwalt,
-Gerichtspräsident";Eschlikon;Münchwilen;CVP/EVP;2010;;CVP;männlich
-2018;Frei;Alex;"Rechtsanwalt,
-Gerichtspräsident";Eschlikon;Münchwilen;CVP/EVP;2010;;CVP;männlich
-2019;Frei;Alex;"Rechtsanwalt,
-Gerichtspräsident";Eschlikon;Münchwilen;CVP/EVP;2010;;CVP;männlich
-2020;Frei;Alex;"Rechtsanwalt,
-Gerichtspräsident";Eschlikon;Münchwilen;CVP/EVP;2010;;CVP;männlich
+2020;Forrer;Roger;Geschäftsführer;Steckborn;Frauenfeld;SVP;2020;;SVP;männlich
+2021;Forrer;Roger;Geschäftsführer;Steckborn;Frauenfeld;SVP;2020;;SVP;männlich
+2013;Frei;Alex;Rechtsanwalt,Gerichtspräsident;Eschlikon;Münchwilen;CVP/glp;2010;;CVP;männlich
+2014;Frei;Alex;Rechtsanwalt,Gerichtspräsident;Eschlikon;Münchwilen;CVP/glp;2010;;CVP;männlich
+2015;Frei;Alex;Rechtsanwalt,Gerichtspräsident;Eschlikon;Münchwilen;CVP/glp;2010;;CVP;männlich
+2016;Frei;Alex;Rechtsanwalt,Gerichtspräsident;Eschlikon;Münchwilen;CVP/glp;2010;;CVP;männlich
+2017;Frei;Alex;Rechtsanwalt,Gerichtspräsident;Eschlikon;Münchwilen;CVP/EVP;2010;;CVP;männlich
+2018;Frei;Alex;Rechtsanwalt,Gerichtspräsident;Eschlikon;Münchwilen;CVP/EVP;2010;;CVP;männlich
+2019;Frei;Alex;Rechtsanwalt,Gerichtspräsident;Eschlikon;Münchwilen;CVP/EVP;2010;;CVP;männlich
+2020;Frei;Alex;Rechtsanwalt,Gerichtspräsident;Eschlikon;Münchwilen;CVP/EVP;2010;;CVP;männlich
 2010;Frei;Alex;Rechtsanwalt, Gerichtspräsident;Eschlikon;Münchwilen;CVP/GLP;2010;1956;CVP;männlich
 2011;Frei;Alex;Rechtsanwalt, Gerichtspräsident;Eschlikon;Münchwilen;CVP/GLP;2010;1956;CVP;männlich
 2012;Frei;Alex;Rechtsanwalt, Gerichtspräsident;Eschlikon;Münchwilen;CVP/GLP;2010;1956;CVP;männlich
@@ -521,26 +428,16 @@ Gerichtspräsident";Eschlikon;Münchwilen;CVP/EVP;2010;;CVP;männlich
 2011;Frischknecht;Daniel;dipl. Psychologe FH;Romanshorn;Arbon;EVP/EDU;2008;1964;EDU;männlich
 2012;Frischknecht;Daniel;dipl. Psychologe FH;Romanshorn;Arbon;EVP/EDU;2008;1964;EDU;männlich
 2008;Gantenbein;Hanspeter;Unternehmer, Gemeindeammann;Wuppenau;Münchwilen;SVP;2004;;SVP;männlich
-2013;Gantenbein;Hanspeter;"Unternehmer,
-Gemeindeammann";Wuppenau;Weinfelden;SVP;2004;;SVP;männlich
-2014;Gantenbein;Hanspeter;"Unternehmer,
-Gemeindeammann";Wuppenau;Weinfelden;SVP;2004;;SVP;männlich
-2015;Gantenbein;Hanspeter;"Unternehmer,
-Gemeindeammann";Wuppenau;Weinfelden;SVP;2004;;SVP;männlich
-2016;Gantenbein;Hanspeter;"Unternehmer
-";Wuppenau;Weinfelden;SVP;2004;;SVP;männlich
-2017;Gantenbein;Hanspeter;"Unternehmer
-";Wuppenau;Weinfelden;SVP;2004;;SVP;männlich
-2018;Gantenbein;Hanspeter;"Unternehmer
-";Wuppenau;Weinfelden;SVP;2004;;SVP;männlich
-2009;Gantenbein;Hanspeter;"Unternehmer,
-Gemeindeammann";Wuppenau;Münchwilen;SVP;2004;1954;SVP;männlich
-2010;Gantenbein;Hanspeter;"Unternehmer,
-Gemeindeammann";Wuppenau;Münchwilen;SVP;2004;1954;SVP;männlich
-2011;Gantenbein;Hanspeter;"Unternehmer,
-Gemeindeammann";Wuppenau;Münchwilen;SVP;2004;1954;SVP;männlich
-2012;Gantenbein;Hanspeter;"Unternehmer,
-Gemeindeammann";Wuppenau;Münchwilen;SVP;2004;1954;SVP;männlich
+2013;Gantenbein;Hanspeter;Unternehmer,Gemeindeammann;Wuppenau;Weinfelden;SVP;2004;;SVP;männlich
+2014;Gantenbein;Hanspeter;Unternehmer,Gemeindeammann;Wuppenau;Weinfelden;SVP;2004;;SVP;männlich
+2015;Gantenbein;Hanspeter;Unternehmer,Gemeindeammann;Wuppenau;Weinfelden;SVP;2004;;SVP;männlich
+2016;Gantenbein;Hanspeter;Unternehmer;Wuppenau;Weinfelden;SVP;2004;;SVP;männlich
+2017;Gantenbein;Hanspeter;Unternehmer;Wuppenau;Weinfelden;SVP;2004;;SVP;männlich
+2018;Gantenbein;Hanspeter;Unternehmer;Wuppenau;Weinfelden;SVP;2004;;SVP;männlich
+2009;Gantenbein;Hanspeter;Unternehmer,Gemeindeammann;Wuppenau;Münchwilen;SVP;2004;1954;SVP;männlich
+2010;Gantenbein;Hanspeter;Unternehmer,Gemeindeammann;Wuppenau;Münchwilen;SVP;2004;1954;SVP;männlich
+2011;Gantenbein;Hanspeter;Unternehmer,Gemeindeammann;Wuppenau;Münchwilen;SVP;2004;1954;SVP;männlich
+2012;Gantenbein;Hanspeter;Unternehmer,Gemeindeammann;Wuppenau;Münchwilen;SVP;2004;1954;SVP;männlich
 2013;Geiges;Stefan;Bauunternehmer;Frauenfeld;Frauenfeld;CVP/glp;2012;;glp;männlich
 2013;Geiges;Stefan;Bauunternehmer;Frauenfeld;Frauenfeld;CVP/glp;2012;;CVP;männlich
 2014;Geiges;Stefan;Bauunternehmer;Frauenfeld;Frauenfeld;CVP/glp;2012;;glp;männlich
@@ -574,38 +471,24 @@ Gemeindeammann";Wuppenau;Münchwilen;SVP;2004;1954;SVP;männlich
 2012;Giuliani;Roman;dipl. Architekt FH/SIA;Diessenhofen;Diessenhofen;SP;2010;1968;SP;männlich
 2019;Granato;Alex;Schreiner, Gewerkschaftssekretär;Götighofen;Weinfelden;SP;2018;;SP;männlich
 2008;Grau-Lanz;Heidi;Gemeindeammann, Verwaltungsökonomin;Zihlschlacht;Bischofszell;FDP;2004;;FDP;weiblich
-2013;Grau-Lanz;Heidi;"Gemeindeammann,
-Verwaltungsökonomin";Zihlschlacht;Weinfelden;FDP;2004;;FDP;weiblich
-2014;Grau-Lanz;Heidi;"Gemeindeammann,
-Verwaltungsökonomin";Zihlschlacht;Weinfelden;FDP;2004;;FDP;weiblich
-2015;Grau-Lanz;Heidi;"Gemeindeammann,
-Verwaltungsökonomin";Zihlschlacht;Weinfelden;FDP;2004;;FDP;weiblich
-2016;Grau-Lanz;Heidi;"Gemeindepräsidentin,
-Verwaltungsökonomin";Zihlschlacht;Weinfelden;FDP;2004;;FDP;weiblich
-2017;Grau-Lanz;Heidi;"Gemeindepräsidentin,
-Verwaltungsökonomin";Zihlschlacht;Weinfelden;FDP;2004;;FDP;weiblich
-2018;Grau-Lanz;Heidi;"Gemeindepräsidentin,
-Verwaltungsökonomin";Zihlschlacht;Weinfelden;FDP;2004;;FDP;weiblich
-2019;Grau-Lanz;Heidi;"Gemeindepräsidentin,
-Verwaltungsökonomin";Zihlschlacht;Weinfelden;FDP;2004;;FDP;weiblich
-2020;Grau-Lanz;Heidi;"Gemeindepräsidentin,
-Verwaltungsökonomin";Zihlschlacht;Weinfelden;FDP;2004;;FDP;weiblich
-2009;Grau-Lanz;Heidi;"Gemeindeammann, 
-Verwaltungsökonomin";Zihlschlacht;Bischofszell;FDP;2004;1958;FDP;weiblich
-2010;Grau-Lanz;Heidi;"Gemeindeammann, 
-Verwaltungsökonomin";Zihlschlacht;Bischofszell;FDP;2004;1958;FDP;weiblich
-2011;Grau-Lanz;Heidi;"Gemeindeammann, 
-Verwaltungsökonomin";Zihlschlacht;Bischofszell;FDP;2004;1958;FDP;weiblich
-2012;Grau-Lanz;Heidi;"Gemeindeammann, 
-Verwaltungsökonomin";Zihlschlacht;Bischofszell;FDP;2004;1958;FDP;weiblich
+2013;Grau-Lanz;Heidi;Gemeindeammann,Verwaltungsökonomin;Zihlschlacht;Weinfelden;FDP;2004;;FDP;weiblich
+2014;Grau-Lanz;Heidi;Gemeindeammann,Verwaltungsökonomin;Zihlschlacht;Weinfelden;FDP;2004;;FDP;weiblich
+2015;Grau-Lanz;Heidi;Gemeindeammann,Verwaltungsökonomin;Zihlschlacht;Weinfelden;FDP;2004;;FDP;weiblich
+2016;Grau-Lanz;Heidi;Gemeindepräsidentin,Verwaltungsökonomin;Zihlschlacht;Weinfelden;FDP;2004;;FDP;weiblich
+2017;Grau-Lanz;Heidi;Gemeindepräsidentin,Verwaltungsökonomin;Zihlschlacht;Weinfelden;FDP;2004;;FDP;weiblich
+2018;Grau-Lanz;Heidi;Gemeindepräsidentin,Verwaltungsökonomin;Zihlschlacht;Weinfelden;FDP;2004;;FDP;weiblich
+2019;Grau-Lanz;Heidi;Gemeindepräsidentin,Verwaltungsökonomin;Zihlschlacht;Weinfelden;FDP;2004;;FDP;weiblich
+2020;Grau-Lanz;Heidi;Gemeindepräsidentin,Verwaltungsökonomin;Zihlschlacht;Weinfelden;FDP;2004;;FDP;weiblich
+2009;Grau-Lanz;Heidi;Gemeindeammann,Verwaltungsökonomin;Zihlschlacht;Bischofszell;FDP;2004;1958;FDP;weiblich
+2010;Grau-Lanz;Heidi;Gemeindeammann,Verwaltungsökonomin;Zihlschlacht;Bischofszell;FDP;2004;1958;FDP;weiblich
+2011;Grau-Lanz;Heidi;Gemeindeammann,Verwaltungsökonomin;Zihlschlacht;Bischofszell;FDP;2004;1958;FDP;weiblich
+2012;Grau-Lanz;Heidi;Gemeindeammann,Verwaltungsökonomin;Zihlschlacht;Bischofszell;FDP;2004;1958;FDP;weiblich
 2013;Grunder;Hans-Peter;dipl. Bauingenieur FH/STV;Fruthwilen;Kreuzlingen;BDP;2012;;BDP;männlich
 2014;Grunder;Hans-Peter;dipl. Bauingenieur FH/STV;Fruthwilen;Kreuzlingen;BDP;2012;;BDP;männlich
 2015;Grunder;Hans-Peter;dipl. Bauingenieur FH/STV;Fruthwilen;Kreuzlingen;BDP;2012;;BDP;männlich
 2016;Grunder;Hans-Peter;dipl. Bauingenieur FH/STV;Fruthwilen;Kreuzlingen;BDP;2012;;BDP;männlich
-2018;Grütter;Guido;"Gemeindepräsident
-";Münchwilen;Münchwilen;FDP;2017;;FDP;männlich
-2019;Grütter;Guido;"Gemeindepräsident
-";Münchwilen;Münchwilen;FDP;2017;;FDP;männlich
+2018;Grütter;Guido;Gemeindepräsident;Münchwilen;Münchwilen;FDP;2017;;FDP;männlich
+2019;Grütter;Guido;Gemeindepräsident;Münchwilen;Münchwilen;FDP;2017;;FDP;männlich
 2013;Gschwend;Viktor;Gärtner, Betriebsinhaber;Neukirch (Egnach);Arbon;FDP;2013;;FDP;männlich
 2014;Gschwend;Viktor;Gärtner, Betriebsinhaber;Neukirch (Egnach);Arbon;FDP;2013;;FDP;männlich
 2015;Gschwend;Viktor;Gärtner, Betriebsinhaber;Neukirch (Egnach);Arbon;FDP;2013;;FDP;männlich
@@ -699,40 +582,32 @@ Verwaltungsökonomin";Zihlschlacht;Bischofszell;FDP;2004;1958;FDP;weiblich
 2019;Hartmann;Brigitta;Unternehmerin;Weinfelden;Weinfelden;GP;2004;;GP;weiblich
 2020;Hartmann;Brigitta;Unternehmerin;Weinfelden;Weinfelden;GP;2004;;GP;weiblich
 2009;Hartmann;Brigitta;Kauffrau;Weinfelden;Weinfelden;GP;2004;1958;GP;weiblich
-2010;Hartmann;Brigitta;"Kauffrau
-";Weinfelden;Weinfelden;GP;2004;1958;GP;weiblich
-2011;Hartmann;Brigitta;"Kauffrau
-";Weinfelden;Weinfelden;GP;2004;1958;GP;weiblich
-2012;Hartmann;Brigitta;"Kauffrau
-";Weinfelden;Weinfelden;GP;2004;1958;GP;weiblich
+2010;Hartmann;Brigitta;Kauffrau;Weinfelden;Weinfelden;GP;2004;1958;GP;weiblich
+2011;Hartmann;Brigitta;Kauffrau;Weinfelden;Weinfelden;GP;2004;1958;GP;weiblich
+2012;Hartmann;Brigitta;Kauffrau;Weinfelden;Weinfelden;GP;2004;1958;GP;weiblich
 2008;Hascher;Hermine;Dr. Ing. Agr. ETH;Eschikofen;Frauenfeld;SVP;2004;;SVP;weiblich
 2009;Hascher;Hermine;Dr. Ing. Agr. ETH;Eschikofen;Frauenfeld;SVP;2004;1960;SVP;weiblich
 2010;Hascher;Hermine;Dr. Ing. Agr. ETH;Eschikofen;Frauenfeld;SVP;2004;1960;SVP;weiblich
 2011;Hascher;Hermine;Dr. Ing. Agr. ETH;Eschikofen;Frauenfeld;SVP;2004;1960;SVP;weiblich
 2017;Hasler-Roost;Cornelia;Marketing- / Kommunikationsfachfrau MAS;Aadorf;Münchwilen;FDP;2016;;FDP;weiblich
 2018;Hasler-Roost;Cornelia;Marketing- / Kommunikationsfachfrau MAS;Aadorf;Münchwilen;FDP;2016;;FDP;weiblich
-2019;Hasler-Roost;Cornelia;Marketing- und Kommunikationsfachfrau ;Aadorf;Münchwilen;FDP;2016;;FDP;weiblich
-2020;Hasler-Roost;Cornelia;Marketing- und Kommunikationsfachfrau ;Aadorf;Münchwilen;FDP;2016;;FDP;weiblich
-2021;Hasler-Roost;Cornelia;Marketing- und Kommunikationsfachfrau ;Aadorf;Münchwilen;FDP;2016;;FDP;weiblich
+2019;Hasler-Roost;Cornelia;Marketing- und Kommunikationsfachfrau;Aadorf;Münchwilen;FDP;2016;;FDP;weiblich
+2020;Hasler-Roost;Cornelia;Marketing- und Kommunikationsfachfrau;Aadorf;Münchwilen;FDP;2016;;FDP;weiblich
+2021;Hasler-Roost;Cornelia;Marketing- und Kommunikationsfachfrau;Aadorf;Münchwilen;FDP;2016;;FDP;weiblich
 2020;Hauser;Cornelia;Lehrerin, Heilpraktikerin;Weinfelden;Weinfelden;GP;2020;;GP;weiblich
 2021;Hauser;Cornelia;Lehrerin, Heilpraktikerin;Weinfelden;Weinfelden;GP;2020;;GP;weiblich
-2017;Heeb;Hanspeter;"Schulpräsident,
-lic. iur.";Romanshorn;Arbon;glp/BDP;2016;;glp;männlich
-2018;Heeb;Hanspeter;"Schulpräsident,
-lic. iur.";Romanshorn;Arbon;glp/BDP;2016;;glp;männlich
-2019;Heeb;Hanspeter;"Schulpräsident,
-lic. iur.";Romanshorn;Arbon;glp/BDP;2016;;glp;männlich
-2020;Heeb;Hanspeter;"Schulpräsident,
-lic. iur.";Romanshorn;Arbon;glp;2016;;GP;männlich
-2021;Heeb;Hanspeter;"Schulpräsident,
-lic. iur.";Romanshorn;Arbon;glp;2016;;GP;männlich
-2013;Heim;Ruedi;Unternehmer;Aadorf;Münchwilen;CVP/glp;2013;;CVP;weiblich
-2014;Heim;Ruedi;Unternehmer;Aadorf;Münchwilen;CVP/glp;2013;;CVP;weiblich
-2015;Heim;Ruedi;Unternehmer;Aadorf;Münchwilen;CVP/glp;2013;;CVP;weiblich
-2016;Heim;Ruedi;Unternehmer;Aadorf;Münchwilen;CVP/glp;2013;;CVP;weiblich
-2010;Heim;Ruedi;Unternehmer;Aadorf;Frauenfeld;CVP/GLP;2011;1965;CVP;männlich
-2011;Heim;Ruedi;Unternehmer;Aadorf;Frauenfeld;CVP/GLP;2011;1965;CVP;männlich
-2012;Heim;Ruedi;Unternehmer;Aadorf;Frauenfeld;CVP/GLP;2011;1965;CVP;männlich
+2017;Heeb;Hanspeter;Schulpräsident,lic. iur.;Romanshorn;Arbon;glp/BDP;2016;;glp;männlich
+2018;Heeb;Hanspeter;Schulpräsident,lic. iur.;Romanshorn;Arbon;glp/BDP;2016;;glp;männlich
+2019;Heeb;Hanspeter;Schulpräsident,lic. iur.;Romanshorn;Arbon;glp/BDP;2016;;glp;männlich
+2020;Heeb;Hanspeter;Schulpräsident,lic. iur.;Romanshorn;Arbon;glp;2016;;GP;männlich
+2021;Heeb;Hanspeter;Schulpräsident,lic. iur.;Romanshorn;Arbon;glp;2016;;GP;männlich
+2013;Heim;Ruedi;Unternehmer;Aadorf;Münchwilen;CVP/glp;2013;;CVP;männlich
+2014;Heim;Ruedi;Unternehmer;Aadorf;Münchwilen;CVP/glp;2013;;CVP;männlich
+2015;Heim;Ruedi;Unternehmer;Aadorf;Münchwilen;CVP/glp;2013;;CVP;männlich
+2016;Heim;Ruedi;Unternehmer;Aadorf;Münchwilen;CVP/glp;2013;;CVP;männlich
+2010;Heim;Ruedi;Unternehmer;Aadorf;Frauenfeld;CVP/glp;2011;1965;CVP;männlich
+2011;Heim;Ruedi;Unternehmer;Aadorf;Frauenfeld;CVP/glp;2011;1965;CVP;männlich
+2012;Heim;Ruedi;Unternehmer;Aadorf;Frauenfeld;CVP/glp;2011;1965;CVP;männlich
 2013;Helfenberger;Kolumban;Meisterlandwirt;Tuttwil;Münchwilen;BDP;2012;;BDP;männlich
 2014;Helfenberger;Kolumban;Meisterlandwirt;Tuttwil;Münchwilen;BDP;2012;;BDP;männlich
 2015;Helfenberger;Kolumban;Meisterlandwirt;Tuttwil;Münchwilen;BDP;2012;;BDP;männlich
@@ -756,66 +631,43 @@ lic. iur.";Romanshorn;Arbon;glp;2016;;GP;männlich
 2014;Hess;Hermann;Unternehmer;Amriswil;Arbon;FDP;2012;;FDP;männlich
 2015;Hess;Hermann;Unternehmer;Amriswil;Arbon;FDP;2012;;FDP;männlich
 2008;Hotz-Casagrande;Hedy;med. Praxisassistentin MPA;Bischofszell;Bischofszell;CVP;2000;;CVP;weiblich
-2013;Huber;Roland A.;"Musikpädagoge,
-Musikdirektor";Frauenfeld;Frauenfeld;BDP;2012;;BDP;männlich
-2014;Huber;Roland A.;"Musikpädagoge,
-Musikdirektor";Frauenfeld;Frauenfeld;BDP;2012;;BDP;männlich
-2015;Huber;Roland A.;"Musikpädagoge,
-Musikdirektor";Frauenfeld;Frauenfeld;BDP;2012;;BDP;männlich
-2016;Huber;Roland A.;"Musikpädagoge,
-Musikdirektor";Frauenfeld;Frauenfeld;BDP;2012;;BDP;männlich
-2017;Huber;Roland A.;"Musikpädagoge,
-Musikdirektor,
-Musiktherapeut";Frauenfeld;Frauenfeld;glp/BDP;2012;;BDP;männlich
-2018;Huber;Roland A.;"Musikpädagoge,
-Musikdirektor,
-Musiktherapeut";Frauenfeld;Frauenfeld;glp/BDP;2012;;BDP;männlich
-2019;Huber;Roland A.;"Musikpädagoge,
-Musikdirektor,
-Musiktherapeut";Frauenfeld;Frauenfeld;glp/BDP;2012;;BDP;männlich
-2013;Hug;Patrick;"Redaktor,
-Vizestadtammann";Arbon;Arbon;CVP/glp;2008;;CVP;männlich
-2014;Hug;Patrick;"Redaktor,
-Vizestadtammann";Arbon;Arbon;CVP/glp;2008;;CVP;männlich
-2015;Hug;Patrick;"Redaktor,
-Vizestadtammann";Arbon;Arbon;CVP/glp;2008;;CVP;männlich
-2016;Hug;Patrick;"Redaktor,
-Vizestadtpräsident";Arbon;Arbon;CVP/glp;2008;;CVP;männlich
-2017;Hug;Patrick;"Journalist,
-Vizestadtpräsident";Arbon;Arbon;CVP/EVP;2008;;CVP;männlich
-2018;Hug;Patrick;"Journalist,
-Vizestadtpräsident";Arbon;Arbon;CVP/EVP;2008;;CVP;männlich
-2019;Hug;Patrick;"Journalist,
-Vizestadtpräsident";Arbon;Arbon;CVP/EVP;2008;;CVP;männlich
-2009;Hug;Patrick;Redaktor, Stadtrat;Arbon;Arbon;CVP/GLP;2008;1957;CVP;männlich
-2010;Hug;Patrick;Redaktor, Stadtrat;Arbon;Arbon;CVP/GLP;2008;1957;CVP;männlich
-2011;Hug;Patrick;Redaktor, Stadtrat;Arbon;Arbon;CVP/GLP;2008;1957;CVP;männlich
-2012;Hug;Patrick;Redaktor, Stadtrat;Arbon;Arbon;CVP/GLP;2008;1957;CVP;männlich
+2013;Huber;Roland A.;Musikpädagoge,Musikdirektor;Frauenfeld;Frauenfeld;BDP;2012;;BDP;männlich
+2014;Huber;Roland A.;Musikpädagoge,Musikdirektor;Frauenfeld;Frauenfeld;BDP;2012;;BDP;männlich
+2015;Huber;Roland A.;Musikpädagoge,Musikdirektor;Frauenfeld;Frauenfeld;BDP;2012;;BDP;männlich
+2016;Huber;Roland A.;Musikpädagoge,Musikdirektor;Frauenfeld;Frauenfeld;BDP;2012;;BDP;männlich
+2017;Huber;Roland A.;Musikpädagoge,Musikdirektor,Musiktherapeut;Frauenfeld;Frauenfeld;glp/BDP;2012;;BDP;männlich
+2018;Huber;Roland A.;Musikpädagoge,Musikdirektor,Musiktherapeut;Frauenfeld;Frauenfeld;glp/BDP;2012;;BDP;männlich
+2019;Huber;Roland A.;Musikpädagoge,Musikdirektor,Musiktherapeut;Frauenfeld;Frauenfeld;glp/BDP;2012;;BDP;männlich
+2013;Hug;Patrick;Redaktor,Vizestadtammann;Arbon;Arbon;CVP/glp;2008;;CVP;männlich
+2014;Hug;Patrick;Redaktor,Vizestadtammann;Arbon;Arbon;CVP/glp;2008;;CVP;männlich
+2015;Hug;Patrick;Redaktor,Vizestadtammann;Arbon;Arbon;CVP/glp;2008;;CVP;männlich
+2016;Hug;Patrick;Redaktor,Vizestadtpräsident;Arbon;Arbon;CVP/glp;2008;;CVP;männlich
+2017;Hug;Patrick;Journalist,Vizestadtpräsident;Arbon;Arbon;CVP/EVP;2008;;CVP;männlich
+2018;Hug;Patrick;Journalist,Vizestadtpräsident;Arbon;Arbon;CVP/EVP;2008;;CVP;männlich
+2019;Hug;Patrick;Journalist,Vizestadtpräsident;Arbon;Arbon;CVP/EVP;2008;;CVP;männlich
+2009;Hug;Patrick;Redaktor, Stadtrat;Arbon;Arbon;CVP/glp;2008;1957;CVP;männlich
+2010;Hug;Patrick;Redaktor, Stadtrat;Arbon;Arbon;CVP/glp;2008;1957;CVP;männlich
+2011;Hug;Patrick;Redaktor, Stadtrat;Arbon;Arbon;CVP/glp;2008;1957;CVP;männlich
+2012;Hug;Patrick;Redaktor, Stadtrat;Arbon;Arbon;CVP/glp;2008;1957;CVP;männlich
 2008;Hugentobler;Walter;Schulleiter;Matzingen;Frauenfeld;SP;2000;;SP;männlich
 2013;Hugentobler;Walter;Gemeindeammann;Matzingen;Frauenfeld;SP;2000;;SP;männlich
 2014;Hugentobler;Walter;Gemeindeammann;Matzingen;Frauenfeld;SP;2000;;SP;männlich
 2015;Hugentobler;Walter;Gemeindeammann;Matzingen;Frauenfeld;SP;2000;;SP;männlich
 2016;Hugentobler;Walter;Gemeindepräsident;Matzingen;Frauenfeld;SP;2000;;SP;männlich
-2017;Hugentobler;Walter;"Gemeindepräsident, 
-wissenschaftlicher
-Mitarbeiter PHZH";Matzingen;Frauenfeld;SP;2000;;SP;männlich
-2018;Hugentobler;Walter;"Gemeindepräsident, 
-wissenschaftlicher
-Mitarbeiter PHZH";Matzingen;Frauenfeld;SP;2000;;SP;männlich
-2019;Hugentobler;Walter;"Gemeindepräsident, 
-wissenschaftlicher
-Mitarbeiter PHZH";Matzingen;Frauenfeld;SP;2000;;SP;männlich
+2017;Hugentobler;Walter;Gemeindepräsident,wissenschaftlicher Mitarbeiter PHZH;Matzingen;Frauenfeld;SP;2000;;SP;männlich
+2018;Hugentobler;Walter;Gemeindepräsident,wissenschaftlicher Mitarbeiter PHZH;Matzingen;Frauenfeld;SP;2000;;SP;männlich
+2019;Hugentobler;Walter;Gemeindepräsident,wissenschaftlicher Mitarbeiter PHZH;Matzingen;Frauenfeld;SP;2000;;SP;männlich
 2009;Hugentobler;Walter;Schulleiter;Matzingen;Frauenfeld;SP;2000;1963;SP;männlich
 2010;Hugentobler;Walter;Prorektor;Matzingen;Frauenfeld;SP;2000;1963;SP;männlich
 2011;Hugentobler;Walter;Prorektor;Matzingen;Frauenfeld;SP;2000;1963;SP;männlich
 2012;Hugentobler;Walter;Gemeindeammann;Matzingen;Frauenfeld;SP;2000;1963;SP;männlich
-2017;Imeri;Alban;Testingenieur ;Romanshorn;Arbon;glp/BDP;2016;;BDP;männlich
-2017;Imeri;Alban;Testingenieur ;Romanshorn;Arbon;glp/BDP;2016;;SP;männlich
-2018;Imeri;Alban;Testingenieur ;Romanshorn;Arbon;glp/BDP;2016;;BDP;männlich
-2018;Imeri;Alban;Testingenieur ;Romanshorn;Arbon;glp/BDP;2016;;SP;männlich
-2019;Imeri;Alban;Testingenieur ;Romanshorn;Arbon;SP;2016;;SP;männlich
-2020;Imeri;Alban;BSc ETH Maschinen-Ingenieur ;Romanshorn;Arbon;SP;2016;;SP;männlich
-2021;Imeri;Alban;BSc ETH Maschinen-Ingenieur ;Romanshorn;Arbon;SP;2016;;SP;männlich
+2017;Imeri;Alban;Testingenieur;Romanshorn;Arbon;glp/BDP;2016;;BDP;männlich
+2017;Imeri;Alban;Testingenieur;Romanshorn;Arbon;glp/BDP;2016;;SP;männlich
+2018;Imeri;Alban;Testingenieur;Romanshorn;Arbon;glp/BDP;2016;;BDP;männlich
+2018;Imeri;Alban;Testingenieur;Romanshorn;Arbon;glp/BDP;2016;;SP;männlich
+2019;Imeri;Alban;Testingenieur;Romanshorn;Arbon;SP;2016;;SP;männlich
+2020;Imeri;Alban;BSc ETH Maschinen-Ingenieur;Romanshorn;Arbon;SP;2016;;SP;männlich
+2021;Imeri;Alban;BSc ETH Maschinen-Ingenieur;Romanshorn;Arbon;SP;2016;;SP;männlich
 2008;Imhof;Beat;Agro-Ing. HTL, Kartograf, Schulpräsident;Balterswil;Münchwilen;GP;2004;;GP;männlich
 2008;Imhof;Erwin;Grenzwachtoffizier;Bottighofen;Kreuzlingen;SVP;2004;;SVP;männlich
 2013;Imhof;Erwin;a. Grenzwachtoffizier;Bottighofen;Kreuzlingen;SVP;2004;;SVP;männlich
@@ -824,10 +676,8 @@ Mitarbeiter PHZH";Matzingen;Frauenfeld;SP;2000;;SP;männlich
 2016;Imhof;Erwin;a. Grenzwachtoffizier;Bottighofen;Kreuzlingen;SVP;2004;;SVP;männlich
 2009;Imhof;Erwin;Grenzwachtoffizier;Bottighofen;Kreuzlingen;SVP;2004;1951;SVP;männlich
 2010;Imhof;Erwin;a. Grenzwachtoffizier;Bottighofen;Kreuzlingen;SVP;2004;1951;SVP;männlich
-2011;Imhof;Erwin;"a. Grenzwachtoffizier
-";Bottighofen;Kreuzlingen;SVP;2004;1951;SVP;männlich
-2012;Imhof;Erwin;"a. Grenzwachtoffizier
-";Bottighofen;Kreuzlingen;SVP;2004;1951;SVP;männlich
+2011;Imhof;Erwin;a. Grenzwachtoffizier;Bottighofen;Kreuzlingen;SVP;2004;1951;SVP;männlich
+2012;Imhof;Erwin;a. Grenzwachtoffizier;Bottighofen;Kreuzlingen;SVP;2004;1951;SVP;männlich
 2018;Imhof;Kilian;Schulleiter;Balterswil;Münchwilen;CVP/EVP;2017;;CVP;männlich
 2019;Imhof;Kilian;Schulleiter;Balterswil;Münchwilen;CVP/EVP;2017;;CVP;männlich
 2021;Imhof;Kilian;Schulleiter, Diplomtrainer;Balterswil;Münchwilen;CVP;2021;;CVP;männlich
@@ -845,28 +695,17 @@ Mitarbeiter PHZH";Matzingen;Frauenfeld;SP;2000;;SP;männlich
 2011;Indergand;Werner;Landwirt;Altnau;Kreuzlingen;SVP;2004;1960;SVP;männlich
 2012;Indergand;Werner;Landwirt;Altnau;Kreuzlingen;SVP;2004;1960;SVP;männlich
 2008;Iseli-Rutishauser;Maya;Familienfrau, Lehrerin;Romanshorn;Arbon;GP;1994;;GP;weiblich
-2009;Iseli-Rutishauser;Maya;"Familienfrau, 
-Lehrerin";Romanshorn;Arbon;GP;1994;1952;GP;weiblich
-2010;Iseli-Rutishauser;Maya;"Familienfrau, 
-Lehrerin";Romanshorn;Arbon;GP;1994;1952;GP;weiblich
-2011;Iseli-Rutishauser;Maya;"Familienfrau, 
-Lehrerin";Romanshorn;Arbon;GP;1994;1952;GP;weiblich
-2012;Iseli-Rutishauser;Maya;"Familienfrau, 
-Lehrerin";Romanshorn;Arbon;GP;1994;1952;GP;weiblich
-2013;Jordi;Helen;"Geschäftsstellenleiterin,
-Stadträtin";Bischofszell;Weinfelden;EDU/EVP;2008;;EDU;weiblich
-2014;Jordi;Helen;"Geschäftsstellenleiterin,
-Stadträtin";Bischofszell;Weinfelden;EDU/EVP;2008;;EDU;weiblich
-2015;Jordi;Helen;"Geschäftsstellenleiterin,
-Stadträtin";Bischofszell;Weinfelden;EDU/EVP;2008;;EDU;weiblich
-2009;Jordi;Helen;"kfm. Angestellte, 
-Singlehrerin";Bischofszell;Bischofszell;EVP/EDU;2008;1957;EDU;weiblich
-2010;Jordi;Helen;"kfm. Angestellte, 
-Singlehrerin";Bischofszell;Bischofszell;EVP/EDU;2008;1957;EDU;weiblich
-2011;Jordi;Helen;"kfm. Angestellte, 
-Singlehrerin";Bischofszell;Bischofszell;EVP/EDU;2008;1957;EDU;weiblich
-2012;Jordi;Helen;"kfm. Angestellte, 
-Singlehrerin";Bischofszell;Bischofszell;EVP/EDU;2008;1957;EDU;weiblich
+2009;Iseli-Rutishauser;Maya;Familienfrau,Lehrerin;Romanshorn;Arbon;GP;1994;1952;GP;weiblich
+2010;Iseli-Rutishauser;Maya;Familienfrau,Lehrerin;Romanshorn;Arbon;GP;1994;1952;GP;weiblich
+2011;Iseli-Rutishauser;Maya;Familienfrau,Lehrerin;Romanshorn;Arbon;GP;1994;1952;GP;weiblich
+2012;Iseli-Rutishauser;Maya;Familienfrau,Lehrerin;Romanshorn;Arbon;GP;1994;1952;GP;weiblich
+2013;Jordi;Helen;Geschäftsstellenleiterin,Stadträtin;Bischofszell;Weinfelden;EDU/EVP;2008;;EDU;weiblich
+2014;Jordi;Helen;Geschäftsstellenleiterin,Stadträtin;Bischofszell;Weinfelden;EDU/EVP;2008;;EDU;weiblich
+2015;Jordi;Helen;Geschäftsstellenleiterin,Stadträtin;Bischofszell;Weinfelden;EDU/EVP;2008;;EDU;weiblich
+2009;Jordi;Helen;kfm. Angestellte,Singlehrerin;Bischofszell;Bischofszell;EVP/EDU;2008;1957;EDU;weiblich
+2010;Jordi;Helen;kfm. Angestellte,Singlehrerin;Bischofszell;Bischofszell;EVP/EDU;2008;1957;EDU;weiblich
+2011;Jordi;Helen;kfm. Angestellte,Singlehrerin;Bischofszell;Bischofszell;EVP/EDU;2008;1957;EDU;weiblich
+2012;Jordi;Helen;kfm. Angestellte,Singlehrerin;Bischofszell;Bischofszell;EVP/EDU;2008;1957;EDU;weiblich
 2008;Jung;Daniel;lic. iur., Rechtsanwalt;Felben-Wellhausen;Frauenfeld;SVP;2000;;SVP;männlich
 2009;Jung;Daniel;lic. iur., Rechtsanwalt;Felben-Wellhausen;Frauenfeld;SVP;2000;1954;SVP;männlich
 2010;Jung;Daniel;lic. iur., Rechtsanwalt;Felben-Wellhausen;Frauenfeld;SVP;2000;1954;SVP;männlich
@@ -882,31 +721,23 @@ Singlehrerin";Bischofszell;Bischofszell;EVP/EDU;2008;1957;EDU;weiblich
 2020;Kappeler;Toni;Primarlehrer (pens.);Münchwilen;Münchwilen;GP;2009;;GP;männlich
 2021;Kappeler;Toni;Primarlehrer (pens.);Münchwilen;Münchwilen;GP;2009;;GP;männlich
 2009;Kappeler;Toni;Primarlehrer;Münchwilen;Münchwilen;GP;2009;1945;GP;männlich
-2010;Kappeler;Toni;"Primarlehrer
-";Münchwilen;Münchwilen;GP;2009;1945;GP;männlich
-2011;Kappeler;Toni;"Primarlehrer
-";Münchwilen;Münchwilen;GP;2009;1945;GP;männlich
-2012;Kappeler;Toni;"Primarlehrer
-";Münchwilen;Münchwilen;GP;2009;1945;GP;männlich
+2010;Kappeler;Toni;Primarlehrer;Münchwilen;Münchwilen;GP;2009;1945;GP;männlich
+2011;Kappeler;Toni;Primarlehrer;Münchwilen;Münchwilen;GP;2009;1945;GP;männlich
+2012;Kappeler;Toni;Primarlehrer;Münchwilen;Münchwilen;GP;2009;1945;GP;männlich
 2016;Kaufmann;Brigitte;Kommunikationsberaterin;Uttwil;Arbon;FDP;2015;;FDP;weiblich
 2017;Kaufmann;Brigitte;Kommunikationsberaterin;Uttwil;Arbon;FDP;2015;;FDP;weiblich
 2018;Kaufmann;Brigitte;Kommunikationsberaterin;Uttwil;Arbon;FDP;2015;;FDP;weiblich
 2019;Kaufmann;Brigitte;Kommunikationsberaterin;Uttwil;Arbon;FDP;2015;;FDP;weiblich
 2020;Kaufmann;Brigitte;Kommunikationsberaterin;Uttwil;Arbon;FDP;2015;;FDP;weiblich
 2021;Kaufmann;Brigitte;Kommunikationsberaterin;Uttwil;Arbon;FDP;2015;;FDP;weiblich
-2013;Kaufmann;Christa;"Lehrerin,
-Familienfrau";Bichelsee;Münchwilen;CVP/glp;2010;;CVP;weiblich
-2014;Kaufmann;Christa;"Lehrerin,
-Familienfrau";Bichelsee;Münchwilen;CVP/glp;2010;;CVP;weiblich
-2015;Kaufmann;Christa;"Lehrerin,
-Familienfrau";Bichelsee;Münchwilen;CVP/glp;2010;;CVP;weiblich
-2016;Kaufmann;Christa;"Lehrerin,
-Familienfrau";Bichelsee;Münchwilen;CVP/glp;2010;;CVP;weiblich
-2017;Kaufmann;Christa;"Lehrerin,
-Familienfrau";Bichelsee;Münchwilen;CVP/EVP;2010;;CVP;weiblich
-2010;Kaufmann;Christa;Primarlehrerin, Familienfrau;Bichelsee;Münchwilen;CVP/GLP;2010;1964;CVP;weiblich
-2011;Kaufmann;Christa;Primarlehrerin, Familienfrau;Bichelsee;Münchwilen;CVP/GLP;2010;1964;CVP;weiblich
-2012;Kaufmann;Christa;Primarlehrerin, Familienfrau;Bichelsee;Münchwilen;CVP/GLP;2010;1964;CVP;weiblich
+2013;Kaufmann;Christa;Lehrerin,Familienfrau;Bichelsee;Münchwilen;CVP/glp;2010;;CVP;weiblich
+2014;Kaufmann;Christa;Lehrerin,Familienfrau;Bichelsee;Münchwilen;CVP/glp;2010;;CVP;weiblich
+2015;Kaufmann;Christa;Lehrerin,Familienfrau;Bichelsee;Münchwilen;CVP/glp;2010;;CVP;weiblich
+2016;Kaufmann;Christa;Lehrerin,Familienfrau;Bichelsee;Münchwilen;CVP/glp;2010;;CVP;weiblich
+2017;Kaufmann;Christa;Lehrerin,Familienfrau;Bichelsee;Münchwilen;CVP/EVP;2010;;CVP;weiblich
+2010;Kaufmann;Christa;Primarlehrerin, Familienfrau;Bichelsee;Münchwilen;CVP/glp;2010;1964;CVP;weiblich
+2011;Kaufmann;Christa;Primarlehrerin, Familienfrau;Bichelsee;Münchwilen;CVP/glp;2010;1964;CVP;weiblich
+2012;Kaufmann;Christa;Primarlehrerin, Familienfrau;Bichelsee;Münchwilen;CVP/glp;2010;1964;CVP;weiblich
 2008;Kaufmann;Sybille;dipl. Sozialpädagogin FH;Frauenfeld;Frauenfeld;SP;2006;;SP;weiblich
 2009;Kaufmann;Sybille;dipl. Sozialpädagogin FH;Frauenfeld;Frauenfeld;SP;2009;1962;SP;weiblich
 2010;Kaufmann;Sybille;dipl. Sozialpädagogin FH;Frauenfeld;Frauenfeld;SP;2009;1962;SP;weiblich
@@ -919,7 +750,7 @@ Familienfrau";Bichelsee;Münchwilen;CVP/EVP;2010;;CVP;weiblich
 2010;Keller;Markus;Landwirt;Märwil;Münchwilen;SVP;2008;1982;SVP;männlich
 2011;Keller;Markus;Landwirt;Märwil;Münchwilen;SVP;2008;1982;SVP;männlich
 2012;Keller;Markus;Landwirt;Märwil;Münchwilen;SVP;2008;1982;SVP;männlich
-2021;Keller;Ueli;Sozialpädagoge, Sozialarbeiter BSc ;Bischofszell;Weinfelden;GP;2020;;GP;männlich
+2021;Keller;Ueli;Sozialpädagoge, Sozialarbeiter BSc;Bischofszell;Weinfelden;GP;2020;;GP;männlich
 2008;Keller;Walter;Landwirt;Weinfelden;Weinfelden;SVP;1994;;SVP;männlich
 2008;Kern;Barbara;Pflegefachfrau DN II;Kreuzlingen;Kreuzlingen;SP;2004;;SP;weiblich
 2013;Kern;Barbara;Stadträtin;Kreuzlingen;Kreuzlingen;SP;2004;;SP;weiblich
@@ -997,12 +828,9 @@ Familienfrau";Bichelsee;Münchwilen;CVP/EVP;2010;;CVP;weiblich
 2008;Krucker;August;Betriebsökonom HWV;Rickenbach;Münchwilen;FDP;1992;;FDP;männlich
 2009;Krucker;August;Betriebsökonom HWV;Rickenbach;Münchwilen;FDP;1992;1956;FDP;männlich
 2008;Kuhn;Alfred;Zollinspektor-Stellvertreter;Sirnach;Münchwilen;SP;2007;;SP;männlich
-2013;Kuhn;Esther;"Betriebsökonomin HWV,
-Unternehmerin";Mammern;Frauenfeld;CVP/glp;2012;;glp;weiblich
-2014;Kuhn;Esther;"Betriebsökonomin HWV,
-Unternehmerin";Mammern;Frauenfeld;CVP/glp;2012;;glp;weiblich
-2015;Kuhn;Esther;"Betriebsökonomin HWV,
-Unternehmerin";Mammern;Frauenfeld;CVP/glp;2012;;glp;weiblich
+2013;Kuhn;Esther;Betriebsökonomin HWV,Unternehmerin;Mammern;Frauenfeld;CVP/glp;2012;;glp;weiblich
+2014;Kuhn;Esther;Betriebsökonomin HWV,Unternehmerin;Mammern;Frauenfeld;CVP/glp;2012;;glp;weiblich
+2015;Kuhn;Esther;Betriebsökonomin HWV,Unternehmerin;Mammern;Frauenfeld;CVP/glp;2012;;glp;weiblich
 2017;Kuhn;Petra;Kauffrau mit Berufsmaturität;Hefenhausen;Kreuzlingen;SVP;2016;;SVP;weiblich
 2018;Kuhn;Petra;Kauffrau mit Berufsmaturität;Weinfelden;Kreuzlingen;SVP;2016;;SVP;weiblich
 2019;Kuhn;Petra;Kauffrau mit Berufsmaturität;Weinfelden;Kreuzlingen;SVP;2016;;SVP;weiblich
@@ -1010,17 +838,14 @@ Unternehmerin";Mammern;Frauenfeld;CVP/glp;2012;;glp;weiblich
 2021;Kuhn;Petra;Key Account and Public Relations Manager;Fruthwilen;Kreuzlingen;SVP;2016;;SVP;weiblich
 2008;Kummer;Peter;Stadtammann;Oberaach;Bischofszell;SVP;2000;;SVP;männlich
 2009;Kummer;Peter;Stadtammann;Oberaach;Bischofszell;SVP;2000;1945;SVP;männlich
-2010;Kummer;Peter;"a. Stadtammann
-";Oberaach;Bischofszell;SVP;2000;1945;SVP;männlich
-2011;Kummer;Peter;"a. Stadtammann
-";Oberaach;Bischofszell;SVP;2000;1945;SVP;männlich
-2012;Kummer;Peter;"a. Stadtammann
-";Oberaach;Bischofszell;SVP;2000;1945;SVP;männlich
+2010;Kummer;Peter;a. Stadtammann;Oberaach;Bischofszell;SVP;2000;1945;SVP;männlich
+2011;Kummer;Peter;a. Stadtammann;Oberaach;Bischofszell;SVP;2000;1945;SVP;männlich
+2012;Kummer;Peter;a. Stadtammann;Oberaach;Bischofszell;SVP;2000;1945;SVP;männlich
 2008;Kuttruff;Roland;Masch. Ing. HTL, Gemeindeammann;Tobel;Münchwilen;CVP;2000;;CVP;männlich
-2009;Kuttruff;Roland;Masch. Ing. HTL, Gemeindeammann;Tobel;Münchwilen;CVP/GLP;2000;1949;CVP;männlich
-2010;Kuttruff;Roland;Masch. Ing. HTL, Gemeindeammann;Tobel;Münchwilen;CVP/GLP;2000;1949;CVP;männlich
-2011;Kuttruff;Roland;Masch. Ing. HTL, Gemeindeammann;Tobel;Münchwilen;CVP/GLP;2000;1949;CVP;männlich
-2012;Kuttruff;Roland;Masch. Ing. HTL, Gemeindeammann;Tobel;Münchwilen;CVP/GLP;2000;1949;CVP;männlich
+2009;Kuttruff;Roland;Masch. Ing. HTL, Gemeindeammann;Tobel;Münchwilen;CVP/glp;2000;1949;CVP;männlich
+2010;Kuttruff;Roland;Masch. Ing. HTL, Gemeindeammann;Tobel;Münchwilen;CVP/glp;2000;1949;CVP;männlich
+2011;Kuttruff;Roland;Masch. Ing. HTL, Gemeindeammann;Tobel;Münchwilen;CVP/glp;2000;1949;CVP;männlich
+2012;Kuttruff;Roland;Masch. Ing. HTL, Gemeindeammann;Tobel;Münchwilen;CVP/glp;2000;1949;CVP;männlich
 2015;Lagler;Reto;Personalentwickler;Ermatingen;Kreuzlingen;CVP/glp;2014;;CVP;männlich
 2016;Lagler;Reto;Personalentwickler;Ermatingen;Kreuzlingen;CVP/glp;2014;;CVP;männlich
 2017;Lagler;Reto;Personalentwickler;Ermatingen;Kreuzlingen;CVP/EVP;2014;;CVP;männlich
@@ -1032,24 +857,15 @@ Unternehmerin";Mammern;Frauenfeld;CVP/glp;2012;;glp;weiblich
 2010;Lei;Hermann;lic. iur., Rechtsanwalt, Lehrer;Frauenfeld;Frauenfeld;SVP;2008;1972;SVP;männlich
 2011;Lei;Hermann;lic. iur., Rechtsanwalt, Lehrer;Frauenfeld;Frauenfeld;SVP;2008;1972;SVP;männlich
 2012;Lei;Hermann;lic. iur., Rechtsanwalt, Lehrer;Frauenfeld;Frauenfeld;SVP;2008;1972;SVP;männlich
-2013;Lei;Hermann;"lic. iur., Rechtsanwalt,
-Lehrer";Frauenfeld;Frauenfeld;SVP;2008;;SVP;männlich
-2014;Lei;Hermann;"lic. iur., Rechtsanwalt,
-Lehrer";Frauenfeld;Frauenfeld;SVP;2008;;SVP;männlich
-2015;Lei;Hermann;"lic. iur., Rechtsanwalt,
-Lehrer";Frauenfeld;Frauenfeld;SVP;2008;;SVP;männlich
-2016;Lei;Hermann;"lic. iur., Rechtsanwalt,
-Lehrer";Frauenfeld;Frauenfeld;SVP;2008;;SVP;männlich
-2017;Lei;Hermann;"lic. iur., Rechtsanwalt,
-Lehrer";Frauenfeld;Frauenfeld;SVP;2008;;SVP;männlich
-2018;Lei;Hermann;"lic. iur., Rechtsanwalt,
-Lehrer";Frauenfeld;Frauenfeld;SVP;2008;;SVP;männlich
-2019;Lei;Hermann;"lic. iur., Rechtsanwalt,
-Lehrer";Frauenfeld;Frauenfeld;SVP;2008;;SVP;männlich
-2020;Lei;Hermann;"lic. iur., Rechtsanwalt
-";Frauenfeld;Frauenfeld;SVP;2008;;SVP;männlich
-2021;Lei;Hermann;"lic. iur., Rechtsanwalt
-";Frauenfeld;Frauenfeld;SVP;2008;;SVP;männlich
+2013;Lei;Hermann;lic. iur., Rechtsanwalt,Lehrer;Frauenfeld;Frauenfeld;SVP;2008;;SVP;männlich
+2014;Lei;Hermann;lic. iur., Rechtsanwalt,Lehrer;Frauenfeld;Frauenfeld;SVP;2008;;SVP;männlich
+2015;Lei;Hermann;lic. iur., Rechtsanwalt,Lehrer;Frauenfeld;Frauenfeld;SVP;2008;;SVP;männlich
+2016;Lei;Hermann;lic. iur., Rechtsanwalt,Lehrer;Frauenfeld;Frauenfeld;SVP;2008;;SVP;männlich
+2017;Lei;Hermann;lic. iur., Rechtsanwalt,Lehrer;Frauenfeld;Frauenfeld;SVP;2008;;SVP;männlich
+2018;Lei;Hermann;lic. iur., Rechtsanwalt,Lehrer;Frauenfeld;Frauenfeld;SVP;2008;;SVP;männlich
+2019;Lei;Hermann;lic. iur., Rechtsanwalt,Lehrer;Frauenfeld;Frauenfeld;SVP;2008;;SVP;männlich
+2020;Lei;Hermann;lic. iur., Rechtsanwalt;Frauenfeld;Frauenfeld;SVP;2008;;SVP;männlich
+2021;Lei;Hermann;lic. iur., Rechtsanwalt;Frauenfeld;Frauenfeld;SVP;2008;;SVP;männlich
 2013;Leuthold;Stefan;Kaufmann;Frauenfeld;Frauenfeld;CVP/glp;2012;;glp;männlich
 2013;Leuthold;Stefan;Kaufmann;Frauenfeld;Frauenfeld;CVP/glp;2012;;CVP;männlich
 2014;Leuthold;Stefan;Kaufmann;Frauenfeld;Frauenfeld;CVP/glp;2012;;glp;männlich
@@ -1072,10 +888,10 @@ Lehrer";Frauenfeld;Frauenfeld;SVP;2008;;SVP;männlich
 2008;Lohr;Christian;Journalist/Publizist;Kreuzlingen;Kreuzlingen;CVP;2000;;CVP;männlich
 2013;Lohr;Christian;Publizist, Nationalrat;Kreuzlingen;Kreuzlingen;CVP/glp;2000;;CVP;männlich
 2014;Lohr;Christian;Publizist, Nationalrat;Kreuzlingen;Kreuzlingen;CVP/glp;2000;;CVP;männlich
-2009;Lohr;Christian;Journalist, Publizist;Kreuzlingen;Kreuzlingen;CVP/GLP;2000;1962;CVP;männlich
-2010;Lohr;Christian;Journalist, Publizist;Kreuzlingen;Kreuzlingen;CVP/GLP;2000;1962;CVP;männlich
-2011;Lohr;Christian;Journalist, Publizist;Kreuzlingen;Kreuzlingen;CVP/GLP;2000;1962;CVP;männlich
-2012;Lohr;Christian;Journalist, Publizist;Kreuzlingen;Kreuzlingen;CVP/GLP;2000;1962;CVP;männlich
+2009;Lohr;Christian;Journalist, Publizist;Kreuzlingen;Kreuzlingen;CVP/glp;2000;1962;CVP;männlich
+2010;Lohr;Christian;Journalist, Publizist;Kreuzlingen;Kreuzlingen;CVP/glp;2000;1962;CVP;männlich
+2011;Lohr;Christian;Journalist, Publizist;Kreuzlingen;Kreuzlingen;CVP/glp;2000;1962;CVP;männlich
+2012;Lohr;Christian;Journalist, Publizist;Kreuzlingen;Kreuzlingen;CVP/glp;2000;1962;CVP;männlich
 2008;Lüscher;Bruno;Gemeindeammann;Aadorf;Frauenfeld;FDP;2004;;FDP;männlich
 2009;Lüscher;Bruno;Gemeindeammann;Aadorf;Frauenfeld;FDP;2004;1951;FDP;männlich
 2010;Lüscher;Bruno;Gemeindeammann;Aadorf;Frauenfeld;FDP;2004;1951;FDP;männlich
@@ -1103,18 +919,13 @@ Lehrer";Frauenfeld;Frauenfeld;SVP;2008;;SVP;männlich
 2021;Mader;Christian;Verkaufsleiter, Schreiner;Frauenfeld;Frauenfeld;EDU;2012;;EDU;männlich
 2020;Madörin;Lukas;Unternehmer;Weinfelden;Weinfelden;EDU;2019;;EDU;männlich
 2021;Madörin;Lukas;Unternehmer;Weinfelden;Weinfelden;EDU;2019;;EDU;männlich
-2018;Manser;Roland  ;Key Account Manager;Märstetten;Weinfelden;FDP;2018;;FDP;männlich
-2019;Manser;Roland  ;Key Account Manager;Märstetten;Weinfelden;FDP;2018;;FDP;männlich
-2013;Marazzi-Egloff;Marlise;"Geschäftsleitung, 
-Administration";Kreuzlingen;Kreuzlingen;FDP;2011;;FDP;weiblich
-2014;Marazzi-Egloff;Marlise;"Geschäftsleitung, 
-Administration";Kreuzlingen;Kreuzlingen;FDP;2011;;FDP;weiblich
-2015;Marazzi-Egloff;Marlise;"Geschäftsleitung, 
-Administration";Kreuzlingen;Kreuzlingen;FDP;2011;;FDP;weiblich
-2016;Marazzi-Egloff;Marlise;"Geschäftsleitung, 
-Administration";Kreuzlingen;Kreuzlingen;FDP;2011;;FDP;weiblich
-2012;Marazzi-Egloff;Marlise;"Geschäftsleitung
-Administration";Kreuzlingen;Kreuzlingen;FDP;2011;1954;FDP;weiblich
+2018;Manser;Roland;Key Account Manager;Märstetten;Weinfelden;FDP;2018;;FDP;männlich
+2019;Manser;Roland;Key Account Manager;Märstetten;Weinfelden;FDP;2018;;FDP;männlich
+2013;Marazzi-Egloff;Marlise;Geschäftsleitung,Administration;Kreuzlingen;Kreuzlingen;FDP;2011;;FDP;weiblich
+2014;Marazzi-Egloff;Marlise;Geschäftsleitung,Administration;Kreuzlingen;Kreuzlingen;FDP;2011;;FDP;weiblich
+2015;Marazzi-Egloff;Marlise;Geschäftsleitung,Administration;Kreuzlingen;Kreuzlingen;FDP;2011;;FDP;weiblich
+2016;Marazzi-Egloff;Marlise;Geschäftsleitung,Administration;Kreuzlingen;Kreuzlingen;FDP;2011;;FDP;weiblich
+2012;Marazzi-Egloff;Marlise;Geschäftsleitung,Administration;Kreuzlingen;Kreuzlingen;FDP;2011;1954;FDP;weiblich
 2008;Markstaller;Peter;dipl. Treuhandexperte;Kreuzlingen;Kreuzlingen;FDP;2004;;FDP;männlich
 2009;Markstaller;Peter;dipl. Treuhandexperte;Kreuzlingen;Kreuzlingen;FDP;2004;1965;FDP;männlich
 2020;Marolf;Jürg;Sekundarlehrer;Romanshorn;Arbon;CVP/EVP;2020;;CVP;männlich
@@ -1124,54 +935,44 @@ Administration";Kreuzlingen;Kreuzlingen;FDP;2011;1954;FDP;weiblich
 2018;Marti;Verena;dipl. Pflegefachfrau HF;Steinebrunn;Arbon;SP;2015;;SP;weiblich
 2020;Martin;Oliver;Unternehmer, Geschäftsführer;Leimbach;Weinfelden;SVP;2020;;SVP;männlich
 2021;Martin;Oliver;Unternehmer, Geschäftsführer;Leimbach;Weinfelden;SVP;2020;;SVP;männlich
-2013;Martin;Urs ;lic. rer. publ. HSG;Romanshorn;Arbon;SVP;2008;;SVP;männlich
-2014;Martin;Urs ;lic. rer. publ. HSG;Romanshorn;Arbon;SVP;2008;;SVP;männlich
-2015;Martin;Urs ;lic. rer. publ. HSG;Romanshorn;Arbon;SVP;2008;;SVP;männlich
-2016;Martin;Urs ;lic. rer. publ. HSG;Romanshorn;Arbon;SVP;2008;;SVP;männlich
-2017;Martin;Urs ;lic. rer. publ. HSG;Romanshorn;Arbon;SVP;2008;;SVP;männlich
-2018;Martin;Urs ;lic. rer. publ. HSG;Romanshorn;Arbon;SVP;2008;;SVP;männlich
-2019;Martin;Urs ;lic. rer. publ. HSG;Romanshorn;Arbon;SVP;2008;;SVP;männlich
-2009;Martin;Urs ;lic. rer. publ. HSG, Fraktionssekretär SVP Schweiz;Oberaach;Bischofszell;SVP;2008;1979;SVP;männlich
-2010;Martin;Urs ;lic. rer. publ. HSG;Romanshorn;Bischofszell;SVP;2008;1979;SVP;männlich
-2011;Martin;Urs ;lic. rer. publ. HSG;Romanshorn;Bischofszell;SVP;2008;1979;SVP;männlich
-2012;Martin;Urs ;lic. rer. publ. HSG;Romanshorn;Bischofszell;SVP;2008;1979;SVP;männlich
+2013;Martin;Urs;lic. rer. publ. HSG;Romanshorn;Arbon;SVP;2008;;SVP;männlich
+2014;Martin;Urs;lic. rer. publ. HSG;Romanshorn;Arbon;SVP;2008;;SVP;männlich
+2015;Martin;Urs;lic. rer. publ. HSG;Romanshorn;Arbon;SVP;2008;;SVP;männlich
+2016;Martin;Urs;lic. rer. publ. HSG;Romanshorn;Arbon;SVP;2008;;SVP;männlich
+2017;Martin;Urs;lic. rer. publ. HSG;Romanshorn;Arbon;SVP;2008;;SVP;männlich
+2018;Martin;Urs;lic. rer. publ. HSG;Romanshorn;Arbon;SVP;2008;;SVP;männlich
+2019;Martin;Urs;lic. rer. publ. HSG;Romanshorn;Arbon;SVP;2008;;SVP;männlich
+2009;Martin;Urs;lic. rer. publ. HSG, Fraktionssekretär SVP Schweiz;Oberaach;Bischofszell;SVP;2008;1979;SVP;männlich
+2010;Martin;Urs;lic. rer. publ. HSG;Romanshorn;Bischofszell;SVP;2008;1979;SVP;männlich
+2011;Martin;Urs;lic. rer. publ. HSG;Romanshorn;Bischofszell;SVP;2008;1979;SVP;männlich
+2012;Martin;Urs;lic. rer. publ. HSG;Romanshorn;Bischofszell;SVP;2008;1979;SVP;männlich
 2008;Marty;Walter;Gemeindeammann;Ellighausen;Kreuzlingen;SVP;2006;;SVP;männlich
-2013;Marty;Walter;"Gemeindeammann,
-Verwaltungsökonom";Ellighausen;Kreuzlingen;SVP;2006;;SVP;männlich
-2014;Marty;Walter;"Gemeindeammann,
-Verwaltungsökonom";Ellighausen;Kreuzlingen;SVP;2006;;SVP;männlich
-2015;Marty;Walter;"Gemeindeammann,
-Verwaltungsökonom";Siegershausen;Kreuzlingen;SVP;2006;;SVP;männlich
-2016;Marty;Walter;"Gemeindepräsident,
-Verwaltungsökonom";Altishausen;Kreuzlingen;SVP;2006;;SVP;männlich
-2017;Marty;Walter;"Gemeindepräsident,
-Verwaltungsökonom";Altishausen;Kreuzlingen;SVP;2006;;SVP;männlich
-2018;Marty;Walter;"Gemeindepräsident,
-Verwaltungsökonom";Altishausen;Kreuzlingen;SVP;2006;;SVP;männlich
-2019;Marty;Walter;"Gemeindepräsident,
-Verwaltungsökonom";Altishausen;Kreuzlingen;SVP;2006;;SVP;männlich
+2013;Marty;Walter;Gemeindeammann,Verwaltungsökonom;Ellighausen;Kreuzlingen;SVP;2006;;SVP;männlich
+2014;Marty;Walter;Gemeindeammann,Verwaltungsökonom;Ellighausen;Kreuzlingen;SVP;2006;;SVP;männlich
+2015;Marty;Walter;Gemeindeammann,Verwaltungsökonom;Siegershausen;Kreuzlingen;SVP;2006;;SVP;männlich
+2016;Marty;Walter;Gemeindepräsident,Verwaltungsökonom;Altishausen;Kreuzlingen;SVP;2006;;SVP;männlich
+2017;Marty;Walter;Gemeindepräsident,Verwaltungsökonom;Altishausen;Kreuzlingen;SVP;2006;;SVP;männlich
+2018;Marty;Walter;Gemeindepräsident,Verwaltungsökonom;Altishausen;Kreuzlingen;SVP;2006;;SVP;männlich
+2019;Marty;Walter;Gemeindepräsident,Verwaltungsökonom;Altishausen;Kreuzlingen;SVP;2006;;SVP;männlich
 2009;Marty;Walter;Gemeindeammann;Ellighausen;Kreuzlingen;SVP;2006;1962;SVP;männlich
 2010;Marty;Walter;Gemeindeammann;Ellighausen;Kreuzlingen;SVP;2006;1962;SVP;männlich
 2011;Marty;Walter;Gemeindeammann;Ellighausen;Kreuzlingen;SVP;2006;1962;SVP;männlich
 2012;Marty;Walter;Gemeindeammann;Ellighausen;Kreuzlingen;SVP;2006;1962;SVP;männlich
-2009;Merz-Abt;Thomas;Professor Dr. phil.;Weinfelden;Weinfelden;CVP/GLP;2008;1962;CVP;männlich
-2009;Merz-Abt;Thomas;Professor Dr. phil.;Weinfelden;Weinfelden;CVP/GLP;2008;1962;FDP;männlich
-2010;Merz-Abt;Thomas;Professor Dr. phil.;Weinfelden;Weinfelden;CVP/GLP;2008;1962;CVP;männlich
-2010;Merz-Abt;Thomas;Professor Dr. phil.;Weinfelden;Weinfelden;CVP/GLP;2008;1962;FDP;männlich
-2011;Merz-Abt;Thomas;Professor Dr. phil.;Weinfelden;Weinfelden;CVP/GLP;2008;1962;CVP;männlich
-2011;Merz-Abt;Thomas;Professor Dr. phil.;Weinfelden;Weinfelden;CVP/GLP;2008;1962;FDP;männlich
-2012;Merz-Abt;Thomas;Professor Dr. phil.;Weinfelden;Weinfelden;CVP/GLP;2008;1962;CVP;männlich
-2012;Merz-Abt;Thomas;Professor Dr. phil.;Weinfelden;Weinfelden;CVP/GLP;2008;1962;FDP;männlich
-2020;Merz-Helg ;Petra;Sekundarlehrerin;Weinfelden;Weinfelden;CVP/EVP;2020;;CVP;weiblich
-2021;Merz-Helg ;Petra;Sekundarlehrerin;Weinfelden;Weinfelden;CVP/EVP;2020;;CVP;weiblich
+2009;Merz-Abt;Thomas;Professor Dr. phil.;Weinfelden;Weinfelden;CVP/glp;2008;1962;CVP;männlich
+2009;Merz-Abt;Thomas;Professor Dr. phil.;Weinfelden;Weinfelden;CVP/glp;2008;1962;FDP;männlich
+2010;Merz-Abt;Thomas;Professor Dr. phil.;Weinfelden;Weinfelden;CVP/glp;2008;1962;CVP;männlich
+2010;Merz-Abt;Thomas;Professor Dr. phil.;Weinfelden;Weinfelden;CVP/glp;2008;1962;FDP;männlich
+2011;Merz-Abt;Thomas;Professor Dr. phil.;Weinfelden;Weinfelden;CVP/glp;2008;1962;CVP;männlich
+2011;Merz-Abt;Thomas;Professor Dr. phil.;Weinfelden;Weinfelden;CVP/glp;2008;1962;FDP;männlich
+2012;Merz-Abt;Thomas;Professor Dr. phil.;Weinfelden;Weinfelden;CVP/glp;2008;1962;CVP;männlich
+2012;Merz-Abt;Thomas;Professor Dr. phil.;Weinfelden;Weinfelden;CVP/glp;2008;1962;FDP;männlich
+2020;Merz-Helg;Petra;Sekundarlehrerin;Weinfelden;Weinfelden;CVP/EVP;2020;;CVP;weiblich
+2021;Merz-Helg;Petra;Sekundarlehrerin;Weinfelden;Weinfelden;CVP/EVP;2020;;CVP;weiblich
 2008;Mettler;Ruth;Kauffrau;Wilen;Münchwilen;FDP;2002;;FDP;weiblich
 2009;Mettler;Ruth;Kauffrau;Wilen;Münchwilen;FDP;2002;1963;FDP;weiblich
-2010;Mettler;Ruth;"Kauffrau
-";Wilen (Gottshaus);Münchwilen;FDP;2002;1963;FDP;weiblich
-2011;Mettler;Ruth;"Kauffrau
-";Wilen (Gottshaus);Münchwilen;FDP;2002;1963;FDP;weiblich
-2012;Mettler;Ruth;"Kauffrau
-";Wilen (Wil);Münchwilen;FDP;2002;1963;FDP;weiblich
+2010;Mettler;Ruth;Kauffrau;Wilen (Gottshaus);Münchwilen;FDP;2002;1963;FDP;weiblich
+2011;Mettler;Ruth;Kauffrau;Wilen (Gottshaus);Münchwilen;FDP;2002;1963;FDP;weiblich
+2012;Mettler;Ruth;Kauffrau;Wilen (Wil);Münchwilen;FDP;2002;1963;FDP;weiblich
 2008;Meyenhofer;Hildegard;Sozialarbeiterin/ Supervisorin BSO;Kreuzlingen;Kreuzlingen;SP;2005;;SP;weiblich
 2013;Meyer;Robert;Gemeindeammann;Eschlikon;Münchwilen;CVP/glp;2008;;glp;männlich
 2014;Meyer;Robert;Gemeindeammann;Eschlikon;Münchwilen;CVP/glp;2008;;glp;männlich
@@ -1182,10 +983,10 @@ Verwaltungsökonom";Altishausen;Kreuzlingen;SVP;2006;;SVP;männlich
 2019;Meyer;Robert;a. Gemeindepräsident;Eschlikon;Münchwilen;glp/BDP;2008;;glp;männlich
 2020;Meyer;Robert;a. Gemeindepräsident;Eschlikon;Münchwilen;glp;2008;;GP;männlich
 2021;Meyer;Robert;a. Gemeindepräsident;Eschlikon;Münchwilen;glp;2008;;GP;männlich
-2009;Meyer;Robert;Gemeindeammann;Eschlikon;Münchwilen;CVP/GLP;2008;1950;glp;männlich
-2010;Meyer;Robert;Gemeindeammann;Eschlikon;Münchwilen;CVP/GLP;2008;1950;glp;männlich
-2011;Meyer;Robert;Gemeindeammann;Eschlikon;Münchwilen;CVP/GLP;2008;1950;glp;männlich
-2012;Meyer;Robert;Gemeindeammann;Eschlikon;Münchwilen;CVP/GLP;2008;1950;glp;männlich
+2009;Meyer;Robert;Gemeindeammann;Eschlikon;Münchwilen;CVP/glp;2008;1950;glp;männlich
+2010;Meyer;Robert;Gemeindeammann;Eschlikon;Münchwilen;CVP/glp;2008;1950;glp;männlich
+2011;Meyer;Robert;Gemeindeammann;Eschlikon;Münchwilen;CVP/glp;2008;1950;glp;männlich
+2012;Meyer;Robert;Gemeindeammann;Eschlikon;Münchwilen;CVP/glp;2008;1950;glp;männlich
 2016;Möckli;Gottfried;Unternehmer;Basadingen;Frauenfeld;SVP;2016;;SVP;männlich
 2017;Möckli;Gottfried;Unternehmer;Basadingen;Frauenfeld;SVP;2016;;SVP;männlich
 2018;Möckli;Gottfried;Unternehmer;Basadingen;Frauenfeld;SVP;2016;;SVP;männlich
@@ -1207,32 +1008,20 @@ Verwaltungsökonom";Altishausen;Kreuzlingen;SVP;2006;;SVP;männlich
 2008;Moinat-Höltschi;Marianne;Familienfrau, med. Praxisassistentin;Neukirch (Egnach);Arbon;SP;2000;;SP;weiblich
 2008;Moor;Katharina;Lehrerin;Oberhofen;Kreuzlingen;SP;1999;;SP;weiblich
 2009;Moor;Katharina;Lehrerin;Oberhofen;Kreuzlingen;SP;1999;1944;SP;weiblich
-2010;Moor;Katharina;"Lehrerin
-";Oberhofen;Kreuzlingen;SP;1999;1944;SP;weiblich
-2011;Moor;Katharina;"Lehrerin
-";Oberhofen;Kreuzlingen;SP;1999;1944;SP;weiblich
-2012;Moor;Katharina;"Lehrerin
-";Oberhofen;Kreuzlingen;SP;1999;1944;SP;weiblich
+2010;Moor;Katharina;Lehrerin;Oberhofen;Kreuzlingen;SP;1999;1944;SP;weiblich
+2011;Moor;Katharina;Lehrerin;Oberhofen;Kreuzlingen;SP;1999;1944;SP;weiblich
+2012;Moor;Katharina;Lehrerin;Oberhofen;Kreuzlingen;SP;1999;1944;SP;weiblich
 2020;Mühlemann;Stefan;dipl. Hotelmanager NDS/FH;Guntershausen;Frauenfeld;SVP;2020;;SVP;männlich
 2021;Mühlemann;Stefan;dipl. Hotelmanager NDS FH;Guntershausen;Münchwilen;SVP;2020;;SVP;männlich
-2013;Müller;Barbara;"Dr. sc. nat. ETH, Geologin,
-Geochemikerin";Ettenhausen;Münchwilen;SP;2012;;SP;weiblich
-2014;Müller;Barbara;"Dr. sc. nat. ETH, Geologin,
-Geochemikerin";Ettenhausen;Münchwilen;SP;2012;;SP;weiblich
-2015;Müller;Barbara;"Dr. sc. nat. ETH, Geologin,
-Geochemikerin";Ettenhausen;Münchwilen;SP;2012;;SP;weiblich
-2016;Müller;Barbara;"Dr. sc. nat. ETH, Geologin,
-Geochemikerin";Ettenhausen;Münchwilen;SP;2012;;SP;weiblich
-2017;Müller;Barbara;"Dr. sc. nat. ETH, Geologin,
-Geochemikerin";Ettenhausen;Münchwilen;SP;2012;;SP;weiblich
-2018;Müller;Barbara;"Dr. sc. nat. ETH, Geologin,
-Geochemikerin";Ettenhausen;Münchwilen;SP;2012;;SP;weiblich
-2019;Müller;Barbara;"Dr. sc. nat. ETH, Geologin,
-Geochemikerin";Ettenhausen;Münchwilen;SP;2012;;SP;weiblich
-2020;Müller;Barbara;"Dr. sc. nat. ETH, Geologin,
-Geochemikerin";Ettenhausen;Münchwilen;SP;2012;;SP;weiblich
-2021;Müller;Barbara;"Dr. sc. nat. ETH, Geologin,
-Geochemikerin";Ettenhausen;Münchwilen;SP;2012;;SP;weiblich
+2013;Müller;Barbara;Dr. sc. nat. ETH, Geologin,Geochemikerin;Ettenhausen;Münchwilen;SP;2012;;SP;weiblich
+2014;Müller;Barbara;Dr. sc. nat. ETH, Geologin,Geochemikerin;Ettenhausen;Münchwilen;SP;2012;;SP;weiblich
+2015;Müller;Barbara;Dr. sc. nat. ETH, Geologin,Geochemikerin;Ettenhausen;Münchwilen;SP;2012;;SP;weiblich
+2016;Müller;Barbara;Dr. sc. nat. ETH, Geologin,Geochemikerin;Ettenhausen;Münchwilen;SP;2012;;SP;weiblich
+2017;Müller;Barbara;Dr. sc. nat. ETH, Geologin,Geochemikerin;Ettenhausen;Münchwilen;SP;2012;;SP;weiblich
+2018;Müller;Barbara;Dr. sc. nat. ETH, Geologin,Geochemikerin;Ettenhausen;Münchwilen;SP;2012;;SP;weiblich
+2019;Müller;Barbara;Dr. sc. nat. ETH, Geologin,Geochemikerin;Ettenhausen;Münchwilen;SP;2012;;SP;weiblich
+2020;Müller;Barbara;Dr. sc. nat. ETH, Geologin,Geochemikerin;Ettenhausen;Münchwilen;SP;2012;;SP;weiblich
+2021;Müller;Barbara;Dr. sc. nat. ETH, Geologin,Geochemikerin;Ettenhausen;Münchwilen;SP;2012;;SP;weiblich
 2020;Müller;Elina;Architektin;Kreuzlingen;Kreuzlingen;SP;2019;;SP;weiblich
 2021;Müller;Elina;Architektin;Kreuzlingen;Kreuzlingen;SP;2019;;SP;weiblich
 2008;Müller;Gallus;Bauingenieur HTL;Guntershausen;Frauenfeld;CVP;2000;;CVP;männlich
@@ -1245,20 +1034,18 @@ Geochemikerin";Ettenhausen;Münchwilen;SP;2012;;SP;weiblich
 2019;Müller;Gallus;Bauingenieur HTL;Guntershausen;Münchwilen;CVP/EVP;2000;;CVP;männlich
 2020;Müller;Gallus;Bauingenieur HTL;Guntershausen;Münchwilen;CVP/EVP;2000;;CVP;männlich
 2021;Müller;Gallus;Bauingenieur HTL;Guntershausen;Münchwilen;CVP/EVP;2000;;CVP;männlich
-2009;Müller;Gallus;Bauingenieur HTL;Guntershausen;Frauenfeld;CVP/GLP;2000;1956;CVP;männlich
-2010;Müller;Gallus;Bauingenieur HTL;Guntershausen;Frauenfeld;CVP/GLP;2000;1956;CVP;männlich
-2011;Müller;Gallus;Bauingenieur HTL;Guntershausen;Frauenfeld;CVP/GLP;2000;1956;CVP;männlich
-2012;Müller;Gallus;Bauingenieur HTL;Guntershausen;Frauenfeld;CVP/GLP;2000;1956;CVP;männlich
+2009;Müller;Gallus;Bauingenieur HTL;Guntershausen;Frauenfeld;CVP/glp;2000;1956;CVP;männlich
+2010;Müller;Gallus;Bauingenieur HTL;Guntershausen;Frauenfeld;CVP/glp;2000;1956;CVP;männlich
+2011;Müller;Gallus;Bauingenieur HTL;Guntershausen;Frauenfeld;CVP/glp;2000;1956;CVP;männlich
+2012;Müller;Gallus;Bauingenieur HTL;Guntershausen;Frauenfeld;CVP/glp;2000;1956;CVP;männlich
 2017;Müller;Mathis;dipl. Biologe;Pfyn;Frauenfeld;GP;2016;;GP;männlich
 2018;Müller;Mathis;dipl. Biologe;Pfyn;Frauenfeld;GP;2016;;GP;männlich
 2019;Müller;Mathis;dipl. Biologe;Pfyn;Frauenfeld;GP;2016;;GP;männlich
 2020;Müller;Mathis;dipl. Biologe UZH;Pfyn;Frauenfeld;GP;2016;;GP;männlich
 2021;Müller;Mathis;dipl. Biologe UZH;Pfyn;Frauenfeld;GP;2016;;GP;männlich
-2008;Müller;Matthias;lic. iur., Rechtsanwalt, Gemeindeammann;Frauenfeld ;Frauenfeld;EVP/EDU;2000;;EVP;männlich
-2013;Müller;Matthias;"lic. iur., Rechtsanwalt,
-Gemeindeammann";Gachnang;Frauenfeld;EDU/EVP;2000;;EVP;männlich
-2014;Müller;Matthias;"lic. iur., Gemeindeammann
-";Gachnang;Frauenfeld;EDU/EVP;2000;;EVP;männlich
+2008;Müller;Matthias;lic. iur., Rechtsanwalt, Gemeindeammann;Frauenfeld;Frauenfeld;EVP/EDU;2000;;EVP;männlich
+2013;Müller;Matthias;lic. iur., Rechtsanwalt,Gemeindeammann;Gachnang;Frauenfeld;EDU/EVP;2000;;EVP;männlich
+2014;Müller;Matthias;lic. iur., Gemeindeammann;Gachnang;Frauenfeld;EDU/EVP;2000;;EVP;männlich
 2009;Müller;Matthias;lic. iur., Rechtsanwalt, Gemeindeammann;Gachnang;Frauenfeld;EVP/EDU;2000;1953;EVP;männlich
 2010;Müller;Matthias;lic. iur., Rechtsanwalt, Gemeindeammann;Gachnang;Frauenfeld;EVP/EDU;2000;1953;EVP;männlich
 2011;Müller;Matthias;lic. iur., Rechtsanwalt, Gemeindeammann;Gachnang;Frauenfeld;EVP/EDU;2000;1953;EVP;männlich
@@ -1270,10 +1057,10 @@ Gemeindeammann";Gachnang;Frauenfeld;EDU/EVP;2000;;EVP;männlich
 2016;Müller;Ulrich;Dr. med., Arzt;Weinfelden;Weinfelden;CVP/glp;2000;;CVP;männlich
 2017;Müller;Ulrich;Dr. med., Kinderarzt;Weinfelden;Weinfelden;CVP/EVP;2000;;CVP;männlich
 2018;Müller;Ulrich;Dr. med., Kinderarzt;Weinfelden;Weinfelden;CVP/EVP;2000;;CVP;männlich
-2009;Müller;Ulrich;Dr. med. ;Weinfelden;Weinfelden;CVP/GLP;2000;1946;CVP;männlich
-2010;Müller;Ulrich;Dr. med. ;Weinfelden;Weinfelden;CVP/GLP;2000;1946;CVP;männlich
-2011;Müller;Ulrich;Dr. med. ;Weinfelden;Weinfelden;CVP/GLP;2000;1946;CVP;männlich
-2012;Müller;Ulrich;Dr. med. ;Weinfelden;Weinfelden;CVP/GLP;2000;1946;CVP;männlich
+2009;Müller;Ulrich;Dr. med.;Weinfelden;Weinfelden;CVP/glp;2000;1946;CVP;männlich
+2010;Müller;Ulrich;Dr. med.;Weinfelden;Weinfelden;CVP/glp;2000;1946;CVP;männlich
+2011;Müller;Ulrich;Dr. med.;Weinfelden;Weinfelden;CVP/glp;2000;1946;CVP;männlich
+2012;Müller;Ulrich;Dr. med.;Weinfelden;Weinfelden;CVP/glp;2000;1946;CVP;männlich
 2008;Munz;Hans;Dr. iur., Rechtsanwalt, Gerichtspräsident;Amriswil;Bischofszell;FDP;2000;;FDP;männlich
 2013;Munz;Hans;Dr. iur., Rechtsanwalt;Amriswil;Arbon;FDP;2000;;FDP;männlich
 2014;Munz;Hans;Dr. iur., Rechtsanwalt;Amriswil;Arbon;FDP;2000;;FDP;männlich
@@ -1290,14 +1077,10 @@ Gemeindeammann";Gachnang;Frauenfeld;EDU/EVP;2000;;EVP;männlich
 2020;Nafzger;Martin;eidg. dipl. Gärtnermeister;Romanshorn;Arbon;SP;2018;;SP;männlich
 2021;Nafzger;Martin;eidg. dipl. Gärtnermeister;Romanshorn;Arbon;SP;2018;;SP;männlich
 2008;Nägeli;Richard;dipl. Ing. ETH, Unternehmer;Frauenfeld;Frauenfeld;FDP;2003;;FDP;männlich
-2009;Nägeli;Richard;"dipl. Ing. ETH, 
-Unternehmer";Frauenfeld;Frauenfeld;FDP;2003;1949;FDP;männlich
-2010;Nägeli;Richard;"dipl. Ing. ETH, 
-Unternehmer";Frauenfeld;Frauenfeld;FDP;2003;1949;FDP;männlich
-2011;Nägeli;Richard;"dipl. Ing. ETH, 
-Unternehmer";Frauenfeld;Frauenfeld;FDP;2003;1949;FDP;männlich
-2012;Nägeli;Richard;"dipl. Ing. ETH, 
-Unternehmer";Frauenfeld;Frauenfeld;FDP;2003;1949;FDP;männlich
+2009;Nägeli;Richard;dipl. Ing. ETH,Unternehmer;Frauenfeld;Frauenfeld;FDP;2003;1949;FDP;männlich
+2010;Nägeli;Richard;dipl. Ing. ETH,Unternehmer;Frauenfeld;Frauenfeld;FDP;2003;1949;FDP;männlich
+2011;Nägeli;Richard;dipl. Ing. ETH,Unternehmer;Frauenfeld;Frauenfeld;FDP;2003;1949;FDP;männlich
+2012;Nägeli;Richard;dipl. Ing. ETH,Unternehmer;Frauenfeld;Frauenfeld;FDP;2003;1949;FDP;männlich
 2008;Nägeli;Willy;Primarlehrer;Oberwangen;Münchwilen;SVP;1996;;SVP;männlich
 2013;Nägeli;Willy;Gemeindeammann;Oberwangen;Münchwilen;SVP;1996;;SVP;männlich
 2014;Nägeli;Willy;Gemeindeammann;Oberwangen;Münchwilen;SVP;1996;;SVP;männlich
@@ -1313,8 +1096,7 @@ Unternehmer";Frauenfeld;Frauenfeld;FDP;2003;1949;FDP;männlich
 2011;Nägeli;Willy;Primarlehrer;Oberwangen;Münchwilen;SVP;1996;1954;SVP;männlich
 2012;Nägeli;Willy;Gemeindeammann;Oberwangen;Münchwilen;SVP;1996;1954;SVP;männlich
 2008;Neubauer-Weber;Madlen;Geschäftsfrau, Lehrerin;Erlen;Bischofszell;CVP;2000;;CVP;weiblich
-2009;Neubauer-Weber;Madlen;"Geschäftsfrau, 
-Lehrerin";Erlen;Bischofszell;CVP/GLP;2000;1961;CVP;weiblich
+2009;Neubauer-Weber;Madlen;Geschäftsfrau,Lehrerin;Erlen;Bischofszell;CVP/glp;2000;1961;CVP;weiblich
 2020;Neuweiler;Denise;Gemeindepräsidentin;Zuben;Kreuzlingen;SVP;2020;;SVP;weiblich
 2021;Neuweiler;Denise;Gemeindepräsidentin;Zuben;Kreuzlingen;SVP;2020;;SVP;weiblich
 2008;Niklaus;Andreas;dipl. Kult.-Ing. ETH/SIA;Amriswil;Bischofszell;SVP;2006;;SVP;männlich
@@ -1343,14 +1125,10 @@ Lehrerin";Erlen;Bischofszell;CVP/GLP;2000;1961;CVP;weiblich
 2010;Oswald;Ueli;dipl. Bauingenieur HTL;Berlingen;Steckborn;FDP;2010;1958;FDP;männlich
 2011;Oswald;Ueli;dipl. Bauingenieur HTL;Berlingen;Steckborn;FDP;2010;1958;FDP;männlich
 2012;Oswald;Ueli;dipl. Bauingenieur HTL;Berlingen;Steckborn;FDP;2010;1958;FDP;männlich
-2020;Pagnoncini;"Christina 
-Larissa";Gemeindepräsidentin;Alterswilen;Kreuzlingen;glp;2018;;GP;weiblich
-2021;Pagnoncini;"Christina 
-Larissa";Gemeindepräsidentin;Alterswilen;Kreuzlingen;glp;2018;;GP;weiblich
-2018;Pagnoncini;"Christina 
-Larissa";Gemeindeschreiberin;Alterswilen;Kreuzlingen;glp/BDP;2018;;glp;weiblich
-2019;Pagnoncini;"Christina 
-Larissa";Gemeindeschreiberin;Alterswilen;Kreuzlingen;glp/BDP;2018;;glp;weiblich
+2020;Pagnoncini;Christina;Gemeindepräsidentin;Alterswilen;Kreuzlingen;glp;2018;;GP;weiblich
+2021;Pagnoncini;Christina;Gemeindepräsidentin;Alterswilen;Kreuzlingen;glp;2018;;GP;weiblich
+2018;Pagnoncini;Christina;Gemeindeschreiberin;Alterswilen;Kreuzlingen;glp/BDP;2018;;glp;weiblich
+2019;Pagnoncini;Christina;Gemeindeschreiberin;Alterswilen;Kreuzlingen;glp/BDP;2018;;glp;weiblich
 2008;Parolari;Carlo;Stadtammann;Frauenfeld;Frauenfeld;FDP;2004;;FDP;männlich
 2013;Parolari;Carlo;Stadtammann;Frauenfeld;Frauenfeld;FDP;2004;;FDP;männlich
 2014;Parolari;Carlo;Stadtammann;Frauenfeld;Frauenfeld;FDP;2004;;FDP;männlich
@@ -1366,48 +1144,30 @@ Larissa";Gemeindeschreiberin;Alterswilen;Kreuzlingen;glp/BDP;2018;;glp;weiblich
 2020;Pasche-Strasser;Corinna;Schulpräsidentin;Bischofszell;Weinfelden;CVP/EVP;2019;;CVP;weiblich
 2021;Pasche-Strasser;Corinna;Schulpräsidentin;Bischofszell;Weinfelden;CVP/EVP;2019;;CVP;weiblich
 2008;Peter;Richard;Gemeindeammann;Balterswil;Münchwilen;CVP;1988;;CVP;männlich
-2009;Peter;Richard;Gemeindeammann;Balterswil;Münchwilen;CVP/GLP;1988;1943;CVP;männlich
-2020;Peter   ;Priska;dipl. Dentalassistetin, Bäuerin;Münchwilen;Münchwilen;SVP;2020;;SVP;weiblich
-2021;Peter   ;Priska;dipl. Dentalassistetin, Bäuerin;Münchwilen;Münchwilen;SVP;2020;;SVP;weiblich
-2018;Peter Köstli ;Sabina;"dipl. Betriebswirtschafterin 
-HF";Ettenhausen;Münchwilen;CVP/EVP;2016;;CVP;weiblich
-2019;Peter Köstli ;Sabina;"dipl. Betriebswirtschafterin 
-HF";Ettenhausen;Münchwilen;CVP/EVP;2016;;CVP;weiblich
-2020;Peter Köstli ;Sabina;"dipl. Betriebswirtschafterin 
-HF";Ettenhausen;Münchwilen;CVP/EVP;2016;;CVP;weiblich
-2021;Peter Köstli ;Sabina;"dipl. Betriebswirtschafterin 
-HF";Ettenhausen;Münchwilen;CVP/EVP;2016;;CVP;weiblich
+2009;Peter;Richard;Gemeindeammann;Balterswil;Münchwilen;CVP/glp;1988;1943;CVP;männlich
+2020;Peter;Priska;dipl. Dentalassistetin, Bäuerin;Münchwilen;Münchwilen;SVP;2020;;SVP;weiblich
+2021;Peter;Priska;dipl. Dentalassistetin, Bäuerin;Münchwilen;Münchwilen;SVP;2020;;SVP;weiblich
+2017;Peter Köstli;Sabina;dipl. Betriebswirtschafterin HF;Ettenhausen;Münchwilen;CVP/EVP;2016;;CVP;weiblich
+2018;Peter Köstli;Sabina;dipl. Betriebswirtschafterin HF;Ettenhausen;Münchwilen;CVP/EVP;2016;;CVP;weiblich
+2019;Peter Köstli;Sabina;dipl. Betriebswirtschafterin HF;Ettenhausen;Münchwilen;CVP/EVP;2016;;CVP;weiblich
+2020;Peter Köstli;Sabina;dipl. Betriebswirtschafterin HF;Ettenhausen;Münchwilen;CVP/EVP;2016;;CVP;weiblich
+2021;Peter Köstli;Sabina;dipl. Betriebswirtschafterin HF;Ettenhausen;Münchwilen;CVP/EVP;2016;;CVP;weiblich
 2008;Peter-Huber;Liselotte;dipl. Bäuerin, Lehrerin;Kefikon;Frauenfeld;SVP;2000;;SVP;weiblich
-2009;Peter-Huber;Liselotte;"dipl. Bäuerin, 
-Lehrerin";Kefikon;Frauenfeld;SVP;2000;1961;SVP;weiblich
-2010;Peter-Huber;Liselotte;"dipl. Bäuerin, 
-Lehrerin";Kefikon;Frauenfeld;SVP;2000;1961;SVP;weiblich
-2011;Peter-Huber;Liselotte;"dipl. Bäuerin, 
-Lehrerin";Kefikon;Frauenfeld;SVP;2000;1961;SVP;weiblich
-2012;Peter-Huber;Liselotte;"dipl. Bäuerin, 
-Lehrerin";Kefikon;Frauenfeld;SVP;2000;1961;SVP;weiblich
-2017;Peter-Köstli ;Sabina;"dipl. Betriebswirtschafterin 
-HF";Ettenhausen;Münchwilen;CVP/EVP;2016;;CVP;weiblich
+2009;Peter-Huber;Liselotte;dipl. Bäuerin, Lehrerin;Kefikon;Frauenfeld;SVP;2000;1961;SVP;weiblich
+2010;Peter-Huber;Liselotte;dipl. Bäuerin, Lehrerin;Kefikon;Frauenfeld;SVP;2000;1961;SVP;weiblich
+2011;Peter-Huber;Liselotte;dipl. Bäuerin, Lehrerin;Kefikon;Frauenfeld;SVP;2000;1961;SVP;weiblich
+2012;Peter-Huber;Liselotte;dipl. Bäuerin, Lehrerin;Kefikon;Frauenfeld;SVP;2000;1961;SVP;weiblich
 2020;Pfiffner Müller;Martina;Unternehmensberaterin;Gachnang;Frauenfeld;FDP;2020;;FDP;weiblich
 2021;Pfiffner Müller;Martina;Unternehmensberaterin;Gachnang;Frauenfeld;FDP;2020;;FDP;weiblich
-2013;Pretali;Beat;"Wirtschaftsingenieur,
-Gemeindeammann";Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
-2014;Pretali;Beat;"Wirtschaftsingenieur,
-Gemeindeammann";Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
-2015;Pretali;Beat;"Wirtschaftsingenieur
-";Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
-2016;Pretali;Beat;"Wirtschaftsingenieur
-";Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
-2017;Pretali;Beat;"Wirtschaftsingenieur
-";Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
-2018;Pretali;Beat;"Wirtschaftsingenieur
-";Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
-2019;Pretali;Beat;"Wirtschaftsingenieur
-";Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
-2020;Pretali;Beat;"Wirtschaftsingenieur
-";Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
-2021;Pretali;Beat;"Wirtschaftsingenieur
-";Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
+2013;Pretali;Beat;Wirtschaftsingenieur,Gemeindeammann;Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
+2014;Pretali;Beat;Wirtschaftsingenieur,Gemeindeammann;Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
+2015;Pretali;Beat;Wirtschaftsingenieur;Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
+2016;Pretali;Beat;Wirtschaftsingenieur;Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
+2017;Pretali;Beat;Wirtschaftsingenieur;Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
+2018;Pretali;Beat;Wirtschaftsingenieur;Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
+2019;Pretali;Beat;Wirtschaftsingenieur;Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
+2020;Pretali;Beat;Wirtschaftsingenieur;Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
+2021;Pretali;Beat;Wirtschaftsingenieur;Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
 2010;Pretali;Beat;Wirtschaftsingenieur, Gemeindeammann;Altnau;Kreuzlingen;FDP;2010;1964;FDP;männlich
 2011;Pretali;Beat;Wirtschaftsingenieur, Gemeindeammann;Altnau;Kreuzlingen;FDP;2010;1964;FDP;männlich
 2012;Pretali;Beat;Wirtschaftsingenieur, Gemeindeammann;Altnau;Kreuzlingen;FDP;2010;1964;FDP;männlich
@@ -1423,8 +1183,8 @@ Gemeindeammann";Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
 2019;Regli;Christoph;Privatkundenberater;Frauenfeld;Frauenfeld;CVP/EVP;2018;;CVP;männlich
 2020;Regli;Christoph;lic. Iur., Privatkundenberater;Frauenfeld;Frauenfeld;CVP/EVP;2018;;CVP;männlich
 2021;Regli;Christoph;lic. Iur., Privatkundenberater;Frauenfeld;Frauenfeld;CVP/EVP;2018;;CVP;männlich
-2020;Reinhart ;Sandra;Bäuerin, Natur- und Umweltfachfrau;Amriswil;Arbon;GP;2020;;GP;weiblich
-2021;Reinhart ;Sandra;Bäuerin, Natur- und Umweltfachfrau;Amriswil;Arbon;GP;2020;;GP;weiblich
+2020;Reinhart;Sandra;Bäuerin, Natur- und Umweltfachfrau;Amriswil;Arbon;GP;2020;;GP;weiblich
+2021;Reinhart;Sandra;Bäuerin, Natur- und Umweltfachfrau;Amriswil;Arbon;GP;2020;;GP;weiblich
 2015;Rickenbach;Elisabeth;Pflegefachfrau HF;Thundorf;Frauenfeld;EDU/EVP;2014;;EVP;weiblich
 2016;Rickenbach;Elisabeth;Pflegefachfrau HF;Thundorf;Frauenfeld;EDU/EVP;2014;;EVP;weiblich
 2017;Rickenbach;Elisabeth;Pflegefachfrau HF;Thundorf;Frauenfeld;CVP/EVP;2014;;EVP;weiblich
@@ -1453,12 +1213,12 @@ Gemeindeammann";Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
 2020;Rüegg;Jost;Techniker TS;Kreuzlingen;Kreuzlingen;GP;2013;;GP;männlich
 2021;Rüegg;Jost;Techniker TS;Kreuzlingen;Kreuzlingen;GP;2013;;GP;männlich
 2021;Rüegg;Marco;Unternehmer, dipl. Ing. FH;Gachnang;Frauenfeld;glp;2020;;GP;männlich
-2016;Rüetschi;Gina;Pflegefachfrau HF;Frauenfeld;Frauenfeld;GP;2011;;GP;weiblich
-2017;Rüetschi;Gina;Pflegefachfrau HF;Frauenfeld;Frauenfeld;GP;2011;;GP;weiblich
-2018;Rüetschi;Gina;Pflegefachfrau HF;Frauenfeld;Frauenfeld;GP;2011;;GP;weiblich
-2019;Rüetschi;Gina;Pflegefachfrau HF;Frauenfeld;Frauenfeld;GP;2011;;GP;weiblich
-2020;Rüetschi;Gina;Pflegefachfrau HF;Frauenfeld;Frauenfeld;GP;2011;;GP;weiblich
-2021;Rüetschi;Gina;Pflegefachfrau HF;Frauenfeld;Frauenfeld;GP;2011;;GP;weiblich
+2016;Rüetschi;Regina;Pflegefachfrau HF;Frauenfeld;Frauenfeld;GP;2011;;GP;weiblich
+2017;Rüetschi;Regina;Pflegefachfrau HF;Frauenfeld;Frauenfeld;GP;2011;;GP;weiblich
+2018;Rüetschi;Regina;Pflegefachfrau HF;Frauenfeld;Frauenfeld;GP;2011;;GP;weiblich
+2019;Rüetschi;Regina;Pflegefachfrau HF;Frauenfeld;Frauenfeld;GP;2011;;GP;weiblich
+2020;Rüetschi;Regina;Pflegefachfrau HF;Frauenfeld;Frauenfeld;GP;2011;;GP;weiblich
+2021;Rüetschi;Regina;Pflegefachfrau HF;Frauenfeld;Frauenfeld;GP;2011;;GP;weiblich
 2010;Rüetschi;Regina;Pflegefachfrau HF, Hilfswerkvertreterin;Frauenfeld;Frauenfeld;GP;2011;1959;GP;weiblich
 2011;Rüetschi;Regina;Pflegefachfrau HF, Hilfswerkvertreterin;Frauenfeld;Frauenfeld;GP;2011;1959;GP;weiblich
 2012;Rüetschi;Regina;Pflegefachfrau HF, Hilfswerkvertreterin;Frauenfeld;Frauenfeld;GP;2011;1959;GP;weiblich
@@ -1493,8 +1253,8 @@ Gemeindeammann";Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
 2019;Sax;Marianne;Buchhändlerin;Frauenfeld;Frauenfeld;SP;2016;;SP;weiblich
 2020;Sax;Marianne;Buchhändlerin;Frauenfeld;Frauenfeld;SP;2016;;SP;weiblich
 2021;Sax;Marianne;Buchhändlerin;Frauenfeld;Frauenfeld;SP;2016;;SP;weiblich
-2020;Schäfer;Jorim;Berufsschullehrer                                                                                                          ;Bischofszell;Weinfelden;glp ;2020;;GP;männlich
-2021;Schäfer;Jorim;Berufsschullehrer                                                                                                          ;Bischofszell;Weinfelden;glp ;2020;;GP;männlich
+2020;Schäfer;Jorim;Berufsschullehrer;Bischofszell;Weinfelden;glp;2020;;GP;männlich
+2021;Schäfer;Jorim;Berufsschullehrer;Bischofszell;Weinfelden;glp;2020;;GP;männlich
 2013;Schaffer;Erich;Landwirt;Pfyn;Frauenfeld;SVP;2013;;SVP;männlich
 2014;Schaffer;Erich;Landwirt;Pfyn;Frauenfeld;SVP;2013;;SVP;männlich
 2015;Schaffer;Erich;Landwirt;Pfyn;Frauenfeld;SVP;2013;;SVP;männlich
@@ -1512,8 +1272,7 @@ Gemeindeammann";Altnau;Kreuzlingen;FDP;2010;;FDP;männlich
 2016;Schallenberg;Turi;Amtsleiter Soziale Dienste;Bürglen;Weinfelden;SP;2005;;SP;männlich
 2017;Schallenberg;Turi;Amtsleiter Soziale Dienste;Bürglen;Weinfelden;SP;2005;;SP;männlich
 2018;Schallenberg;Turi;Amtsleiter Soziale Dienste;Bürglen;Weinfelden;SP;2005;;SP;männlich
-2019;Schallenberg;Turi;"Sozialarbeiter FH, 
-Erwachsenenbildner";Bürglen;Weinfelden;SP;2005;;SP;männlich
+2019;Schallenberg;Turi;Sozialarbeiter FH,Erwachsenenbildner;Bürglen;Weinfelden;SP;2005;;SP;männlich
 2020;Schallenberg;Turi;Hauptabteilungsleiter Sozialversicherung;Bürglen;Weinfelden;SP;2005;;SP;männlich
 2021;Schallenberg;Turi;Hauptabteilungsleiter Sozialversicherung;Bürglen;Weinfelden;SP;2005;;SP;männlich
 2009;Schallenberg;Turi;Leiter Sozialhilfe, Schulpräsident;Bürglen;Weinfelden;SP;2005;1965;SP;männlich
@@ -1541,12 +1300,9 @@ Erwachsenenbildner";Bürglen;Weinfelden;SP;2005;;SP;männlich
 2018;Schenker;Marcel;lic. iur., Kaufmann;Frauenfeld;Frauenfeld;SVP;2000;;SVP;männlich
 2019;Schenker;Marcel;lic. iur., Kaufmann;Frauenfeld;Frauenfeld;SVP;2000;;SVP;männlich
 2009;Schenker;Marcel;lic. iur., Kaufmann;Homburg;Steckborn;SVP;2000;1969;SVP;männlich
-2010;Schenker;Marcel;"lic. iur., Kaufmann
-";Homburg;Steckborn;SVP;2000;1969;SVP;männlich
-2011;Schenker;Marcel;"lic. iur., Kaufmann
-";Homburg;Steckborn;SVP;2000;1969;SVP;männlich
-2012;Schenker;Marcel;"lic. iur., Kaufmann
-";Frauenfeld;Steckborn;SVP;2000;1969;SVP;männlich
+2010;Schenker;Marcel;lic. iur., Kaufmann;Homburg;Steckborn;SVP;2000;1969;SVP;männlich
+2011;Schenker;Marcel;lic. iur., Kaufmann;Homburg;Steckborn;SVP;2000;1969;SVP;männlich
+2012;Schenker;Marcel;lic. iur., Kaufmann;Frauenfeld;Steckborn;SVP;2000;1969;SVP;männlich
 2017;Scherrer;Egon;Meisterlandwirt;Egnach;Arbon;SVP;2016;;SVP;männlich
 2018;Scherrer;Egon;Meisterlandwirt;Egnach;Arbon;SVP;2016;;SVP;männlich
 2019;Scherrer;Egon;Meisterlandwirt;Egnach;Arbon;SVP;2016;;SVP;männlich
@@ -1559,72 +1315,49 @@ Erwachsenenbildner";Bürglen;Weinfelden;SP;2005;;SP;männlich
 2021;Schläfli;Nina;Historikerin;Kreuzlingen;Kreuzlingen;SP;2016;;SP;weiblich
 2008;Schlaginhau-fen;Ernst;Primarlehrer;Bischofszell;Bischofszell;SP;1991;;SP;männlich
 2020;Schläpfer;Jörg;Ökonom, Dr. sc. ETH, MA HSG;Frauenfeld;Frauenfeld;FDP;2019;;FDP;männlich
-2021;Schläpfer;Jörg;"Ökonom, Dr. sc. ETH, 
-MA HSG";Frauenfeld;Frauenfeld;FDP;2019;;FDP;männlich
-2009;Schlatter;André;Rechtsanwalt;Amriswil;Bischofszell;CVP/GLP;2008;1961;CVP;männlich
-2010;Schlatter;André;Rechtsanwalt;Amriswil;Bischofszell;CVP/GLP;2008;1961;CVP;männlich
-2011;Schlatter;André;Rechtsanwalt;Amriswil;Bischofszell;CVP/GLP;2008;1961;CVP;männlich
-2012;Schlatter;André;Rechtsanwalt;Amriswil;Bischofszell;CVP/GLP;2008;1961;CVP;männlich
+2021;Schläpfer;Jörg;Ökonom, Dr. sc. ETH,MA HSG;Frauenfeld;Frauenfeld;FDP;2019;;FDP;männlich
+2009;Schlatter;André;Rechtsanwalt;Amriswil;Bischofszell;CVP/glp;2008;1961;CVP;männlich
+2010;Schlatter;André;Rechtsanwalt;Amriswil;Bischofszell;CVP/glp;2008;1961;CVP;männlich
+2011;Schlatter;André;Rechtsanwalt;Amriswil;Bischofszell;CVP/glp;2008;1961;CVP;männlich
+2012;Schlatter;André;Rechtsanwalt;Amriswil;Bischofszell;CVP/glp;2008;1961;CVP;männlich
 2008;Schmid;Luzi;Notar;Arbon;Arbon;CVP;2000;;CVP;männlich
-2009;Schmid;Luzi;Notar;Arbon;Arbon;CVP/GLP;2000;1955;CVP;männlich
-2010;Schmid;Luzi;Notar;Arbon;Arbon;CVP/GLP;2000;1955;CVP;männlich
-2011;Schmid;Luzi;Notar;Arbon;Arbon;CVP/GLP;2000;1955;CVP;männlich
-2012;Schmid;Luzi;Notar;Arbon;Arbon;CVP/GLP;2000;1955;CVP;männlich
-2017;Schmid;Pascal;"lic. iur., Rechtsanwalt,
-Gerichtspräsident";Weinfelden;Weinfelden;SVP;2016;;SVP;männlich
-2018;Schmid;Pascal;"lic. iur., Rechtsanwalt,
-Gerichtspräsident";Weinfelden;Weinfelden;SVP;2016;;SVP;männlich
-2019;Schmid;Pascal;"lic. iur., Rechtsanwalt,
-Gerichtspräsident";Weinfelden;Weinfelden;SVP;2016;;SVP;männlich
-2020;Schmid;Pascal;"lic. iur., Rechtsanwalt,
-Gerichtspräsident";Weinfelden;Weinfelden;SVP;2016;;SVP;männlich
-2021;Schmid;Pascal;"lic. iur., Rechtsanwalt,
-Gerichtspräsident";Weinfelden;Weinfelden;SVP;2016;;SVP;männlich
+2009;Schmid;Luzi;Notar;Arbon;Arbon;CVP/glp;2000;1955;CVP;männlich
+2010;Schmid;Luzi;Notar;Arbon;Arbon;CVP/glp;2000;1955;CVP;männlich
+2011;Schmid;Luzi;Notar;Arbon;Arbon;CVP/glp;2000;1955;CVP;männlich
+2012;Schmid;Luzi;Notar;Arbon;Arbon;CVP/glp;2000;1955;CVP;männlich
+2017;Schmid;Pascal;lic. iur., Rechtsanwalt,Gerichtspräsident;Weinfelden;Weinfelden;SVP;2016;;SVP;männlich
+2018;Schmid;Pascal;lic. iur., Rechtsanwalt,Gerichtspräsident;Weinfelden;Weinfelden;SVP;2016;;SVP;männlich
+2019;Schmid;Pascal;lic. iur., Rechtsanwalt,Gerichtspräsident;Weinfelden;Weinfelden;SVP;2016;;SVP;männlich
+2020;Schmid;Pascal;lic. iur., Rechtsanwalt,Gerichtspräsident;Weinfelden;Weinfelden;SVP;2016;;SVP;männlich
+2021;Schmid;Pascal;lic. iur., Rechtsanwalt,Gerichtspräsident;Weinfelden;Weinfelden;SVP;2016;;SVP;männlich
 2008;Schneider;Urs;Agro-Ing. HTL, Stv. Direktor;Bissegg;Weinfelden;SVP;1996;;SVP;männlich
-2009;Schneider;Urs;"Agro-Ing. HTL, 
-Stv. Direktor";Bissegg;Weinfelden;SVP;1996;1958;SVP;männlich
-2010;Schneider;Urs;"Agro-Ing. HTL, 
-Stv. Direktor";Amlikon-Bissegg;Weinfelden;SVP;1996;1958;SVP;männlich
-2011;Schneider;Urs;"Agro-Ing. HTL, 
-Stv. Direktor";Amlikon-Bissegg;Weinfelden;SVP;1996;1958;SVP;männlich
+2009;Schneider;Urs;Agro-Ing. HTL,Stv. Direktor;Bissegg;Weinfelden;SVP;1996;1958;SVP;männlich
+2010;Schneider;Urs;Agro-Ing. HTL,Stv. Direktor;Amlikon-Bissegg;Weinfelden;SVP;1996;1958;SVP;männlich
+2011;Schneider;Urs;Agro-Ing. HTL,Stv. Direktor;Amlikon-Bissegg;Weinfelden;SVP;1996;1958;SVP;männlich
 2012;Schneider;Urs;Agro-Ing. HTL, Stv. Direktor;Amlikon-Bissegg;Weinfelden;SVP;1996;1958;SVP;männlich
 2013;Schnyder;Fabienne;Gemeindeammann;Zuben;Kreuzlingen;SVP;2006;;SVP;weiblich
 2014;Schnyder;Fabienne;Gemeindeammann;Zuben;Kreuzlingen;SVP;2006;;SVP;weiblich
 2015;Schnyder;Fabienne;Gemeindeammann;Zuben;Kreuzlingen;SVP;2006;;SVP;weiblich
-2016;Schnyder;Fabienne;"Gemeindepräsidentin
-";Zuben;Kreuzlingen;SVP;2006;;SVP;weiblich
-2017;Schnyder;Fabienne;"Gemeindepräsidentin
-";Zuben;Kreuzlingen;SVP;2006;;SVP;weiblich
+2016;Schnyder;Fabienne;Gemeindepräsidentin;Zuben;Kreuzlingen;SVP;2006;;SVP;weiblich
+2017;Schnyder;Fabienne;Gemeindepräsidentin;Zuben;Kreuzlingen;SVP;2006;;SVP;weiblich
 2008;Schnyder-Cerny;Fabienne;Sekundarlehrerin;Zuben;Kreuzlingen;SVP;2006;;SVP;weiblich
 2009;Schnyder-Cerny;Fabienne;Sekundarlehrerin;Zuben;Kreuzlingen;SVP;2006;1977;SVP;weiblich
 2010;Schnyder-Cerny;Fabienne;Sekundarlehrerin;Zuben;Kreuzlingen;SVP;2006;1977;SVP;weiblich
 2011;Schnyder-Cerny;Fabienne;Sekundarlehrerin;Zuben;Kreuzlingen;SVP;2006;1977;SVP;weiblich
 2012;Schnyder-Cerny;Fabienne;Gemeindeammann;Zuben;Kreuzlingen;SVP;2006;1977;SVP;weiblich
 2008;Schönholzer;Brigitte;dipl. Hauspflegerin, Bäuerin;Sulgen;Bischofszell;SVP;2004;;SVP;weiblich
-2013;Schönholzer;Brigitte;"dipl. Hauspflegerin,
-Bäuerin";Sulgen;Weinfelden;SVP;2004;;SVP;weiblich
-2014;Schönholzer;Brigitte;"dipl. Hauspflegerin,
-Bäuerin";Sulgen;Weinfelden;SVP;2004;;SVP;weiblich
-2015;Schönholzer;Brigitte;"dipl. Hauspflegerin,
-Bäuerin";Sulgen;Weinfelden;SVP;2004;;SVP;weiblich
-2016;Schönholzer;Brigitte;"dipl. Hauspflegerin,
-Bäuerin";Sulgen;Weinfelden;SVP;2004;;SVP;weiblich
-2009;Schönholzer;Brigitte;"dipl. Hauspflegerin,
-Bäuerin";Sulgen;Bischofszell;SVP;2004;1960;SVP;weiblich
-2010;Schönholzer;Brigitte;"dipl. Hauspflegerin,
-Bäuerin";Riedt;Bischofszell;SVP;2004;1960;SVP;weiblich
-2011;Schönholzer;Brigitte;"dipl. Hauspflegerin,
-Bäuerin";Riedt;Bischofszell;SVP;2004;1960;SVP;weiblich
-2012;Schönholzer;Brigitte;"dipl. Hauspflegerin,
-Bäuerin";Riedt;Bischofszell;SVP;2004;1960;SVP;weiblich
-2013;Schönholzer;Walter;"Gemeindeammann
-";Neukirch a.d. Thur;Weinfelden;FDP;2009;;FDP;männlich
-2014;Schönholzer;Walter;"Gemeindeammann
-";Neukirch a.d. Thur;Weinfelden;FDP;2009;;FDP;männlich
-2015;Schönholzer;Walter;"Gemeindeammann
-";Neukirch a.d. Thur;Weinfelden;FDP;2009;;FDP;männlich
-2016;Schönholzer;Walter;"Gemeindepräsident
-";Neukirch a.d. Thur;Weinfelden;FDP;2009;;FDP;männlich
+2013;Schönholzer;Brigitte;dipl. Hauspflegerin,Bäuerin;Sulgen;Weinfelden;SVP;2004;;SVP;weiblich
+2014;Schönholzer;Brigitte;dipl. Hauspflegerin,Bäuerin;Sulgen;Weinfelden;SVP;2004;;SVP;weiblich
+2015;Schönholzer;Brigitte;dipl. Hauspflegerin,Bäuerin;Sulgen;Weinfelden;SVP;2004;;SVP;weiblich
+2016;Schönholzer;Brigitte;dipl. Hauspflegerin,Bäuerin;Sulgen;Weinfelden;SVP;2004;;SVP;weiblich
+2009;Schönholzer;Brigitte;dipl. Hauspflegerin,Bäuerin;Sulgen;Bischofszell;SVP;2004;1960;SVP;weiblich
+2010;Schönholzer;Brigitte;dipl. Hauspflegerin,Bäuerin;Riedt;Bischofszell;SVP;2004;1960;SVP;weiblich
+2011;Schönholzer;Brigitte;dipl. Hauspflegerin,Bäuerin;Riedt;Bischofszell;SVP;2004;1960;SVP;weiblich
+2012;Schönholzer;Brigitte;dipl. Hauspflegerin,Bäuerin;Riedt;Bischofszell;SVP;2004;1960;SVP;weiblich
+2013;Schönholzer;Walter;Gemeindeammann;Neukirch a.d. Thur;Weinfelden;FDP;2009;;FDP;männlich
+2014;Schönholzer;Walter;Gemeindeammann;Neukirch a.d. Thur;Weinfelden;FDP;2009;;FDP;männlich
+2015;Schönholzer;Walter;Gemeindeammann;Neukirch a.d. Thur;Weinfelden;FDP;2009;;FDP;männlich
+2016;Schönholzer;Walter;Gemeindepräsident;Neukirch a.d. Thur;Weinfelden;FDP;2009;;FDP;männlich
 2010;Schönholzer;Walter;Gemeindeammann, Kaufmann;Neukirch an der Thur;Bischofszell;FDP;2009;1965;FDP;männlich
 2011;Schönholzer;Walter;Gemeindeammann, Kaufmann;Neukirch an der Thur;Bischofszell;FDP;2009;1965;FDP;männlich
 2012;Schönholzer;Walter;Gemeindeammann, Kaufmann;Neukirch an der Thur;Bischofszell;FDP;2009;1965;FDP;männlich
@@ -1646,22 +1379,21 @@ Bäuerin";Riedt;Bischofszell;SVP;2004;1960;SVP;weiblich
 2009;Schwyter-Mäder;Silvia;Gemeindeammann;Sommeri;Arbon;GP;2004;1953;GP;weiblich
 2010;Schwyter-Mäder;Silvia;Gemeindeammann;Sommeri;Arbon;GP;2004;1953;GP;weiblich
 2011;Schwyter-Mäder;Silvia;Gemeindeammann;Sommeri;Arbon;GP;2004;1953;GP;weiblich
-2012;Schwyter-Mäder;Silvia;"Lehrerin, Unternehmerin
-";Sommeri;Arbon;GP;2004;1953;GP;weiblich
+2012;Schwyter-Mäder;Silvia;Lehrerin, Unternehmerin;Sommeri;Arbon;GP;2004;1953;GP;weiblich
 2008;Senn;Norbert;Gemeindeammann;Romanshorn;Arbon;CVP;2001;;CVP;männlich
-2009;Senn;Norbert;Gemeindeammann;Romanshorn;Arbon;CVP/GLP;2001;1958;CVP;männlich
-2010;Senn;Norbert;Sekundarlehrer;Romanshorn;Arbon;CVP/GLP;2001;1958;CVP;männlich
-2011;Senn;Norbert;Sekundarlehrer;Romanshorn;Arbon;CVP/GLP;2001;1958;CVP;männlich
-2012;Senn;Norbert;Leiter Schulamt;Romanshorn;Arbon;CVP/GLP;2001;1958;CVP;männlich
-2013;Senn ;Norbert;Leiter Schulamt;Romanshorn;Arbon;CVP/glp;2001;;CVP;männlich
-2014;Senn ;Norbert;Leiter Volksschulamt AI;Romanshorn;Arbon;CVP/glp;2001;;CVP;männlich
-2015;Senn ;Norbert;Leiter Volksschulamt AI;Romanshorn;Arbon;CVP/glp;2001;;CVP;männlich
-2016;Senn ;Norbert;Leiter Volksschulamt AI;Romanshorn;Arbon;CVP/glp;2001;;CVP;männlich
-2017;Senn ;Norbert;Leiter Volksschulamt AI;Romanshorn;Arbon;CVP/EVP;2001;;CVP;männlich
-2018;Senn ;Norbert;Leiter Volksschulamt AI;Romanshorn;Arbon;CVP/EVP;2001;;CVP;männlich
-2019;Senn ;Norbert;Leiter Volksschulamt AI;Romanshorn;Arbon;CVP/EVP;2001;;CVP;männlich
-2020;Senn ;Norbert;Leiter Volksschulamt AI;Romanshorn;Arbon;CVP/EVP;2001;;CVP;männlich
-2021;Senn ;Norbert;Leiter Volksschulamt AI;Romanshorn;Arbon;CVP/EVP;2002;;CVP;männlich
+2009;Senn;Norbert;Gemeindeammann;Romanshorn;Arbon;CVP/glp;2001;1958;CVP;männlich
+2010;Senn;Norbert;Sekundarlehrer;Romanshorn;Arbon;CVP/glp;2001;1958;CVP;männlich
+2011;Senn;Norbert;Sekundarlehrer;Romanshorn;Arbon;CVP/glp;2001;1958;CVP;männlich
+2012;Senn;Norbert;Leiter Schulamt;Romanshorn;Arbon;CVP/glp;2001;1958;CVP;männlich
+2013;Senn;Norbert;Leiter Schulamt;Romanshorn;Arbon;CVP/glp;2001;;CVP;männlich
+2014;Senn;Norbert;Leiter Volksschulamt AI;Romanshorn;Arbon;CVP/glp;2001;;CVP;männlich
+2015;Senn;Norbert;Leiter Volksschulamt AI;Romanshorn;Arbon;CVP/glp;2001;;CVP;männlich
+2016;Senn;Norbert;Leiter Volksschulamt AI;Romanshorn;Arbon;CVP/glp;2001;;CVP;männlich
+2017;Senn;Norbert;Leiter Volksschulamt AI;Romanshorn;Arbon;CVP/EVP;2001;;CVP;männlich
+2018;Senn;Norbert;Leiter Volksschulamt AI;Romanshorn;Arbon;CVP/EVP;2001;;CVP;männlich
+2019;Senn;Norbert;Leiter Volksschulamt AI;Romanshorn;Arbon;CVP/EVP;2001;;CVP;männlich
+2020;Senn;Norbert;Leiter Volksschulamt AI;Romanshorn;Arbon;CVP/EVP;2001;;CVP;männlich
+2021;Senn;Norbert;Leiter Volksschulamt AI;Romanshorn;Arbon;CVP/EVP;2002;;CVP;männlich
 2008;Sgier;Giosch Antoni;Lehrer/Erwachsenenbilder;Arbon-Stachen;Arbon;CVP;1988;;CVP;männlich
 2008;Somm;Klemenz;Landwirt, Unternehmer;Kreuzlingen;Kreuzlingen;GP;2004;;GP;männlich
 2013;Somm;Klemenz;Landwirt, Unternehmer;Kreuzlingen;Kreuzlingen;CVP/glp;2012;;GP;männlich
@@ -1721,8 +1453,7 @@ Bäuerin";Riedt;Bischofszell;SVP;2004;1960;SVP;weiblich
 2009;Strupler;Walter;Meisterlandwirt;Weinfelden;Weinfelden;SVP;2008;1953;SVP;männlich
 2010;Strupler;Walter;Meisterlandwirt;Weinfelden;Weinfelden;SVP;2008;1953;SVP;männlich
 2011;Strupler;Walter;Meisterlandwirt;Weinfelden;Weinfelden;SVP;2008;1953;SVP;männlich
-2012;Strupler;Walter;"Meisterlandwirt
-";Weinfelden;Weinfelden;SVP;2008;1953;SVP;männlich
+2012;Strupler;Walter;Meisterlandwirt;Weinfelden;Weinfelden;SVP;2008;1953;SVP;männlich
 2008;Stuber;Martin;Gemeindeammann;Ermatingen;Weinfelden;SVP;2004;;SVP;männlich
 2009;Stuber;Martin;Gemeindeammann;Ermatingen;Kreuzlingen;SVP;2004;1956;SVP;männlich
 2010;Stuber;Martin;Gemeindeammann;Ermatingen;Kreuzlingen;SVP;2004;1956;SVP;männlich
@@ -1763,20 +1494,13 @@ Bäuerin";Riedt;Bischofszell;SVP;2004;1960;SVP;weiblich
 2011;Thalmann;Thomas;Elektroplaner;Güttingen;Kreuzlingen;SVP;2010;1968;SVP;männlich
 2012;Thalmann;Thomas;Elektroplaner;Güttingen;Kreuzlingen;SVP;2010;1968;SVP;männlich
 2008;Theler;Marion;Journalistin;Bottighofen;Kreuzlingen;GP;2004;;GP;weiblich
-2013;Theler;Marion;"dipl. Übersetzerin,
-Journalistin";Bottighofen;Kreuzlingen;GP;2004;;GP;weiblich
-2014;Theler;Marion;"dipl. Übersetzerin,
-Journalistin";Bottighofen;Kreuzlingen;GP;2004;;GP;weiblich
-2015;Theler;Marion;"dipl. Übersetzerin,
-Journalistin";Bottighofen;Kreuzlingen;GP;2004;;GP;weiblich
-2016;Theler;Marion;"dipl. Übersetzerin,
-Journalistin";Bottighofen;Kreuzlingen;GP;2004;;GP;weiblich
-2017;Theler;Marion;"dipl. Übersetzerin,
-Journalistin";Bottighofen;Kreuzlingen;GP;2004;;GP;weiblich
-2018;Theler;Marion;"dipl. Übersetzerin,
-Journalistin";Bottighofen;Kreuzlingen;GP;2004;;GP;weiblich
-2019;Theler;Marion;"dipl. Übersetzerin,
-Journalistin";Bottighofen;Kreuzlingen;GP;2004;;GP;weiblich
+2013;Theler;Marion;dipl. Übersetzerin,Journalistin;Bottighofen;Kreuzlingen;GP;2004;;GP;weiblich
+2014;Theler;Marion;dipl. Übersetzerin,Journalistin;Bottighofen;Kreuzlingen;GP;2004;;GP;weiblich
+2015;Theler;Marion;dipl. Übersetzerin,Journalistin;Bottighofen;Kreuzlingen;GP;2004;;GP;weiblich
+2016;Theler;Marion;dipl. Übersetzerin,Journalistin;Bottighofen;Kreuzlingen;GP;2004;;GP;weiblich
+2017;Theler;Marion;dipl. Übersetzerin,Journalistin;Bottighofen;Kreuzlingen;GP;2004;;GP;weiblich
+2018;Theler;Marion;dipl. Übersetzerin,Journalistin;Bottighofen;Kreuzlingen;GP;2004;;GP;weiblich
+2019;Theler;Marion;dipl. Übersetzerin,Journalistin;Bottighofen;Kreuzlingen;GP;2004;;GP;weiblich
 2009;Theler;Marion;Journalistin, Lehrerin;Kreuzlingen;Kreuzlingen;GP;2004;1964;GP;weiblich
 2010;Theler;Marion;Journalistin, Lehrerin;Bottighofen;Kreuzlingen;GP;2004;1964;GP;weiblich
 2011;Theler;Marion;Journalistin, Lehrerin;Bottighofen;Kreuzlingen;GP;2004;1964;GP;weiblich
@@ -1815,10 +1539,8 @@ Journalistin";Bottighofen;Kreuzlingen;GP;2004;;GP;weiblich
 2019;Tobler;Stephan;Gemeindepräsident;Neukirch (Egnach);Arbon;SVP;1996;;SVP;männlich
 2020;Tobler;Stephan;Gemeindepräsident;Egnach;Arbon;SVP;1996;;SVP;männlich
 2021;Tobler;Stephan;Gemeindepräsident;Egnach;Arbon;SVP;1996;;SVP;männlich
-2013;Trachsel;Hans;"Käsermeister,
-Betriebsleiter";Amriswil;Arbon;EDU/EVP;2012;;FDP;männlich
-2013;Trachsel;Hans;"Käsermeister,
-Betriebsleiter";Amriswil;Arbon;EDU/EVP;2012;;EDU;männlich
+2013;Trachsel;Hans;Käsermeister,Betriebsleiter;Amriswil;Arbon;EDU/EVP;2012;;FDP;männlich
+2013;Trachsel;Hans;Käsermeister,Betriebsleiter;Amriswil;Arbon;EDU/EVP;2012;;EDU;männlich
 2014;Trachsel;Hans;Käsermeister;Amriswil;Arbon;EDU/EVP;2012;;FDP;männlich
 2014;Trachsel;Hans;Käsermeister;Amriswil;Arbon;EDU/EVP;2012;;EDU;männlich
 2015;Trachsel;Hans;Käsermeister;Amriswil;Arbon;EDU/EVP;2012;;FDP;männlich
@@ -1829,15 +1551,12 @@ Betriebsleiter";Amriswil;Arbon;EDU/EVP;2012;;EDU;männlich
 2009;Tschanen;Christian;Bauunternehmer;Müllheim;Steckborn;SVP;2004;1946;SVP;männlich
 2010;Tschanen;Christian;Bauunternehmer;Müllheim;Steckborn;SVP;2004;1946;SVP;männlich
 2011;Tschanen;Christian;Bauunternehmer;Müllheim;Steckborn;SVP;2004;1946;SVP;männlich
-2012;Tschanen;Christian;"Bauunternehmer
-";Müllheim;Steckborn;SVP;2004;1946;SVP;männlich
-2017;Tschanen ;Mathias;Bauunternehmer;Müllheim;Frauenfeld;SVP;2016;;SVP;männlich
-2018;Tschanen ;Mathias;Bauunternehmer;Müllheim;Frauenfeld;SVP;2016;;SVP;männlich
-2019;Tschanen ;Mathias;Bauunternehmer;Müllheim;Frauenfeld;SVP;2016;;SVP;männlich
-2020;Tschanen ;Mathias;"Bauunternehmer, 
-dipl. Bauführer TS";Müllheim;Frauenfeld;SVP;2016;;SVP;männlich
-2021;Tschanen ;Mathias;"Bauunternehmer, 
-dipl. Bauführer TS";Müllheim;Frauenfeld;SVP;2016;;SVP;männlich
+2012;Tschanen;Christian;Bauunternehmer;Müllheim;Steckborn;SVP;2004;1946;SVP;männlich
+2017;Tschanen;Mathias;Bauunternehmer;Müllheim;Frauenfeld;SVP;2016;;SVP;männlich
+2018;Tschanen;Mathias;Bauunternehmer;Müllheim;Frauenfeld;SVP;2016;;SVP;männlich
+2019;Tschanen;Mathias;Bauunternehmer;Müllheim;Frauenfeld;SVP;2016;;SVP;männlich
+2020;Tschanen;Mathias;Bauunternehmer,dipl. Bauführer TS;Müllheim;Frauenfeld;SVP;2016;;SVP;männlich
+2021;Tschanen;Mathias;Bauunternehmer,dipl. Bauführer TS;Müllheim;Frauenfeld;SVP;2016;;SVP;männlich
 2013;Vetterli;Daniel;Landwirt;Rheinklingen;Frauenfeld;SVP;2008;;SVP;männlich
 2014;Vetterli;Daniel;Landwirt;Rheinklingen;Frauenfeld;SVP;2008;;SVP;männlich
 2015;Vetterli;Daniel;Landwirt;Rheinklingen;Frauenfeld;SVP;2008;;SVP;männlich
@@ -1851,24 +1570,15 @@ dipl. Bauführer TS";Müllheim;Frauenfeld;SVP;2016;;SVP;männlich
 2010;Vetterli;Daniel;Landwirt;Rheinklingen;Steckborn;SVP;2008;1966;SVP;männlich
 2011;Vetterli;Daniel;Landwirt;Rheinklingen;Steckborn;SVP;2008;1966;SVP;männlich
 2012;Vetterli;Daniel;Landwirt;Rheinklingen;Steckborn;SVP;2008;1966;SVP;männlich
-2013;Vietze;Kristiane;"lic. oec. publ.,
-dipl. Wirtschaftsprüferin";Frauenfeld;Frauenfeld;FDP;2012;;FDP;weiblich
-2014;Vietze;Kristiane;"lic. oec. publ.,
-dipl. Wirtschaftsprüferin";Frauenfeld;Frauenfeld;FDP;2012;;FDP;weiblich
-2015;Vietze;Kristiane;"lic. oec. publ.,
-dipl. Wirtschaftsprüferin";Frauenfeld;Frauenfeld;FDP;2012;;FDP;weiblich
-2016;Vietze;Kristiane;"lic. oec. publ.,
-dipl. Wirtschaftsprüferin";Frauenfeld;Frauenfeld;FDP;2012;;FDP;weiblich
-2017;Vietze;Kristiane;"lic. oec. publ.,
-dipl. Wirtschaftsprüferin";Frauenfeld;Frauenfeld;FDP;2012;;FDP;weiblich
-2018;Vietze;Kristiane;"lic. oec. publ.,
-dipl. Wirtschaftsprüferin";Frauenfeld;Frauenfeld;FDP;2012;;FDP;weiblich
-2019;Vietze;Kristiane;"lic. oec. publ.,
-dipl. Wirtschaftsprüferin";Frauenfeld;Frauenfeld;FDP;2012;;FDP;weiblich
-2020;Vietze;Kristiane;"lic. oec. publ.,
-dipl. Wirtschaftsprüferin";Frauenfeld;Frauenfeld;FDP;2012;;FDP;weiblich
-2021;Vietze;Kristiane;"lic. oec. publ.,
-dipl. Wirtschaftsprüferin";Frauenfeld;Frauenfeld;FDP;2012;;FDP;weiblich
+2013;Vietze;Kristiane;lic. oec. publ.,dipl. Wirtschaftsprüferin;Frauenfeld;Frauenfeld;FDP;2012;;FDP;weiblich
+2014;Vietze;Kristiane;lic. oec. publ.,dipl. Wirtschaftsprüferin;Frauenfeld;Frauenfeld;FDP;2012;;FDP;weiblich
+2015;Vietze;Kristiane;lic. oec. publ.,dipl. Wirtschaftsprüferin;Frauenfeld;Frauenfeld;FDP;2012;;FDP;weiblich
+2016;Vietze;Kristiane;lic. oec. publ.,dipl. Wirtschaftsprüferin;Frauenfeld;Frauenfeld;FDP;2012;;FDP;weiblich
+2017;Vietze;Kristiane;lic. oec. publ.,dipl. Wirtschaftsprüferin;Frauenfeld;Frauenfeld;FDP;2012;;FDP;weiblich
+2018;Vietze;Kristiane;lic. oec. publ.,dipl. Wirtschaftsprüferin;Frauenfeld;Frauenfeld;FDP;2012;;FDP;weiblich
+2019;Vietze;Kristiane;lic. oec. publ.,dipl. Wirtschaftsprüferin;Frauenfeld;Frauenfeld;FDP;2012;;FDP;weiblich
+2020;Vietze;Kristiane;lic. oec. publ.,dipl. Wirtschaftsprüferin;Frauenfeld;Frauenfeld;FDP;2012;;FDP;weiblich
+2021;Vietze;Kristiane;lic. oec. publ.,dipl. Wirtschaftsprüferin;Frauenfeld;Frauenfeld;FDP;2012;;FDP;weiblich
 2020;Vogel;Simon;Elektroingenieur ZFH;Frauenfeld;Frauenfeld;GP;2020;;GP;männlich
 2021;Vogel;Simon;Elektroingenieur ZFH;Frauenfeld;Frauenfeld;GP;2020;;GP;männlich
 2008;Vögeli;Max;Gemeindeammann;Weinfelden;Weinfelden;FDP;1992;;FDP;männlich
@@ -1876,15 +1586,15 @@ dipl. Wirtschaftsprüferin";Frauenfeld;Frauenfeld;FDP;2012;;FDP;weiblich
 2010;Vögeli;Max;Gemeindeammann;Weinfelden;Weinfelden;FDP;1992;1957;FDP;männlich
 2011;Vögeli;Max;Gemeindeammann;Weinfelden;Weinfelden;FDP;1992;1957;FDP;männlich
 2012;Vögeli;Max;Gemeindeammann;Weinfelden;Weinfelden;FDP;1992;1957;FDP;männlich
-2013;Vögeli ;Max;Gemeindeammann;Weinfelden;Weinfelden;FDP;1992;;FDP;männlich
-2014;Vögeli ;Max;Gemeindeammann;Weinfelden;Weinfelden;FDP;1992;;FDP;männlich
-2015;Vögeli ;Max;Gemeindeammann;Weinfelden;Weinfelden;FDP;1992;;FDP;männlich
-2016;Vögeli ;Max;Gemeindepräsident;Weinfelden;Weinfelden;FDP;1992;;FDP;männlich
-2017;Vögeli ;Max;Gemeindepräsident;Weinfelden;Weinfelden;FDP;1992;;FDP;männlich
-2018;Vögeli ;Max;Gemeindepräsident;Weinfelden;Weinfelden;FDP;1992;;FDP;männlich
-2019;Vögeli ;Max;Gemeindepräsident;Weinfelden;Weinfelden;FDP;1992;;FDP;männlich
-2020;Vögeli ;Max;Stadtpräsident;Weinfelden;Weinfelden;FDP;1992;;FDP;männlich
-2021;Vögeli ;Max;Stadtpräsident;Weinfelden;Weinfelden;FDP;1992;;FDP;männlich
+2013;Vögeli;Max;Gemeindeammann;Weinfelden;Weinfelden;FDP;1992;;FDP;männlich
+2014;Vögeli;Max;Gemeindeammann;Weinfelden;Weinfelden;FDP;1992;;FDP;männlich
+2015;Vögeli;Max;Gemeindeammann;Weinfelden;Weinfelden;FDP;1992;;FDP;männlich
+2016;Vögeli;Max;Gemeindepräsident;Weinfelden;Weinfelden;FDP;1992;;FDP;männlich
+2017;Vögeli;Max;Gemeindepräsident;Weinfelden;Weinfelden;FDP;1992;;FDP;männlich
+2018;Vögeli;Max;Gemeindepräsident;Weinfelden;Weinfelden;FDP;1992;;FDP;männlich
+2019;Vögeli;Max;Gemeindepräsident;Weinfelden;Weinfelden;FDP;1992;;FDP;männlich
+2020;Vögeli;Max;Stadtpräsident;Weinfelden;Weinfelden;FDP;1992;;FDP;männlich
+2021;Vögeli;Max;Stadtpräsident;Weinfelden;Weinfelden;FDP;1992;;FDP;männlich
 2008;Vonlanthen;Andrea;Chefredaktor;Arbon;Arbon;SVP;2000;;SVP;männlich
 2013;Vonlanthen;Andrea;Chefredaktor;Arbon;Arbon;SVP;2000;;SVP;männlich
 2014;Vonlanthen;Andrea;Chefredaktor;Arbon;Arbon;SVP;2000;;SVP;männlich
@@ -1893,10 +1603,10 @@ dipl. Wirtschaftsprüferin";Frauenfeld;Frauenfeld;FDP;2012;;FDP;weiblich
 2017;Vonlanthen;Andrea;Journalist;Arbon;Arbon;SVP;2000;;SVP;männlich
 2018;Vonlanthen;Andrea;Journalist;Arbon;Arbon;SVP;2000;;SVP;männlich
 2019;Vonlanthen;Andrea;Journalist;Arbon;Arbon;SVP;2000;;SVP;männlich
-2009;Vonlanthen;Andrea ;Chefredaktor;Arbon;Arbon;SVP;2000;1947;SVP;männlich
-2010;Vonlanthen;Andrea ;Chefredaktor;Arbon;Arbon;SVP;2000;1947;SVP;männlich
-2011;Vonlanthen;Andrea ;Chefredaktor;Arbon;Arbon;SVP;2000;1947;SVP;männlich
-2012;Vonlanthen;Andrea ;Chefredaktor;Arbon;Arbon;SVP;2000;1947;SVP;männlich
+2009;Vonlanthen;Andrea;Chefredaktor;Arbon;Arbon;SVP;2000;1947;SVP;männlich
+2010;Vonlanthen;Andrea;Chefredaktor;Arbon;Arbon;SVP;2000;1947;SVP;männlich
+2011;Vonlanthen;Andrea;Chefredaktor;Arbon;Arbon;SVP;2000;1947;SVP;männlich
+2012;Vonlanthen;Andrea;Chefredaktor;Arbon;Arbon;SVP;2000;1947;SVP;männlich
 2020;Vonlanthen-Specker;Isabelle;Tierärztin, med.vet.;Balterswil;Münchwilen;GP;2020;;GP;weiblich
 2021;Vonlanthen-Specker;Isabelle;Tierärztin, med.vet.;Balterswil;Münchwilen;GP;2020;;GP;weiblich
 2013;Wägeli;Hans-Peter;Oenologe, Winzer;Buch b. Frauenfeld;Frauenfeld;SVP;2011;;SVP;männlich
@@ -1920,11 +1630,9 @@ dipl. Wirtschaftsprüferin";Frauenfeld;Frauenfeld;FDP;2012;;FDP;weiblich
 2020;Wattinger;Ralph;Bereichsleiter Holzbau;Roggwil;Arbon;SVP;2020;;SVP;männlich
 2021;Wattinger;Ralph;Bereichsleiter Holzbau;Roggwil;Arbon;SVP;2020;;SVP;männlich
 2013;Weber;Monika;Immobilienmaklerin;Eschenz;Frauenfeld;CVP/glp;2010;;CVP;weiblich
-2010;Weber;Monika;"Hausfrau,
-Bankangestellte";Eschenz;Steckborn;CVP/GLP;2010;1971;CVP;weiblich
-2011;Weber;Monika;"Hausfrau,
-Bankangestellte";Eschenz;Steckborn;CVP/GLP;2010;1971;CVP;weiblich
-2012;Weber;Monika;Immobilien-Maklerin;Eschenz;Steckborn;CVP/GLP;2010;1971;CVP;weiblich
+2010;Weber;Monika;Hausfrau,Bankangestellte;Eschenz;Steckborn;CVP/glp;2010;1971;CVP;weiblich
+2011;Weber;Monika;Hausfrau,Bankangestellte;Eschenz;Steckborn;CVP/glp;2010;1971;CVP;weiblich
+2012;Weber;Monika;Immobilien-Maklerin;Eschenz;Steckborn;CVP/glp;2010;1971;CVP;weiblich
 2008;Wehrle;Hanspeter;Bauingenieur HTL;Münchwilen;Münchwilen;FDP;1996;;FDP;männlich
 2013;Wehrle;Hanspeter;dipl. Bauingenieur HTL;Münchwilen;Münchwilen;FDP;2010;;FDP;männlich
 2014;Wehrle;Hanspeter;dipl. Bauingenieur HTL;Münchwilen;Münchwilen;FDP;2010;;FDP;männlich
@@ -1938,11 +1646,10 @@ Bankangestellte";Eschenz;Steckborn;CVP/GLP;2010;1971;CVP;weiblich
 2014;Weibel;Willy;Rentner;Balterswil;Münchwilen;CVP/glp;2000;;CVP;männlich
 2015;Weibel;Willy;Rentner;Balterswil;Münchwilen;CVP/glp;2000;;CVP;männlich
 2016;Weibel;Willy;Rentner;Balterswil;Münchwilen;CVP/glp;2000;;CVP;männlich
-2009;Weibel;Willy;Sekundarlehrer;Balterswil;Münchwilen;CVP/GLP;2000;1947;CVP;männlich
-2010;Weibel;Willy;Sekundarlehrer;Balterswil;Münchwilen;CVP/GLP;2000;1947;CVP;männlich
-2011;Weibel;Willy;Sekundarlehrer;Balterswil;Münchwilen;CVP/GLP;2000;1947;CVP;männlich
-2012;Weibel;Willy;"Sekundarlehrer
-";Balterswil;Münchwilen;CVP/GLP;2000;1947;CVP;männlich
+2009;Weibel;Willy;Sekundarlehrer;Balterswil;Münchwilen;CVP/glp;2000;1947;CVP;männlich
+2010;Weibel;Willy;Sekundarlehrer;Balterswil;Münchwilen;CVP/glp;2000;1947;CVP;männlich
+2011;Weibel;Willy;Sekundarlehrer;Balterswil;Münchwilen;CVP/glp;2000;1947;CVP;männlich
+2012;Weibel;Willy;Sekundarlehrer;Balterswil;Münchwilen;CVP/glp;2000;1947;CVP;männlich
 2020;Weilenmann;Simon;Landwirt;Basadingen;Frauenfeld;GP;2020;;GP;männlich
 2021;Weilenmann;Simon;Landwirt;Basadingen;Frauenfeld;GP;2020;;GP;männlich
 2008;Wellauer;Albert;Landwirt, Transportunternehmer;Bissegg;Weinfelden;SVP;1992;;SVP;männlich
@@ -1951,8 +1658,7 @@ Bankangestellte";Eschenz;Steckborn;CVP/GLP;2010;1971;CVP;weiblich
 2009;Widmer;Erika;Chemielaborantin;Diessenhofen;Diessenhofen;SVP;2004;1959;SVP;weiblich
 2010;Widmer;Erika;Chemielaborantin;Diessenhofen;Diessenhofen;SVP;2004;1959;SVP;weiblich
 2011;Widmer;Erika;Chemielaborantin;Diessenhofen;Diessenhofen;SVP;2004;1959;SVP;weiblich
-2012;Widmer;Erika;"Chemielaborantin
-";Diessenhofen;Diessenhofen;SVP;2004;1959;SVP;weiblich
+2012;Widmer;Erika;Chemielaborantin;Diessenhofen;Diessenhofen;SVP;2004;1959;SVP;weiblich
 2013;Wiesli;Jürg;Bio-Verantw. Lebensmittelrecht, Bäcker-Konditor-Meister;Dozwil;Arbon;CVP/glp;2012;;glp;männlich
 2013;Wiesli;Jürg;Bio-Verantw. Lebensmittelrecht, Bäcker-Konditor-Meister;Dozwil;Arbon;CVP/glp;2012;;SVP;männlich
 2014;Wiesli;Jürg;Bio-Verantw. Lebensmittelrecht, Bäcker-Konditor-Meister;Dozwil;Arbon;SVP;2012;;SVP;männlich
@@ -1963,8 +1669,8 @@ Bankangestellte";Eschenz;Steckborn;CVP/GLP;2010;1971;CVP;weiblich
 2019;Wiesli;Jürg;Fachexperte Lebensmittelrecht;Dozwil;Arbon;SVP;2012;;SVP;männlich
 2020;Wiesli;Jürg;Fachexperte Lebensmittelrecht, Bäcker-Konditor Meister;Dozwil;Arbon;SVP;2012;;SVP;männlich
 2021;Wiesli;Jürg;Fachexperte Lebensmittelrecht, Bäcker-Konditor Meister;Dozwil;Arbon;SVP;2012;;SVP;männlich
-2008;Wiesmann;Sonja;Bauführerin;Sirnach;Münchwilen;SP;2005;;SP;weiblich
-2009;Wiesmann;Sonja;Gemeindeammann;Sirnach;Münchwilen;SP;2005;1966;SP;weiblich
+2008;Wiesmann Schätzle;Sonja;Bauführerin;Sirnach;Münchwilen;SP;2005;;SP;weiblich
+2009;Wiesmann Schätzle;Sonja;Gemeindeammann;Sirnach;Münchwilen;SP;2005;1966;SP;weiblich
 2013;Wiesmann Schätzle;Sonja;Gemeindeammann;Wigoltingen;Weinfelden;SP;2005;;SP;weiblich
 2014;Wiesmann Schätzle;Sonja;Gemeindeammann;Wigoltingen;Weinfelden;SP;2005;;SP;weiblich
 2015;Wiesmann Schätzle;Sonja;Gemeindeammann;Wigoltingen;Weinfelden;SP;2005;;SP;weiblich
@@ -1982,12 +1688,9 @@ Bankangestellte";Eschenz;Steckborn;CVP/GLP;2010;1971;CVP;weiblich
 2008;Willi-Castelberg;Erica;Umweltwissenschafterin NDS;Arbon;Arbon;SP;1996;;SP;weiblich
 2008;Winiger;Katharina;lic. phil. II;Frauenfeld;Frauenfeld;GP;2004;;GP;weiblich
 2009;Winiger;Katharina;lic. phil. II;Frauenfeld;Frauenfeld;GP;2004;1953;GP;weiblich
-2010;Winiger;Katharina;"lic. phil. II
-";Frauenfeld;Frauenfeld;GP;2004;1953;GP;weiblich
-2011;Winiger;Katharina;"lic. phil. II
-";Frauenfeld;Frauenfeld;GP;2004;1953;GP;weiblich
-2012;Winiger;Katharina;"lic. phil. II
-";Frauenfeld;Frauenfeld;GP;2004;1953;GP;weiblich
+2010;Winiger;Katharina;lic. phil. II;Frauenfeld;Frauenfeld;GP;2004;1953;GP;weiblich
+2011;Winiger;Katharina;lic. phil. II;Frauenfeld;Frauenfeld;GP;2004;1953;GP;weiblich
+2012;Winiger;Katharina;lic. phil. II;Frauenfeld;Frauenfeld;GP;2004;1953;GP;weiblich
 2013;Winiger;Katharina;lic. phil. II;Frauenfeld;Frauenfeld;GP;2004;;GP;weiblich
 2014;Winiger;Katharina;lic. phil. II;Frauenfeld;Frauenfeld;GP;2004;;GP;weiblich
 2015;Winiger;Katharina;lic. phil. II;Frauenfeld;Frauenfeld;GP;2004;;GP;weiblich
@@ -2006,14 +1709,10 @@ Bankangestellte";Eschenz;Steckborn;CVP/GLP;2010;1971;CVP;weiblich
 2011;Wirth;Andreas;Schulpräsident;Frauenfeld;Frauenfeld;SVP;2008;1963;SVP;männlich
 2012;Wirth;Andreas;Schulpräsident;Frauenfeld;Frauenfeld;SVP;2008;1963;SVP;männlich
 2008;Wittwer;Daniel;dipl. Financial Consultant NDS FH;Sitterdorf;Bischofszell;EVP/EDU;2000;;EDU;männlich
-2013;Wittwer;Daniel;"dipl. Financial Consultant
-NDS FH";Sitterdorf;Weinfelden;EDU/EVP;2000;;EDU;männlich
-2014;Wittwer;Daniel;"dipl. Financial Consultant
-NDS FH";Sitterdorf;Weinfelden;EDU/EVP;2000;;EDU;männlich
-2015;Wittwer;Daniel;"dipl. Financial Consultant
-NDS FH";Sitterdorf;Weinfelden;EDU/EVP;2000;;EDU;männlich
-2016;Wittwer;Daniel;"dipl. Financial Consultant
-NDS FH";Romanshorn;Weinfelden;EDU/EVP;2000;;EDU;männlich
+2013;Wittwer;Daniel;dipl. Financial Consultant NDS FH;Sitterdorf;Weinfelden;EDU/EVP;2000;;EDU;männlich
+2014;Wittwer;Daniel;dipl. Financial Consultant NDS FH;Sitterdorf;Weinfelden;EDU/EVP;2000;;EDU;männlich
+2015;Wittwer;Daniel;dipl. Financial Consultant NDS FH;Sitterdorf;Weinfelden;EDU/EVP;2000;;EDU;männlich
+2016;Wittwer;Daniel;dipl. Financial Consultant NDS FH;Romanshorn;Weinfelden;EDU/EVP;2000;;EDU;männlich
 2009;Wittwer;Daniel;dipl. Financial Consultant NDS FH;Sitterdorf;Bischofszell;EVP/EDU;2000;1959;EDU;männlich
 2010;Wittwer;Daniel;dipl. Financial Consultant NDS FH;Sitterdorf;Bischofszell;EVP/EDU;2000;1959;EDU;männlich
 2011;Wittwer;Daniel;dipl. Financial Consultant NDS FH;Sitterdorf;Bischofszell;EVP/EDU;2000;1959;EDU;männlich
@@ -2023,36 +1722,18 @@ NDS FH";Romanshorn;Weinfelden;EDU/EVP;2000;;EDU;männlich
 2010;Wohlfender;Edith;Geschäftsleiterin;Kreuzlingen;Kreuzlingen;SP;2007;1960;SP;weiblich
 2011;Wohlfender;Edith;Geschäftsleiterin;Kreuzlingen;Kreuzlingen;SP;2007;1960;SP;weiblich
 2012;Wohlfender;Edith;Geschäftsleiterin;Kreuzlingen;Kreuzlingen;SP;2007;1960;SP;weiblich
-2013;Wohlfender-Oertig;Edith;"Geschäftsleiterin,
-Master in Management
-of Social Services MASFHO";Kreuzlingen;Kreuzlingen;SP;2007;;SP;weiblich
-2014;Wohlfender-Oertig;Edith;"Geschäftsleiterin,
-Master in Management
-of Social Services MASFHO";Kreuzlingen;Kreuzlingen;SP;2007;;SP;weiblich
-2015;Wohlfender-Oertig;Edith;"Geschäftsleiterin,
-Master in Management
-of Social Services MASFHO";Kreuzlingen;Kreuzlingen;SP;2007;;SP;weiblich
-2016;Wohlfender-Oertig;Edith;"Geschäftsleiterin,
-Master in Management
-of Social Services MASFHO";Kreuzlingen;Kreuzlingen;SP;2007;;SP;weiblich
-2017;Wohlfender-Oertig;Edith;"Geschäftsleiterin,
-Master in Management
-of Social Services MASFHO";Kreuzlingen;Kreuzlingen;SP;2007;;SP;weiblich
-2018;Wohlfender-Oertig;Edith;"Geschäftsleiterin,
-Master in Management
-of Social Services MASFHO";Kreuzlingen;Kreuzlingen;SP;2007;;SP;weiblich
-2019;Wohlfender-Oertig;Edith;"Geschäftsleiterin,
-Master in Management
-of Social Services MASFHO";Kreuzlingen;Kreuzlingen;SP;2007;;SP;weiblich
-2020;Wohlfender-Oertig;Edith;"Geschäftsleiterin,
-Management
-of Social Services MAS FHO";Kreuzlingen;Kreuzlingen;SP;2007;;SP;weiblich
-2021;Wohlfender-Oertig;Edith;"Geschäftsleiterin,
-Management
-of Social Services MAS FHO";Kreuzlingen;Kreuzlingen;SP;2007;;SP;weiblich
-2019;Wolfer ;Simon;Dr. iur., Rechtsanwalt;Weinfelden;Weinfelden;CVP/EVP;2018;;CVP;männlich
-2020;Wolfer ;Simon;Dr. iur., Rechtsanwalt;Weinfelden;Weinfelden;CVP/EVP;2018;;CVP;männlich
-2021;Wolfer ;Simon;Dr. iur., Rechtsanwalt;Weinfelden;Weinfelden;CVP/EVP;2018;;CVP;männlich
+2013;Wohlfender-Oertig;Edith;Geschäftsleiterin,Master in Management of Social Services MASFHO;Kreuzlingen;Kreuzlingen;SP;2007;;SP;weiblich
+2014;Wohlfender-Oertig;Edith;Geschäftsleiterin,Master in Management of Social Services MASFHO;Kreuzlingen;Kreuzlingen;SP;2007;;SP;weiblich
+2015;Wohlfender-Oertig;Edith;Geschäftsleiterin,Master in Management of Social Services MASFHO;Kreuzlingen;Kreuzlingen;SP;2007;;SP;weiblich
+2016;Wohlfender-Oertig;Edith;Geschäftsleiterin,Master in Management of Social Services MASFHO;Kreuzlingen;Kreuzlingen;SP;2007;;SP;weiblich
+2017;Wohlfender-Oertig;Edith;Geschäftsleiterin,Master in Management of Social Services MASFHO;Kreuzlingen;Kreuzlingen;SP;2007;;SP;weiblich
+2018;Wohlfender-Oertig;Edith;Geschäftsleiterin,Master in Management of Social Services MASFHO;Kreuzlingen;Kreuzlingen;SP;2007;;SP;weiblich
+2019;Wohlfender-Oertig;Edith;Geschäftsleiterin,Master in Management of Social Services MASFHO;Kreuzlingen;Kreuzlingen;SP;2007;;SP;weiblich
+2020;Wohlfender-Oertig;Edith;Geschäftsleiterin,Management of Social Services MAS FHO;Kreuzlingen;Kreuzlingen;SP;2007;;SP;weiblich
+2021;Wohlfender-Oertig;Edith;Geschäftsleiterin,Management of Social Services MAS FHO;Kreuzlingen;Kreuzlingen;SP;2007;;SP;weiblich
+2019;Wolfer;Simon;Dr. iur., Rechtsanwalt;Weinfelden;Weinfelden;CVP/EVP;2018;;CVP;männlich
+2020;Wolfer;Simon;Dr. iur., Rechtsanwalt;Weinfelden;Weinfelden;CVP/EVP;2018;;CVP;männlich
+2021;Wolfer;Simon;Dr. iur., Rechtsanwalt;Weinfelden;Weinfelden;CVP/EVP;2018;;CVP;männlich
 2010;Wüger;Sara;lic. iur.;Hüttwilen;Steckborn;GP;2009;1974;GP;weiblich
 2011;Wüger;Sara;lic. iur.;Hüttwilen;Steckborn;GP;2009;1974;GP;weiblich
 2012;Wüger;Sara;lic. iur.;Hüttwilen;Steckborn;GP;2009;1974;GP;weiblich
@@ -2078,10 +1759,10 @@ of Social Services MAS FHO";Kreuzlingen;Kreuzlingen;SP;2007;;SP;weiblich
 2019;Zahnd;Robert;Förster;Frauenfeld;Frauenfeld;SVP;1996;;SVP;männlich
 2020;Zahnd;Robert;Förster (pensioniert);Frauenfeld;Frauenfeld;SVP;1996;;SVP;männlich
 2021;Zahnd;Robert;Förster (pensioniert);Frauenfeld;Frauenfeld;SVP;1996;;SVP;männlich
-2009;Zahnd;Robert;Förster ;Frauenfeld;Frauenfeld;SVP;1996;1955;SVP;männlich
-2010;Zahnd;Robert;Förster ;Frauenfeld;Frauenfeld;SVP;1996;1955;SVP;männlich
-2011;Zahnd;Robert;Förster ;Frauenfeld;Frauenfeld;SVP;1996;1955;SVP;männlich
-2012;Zahnd;Robert;Förster ;Frauenfeld;Frauenfeld;SVP;1996;1955;SVP;männlich
+2009;Zahnd;Robert;Förster;Frauenfeld;Frauenfeld;SVP;1996;1955;SVP;männlich
+2010;Zahnd;Robert;Förster;Frauenfeld;Frauenfeld;SVP;1996;1955;SVP;männlich
+2011;Zahnd;Robert;Förster;Frauenfeld;Frauenfeld;SVP;1996;1955;SVP;männlich
+2012;Zahnd;Robert;Förster;Frauenfeld;Frauenfeld;SVP;1996;1955;SVP;männlich
 2013;Zahnd;Vico;dipl. Bauingenieur FH;St. Margarethen;Münchwilen;SVP;2008;;SVP;männlich
 2014;Zahnd;Vico;dipl. Bauingenieur FH;St. Margarethen;Münchwilen;SVP;2008;;SVP;männlich
 2015;Zahnd;Vico;dipl. Bauingenieur FH;St. Margarethen;Münchwilen;SVP;2008;;SVP;männlich
@@ -2123,24 +1804,15 @@ of Social Services MAS FHO";Kreuzlingen;Kreuzlingen;SP;2007;;SP;weiblich
 2016;Ziegler;Astrid;Bankfachfrau FA;Birwinken;Weinfelden;CVP/glp;2012;;CVP;weiblich
 2017;Ziegler;Astrid;Bankfachfrau FA;Birwinken;Weinfelden;CVP/EVP;2012;;CVP;weiblich
 2018;Ziegler;Astrid;Bankfachfrau FA;Birwinken;Weinfelden;CVP/EVP;2012;;CVP;weiblich
-2013;Zimmermann;David;"Schreiner, 
-Gemeindeammann";Braunau;Münchwilen;SVP;2008;;SVP;männlich
-2014;Zimmermann;David;"Schreiner, 
-Gemeindeammann";Braunau;Münchwilen;SVP;2008;;SVP;männlich
-2015;Zimmermann;David;"Schreiner, 
-Gemeindeammann";Braunau;Münchwilen;SVP;2008;;SVP;männlich
-2016;Zimmermann;David;"Schreiner, 
-Gemeindepräsident";Braunau;Münchwilen;SVP;2008;;SVP;männlich
-2017;Zimmermann;David;"Schreiner, 
-Gemeindepräsident";Braunau;Münchwilen;SVP;2008;;SVP;männlich
-2018;Zimmermann;David;"Schreiner, 
-Gemeindepräsident";Braunau;Münchwilen;SVP;2008;;SVP;männlich
-2019;Zimmermann;David;"Schreiner, 
-Gemeindepräsident";Braunau;Münchwilen;SVP;2008;;SVP;männlich
-2020;Zimmermann;David;"Schreiner, 
-Gemeindepräsident";Braunau;Münchwilen;SVP;2008;;SVP;männlich
-2021;Zimmermann;David;"Schreiner, 
-Gemeindepräsident";Braunau;Münchwilen;SVP;2008;;SVP;männlich
+2013;Zimmermann;David;Schreiner,Gemeindeammann;Braunau;Münchwilen;SVP;2008;;SVP;männlich
+2014;Zimmermann;David;Schreiner,Gemeindeammann;Braunau;Münchwilen;SVP;2008;;SVP;männlich
+2015;Zimmermann;David;Schreiner,Gemeindeammann;Braunau;Münchwilen;SVP;2008;;SVP;männlich
+2016;Zimmermann;David;Schreiner,Gemeindepräsident;Braunau;Münchwilen;SVP;2008;;SVP;männlich
+2017;Zimmermann;David;Schreiner,Gemeindepräsident;Braunau;Münchwilen;SVP;2008;;SVP;männlich
+2018;Zimmermann;David;Schreiner,Gemeindepräsident;Braunau;Münchwilen;SVP;2008;;SVP;männlich
+2019;Zimmermann;David;Schreiner,Gemeindepräsident;Braunau;Münchwilen;SVP;2008;;SVP;männlich
+2020;Zimmermann;David;Schreiner,Gemeindepräsident;Braunau;Münchwilen;SVP;2008;;SVP;männlich
+2021;Zimmermann;David;Schreiner,Gemeindepräsident;Braunau;Münchwilen;SVP;2008;;SVP;männlich
 2009;Zimmermann;David;Schreiner, Gemeindeammann;Braunau;Münchwilen;SVP;2008;1971;SVP;männlich
 2010;Zimmermann;David;Schreiner, Gemeindeammann;Braunau;Münchwilen;SVP;2008;1971;SVP;männlich
 2011;Zimmermann;David;Schreiner, Gemeindeammann;Braunau;Münchwilen;SVP;2008;1971;SVP;männlich
@@ -2168,20 +1840,16 @@ Gemeindepräsident";Braunau;Münchwilen;SVP;2008;;SVP;männlich
 2019;Zürcher;Käthi;Sekundarlehrerin;Romanshorn;Arbon;CVP/EVP;2012;;CVP;weiblich
 2020;Zürcher;Käthi;Sekundarlehrerin;Romanshorn;Arbon;CVP/EVP;2012;;CVP;weiblich
 2021;Zürcher;Käthi;Sekundarlehrerin;Romanshorn;Arbon;CVP/EVP;2012;;CVP;weiblich
-2015;Züst;Felix;"Schulpräsident, 
-Heilpädagoge";Hauptwil;Weinfelden;SP;2015;;SP;männlich
-2016;Züst;Felix;"Schulpräsident, 
-Heilpädagoge";Hauptwil;Weinfelden;SP;2015;;SP;männlich
-2017;Züst;Felix;"Schulpräsident, 
-Heilpädagoge";Hauptwil;Weinfelden;SP;2015;;SP;männlich
+2015;Züst;Felix;Schulpräsident,Heilpädagoge;Hauptwil;Weinfelden;SP;2015;;SP;männlich
+2016;Züst;Felix;Schulpräsident,Heilpädagoge;Hauptwil;Weinfelden;SP;2015;;SP;männlich
+2017;Züst;Felix;Schulpräsident,Heilpädagoge;Hauptwil;Weinfelden;SP;2015;;SP;männlich
 2018;Züst;Felix;Schulischer Heilpädagoge;Hauptwil;Weinfelden;SP;2015;;SP;männlich
 2008;Zweifel;Fritz;Gemeindeammann;Scherzingen;Kreuzlingen;FDP;2004;;FDP;männlich
-2013;Zweifel;Fritz;Kaufmann ;Scherzingen;Kreuzlingen;FDP;2004;;FDP;männlich
-2014;Zweifel;Fritz;Kaufmann ;Scherzingen;Kreuzlingen;FDP;2004;;FDP;männlich
-2015;Zweifel;Fritz;Kaufmann ;Scherzingen;Kreuzlingen;FDP;2004;;FDP;männlich
-2016;Zweifel;Fritz;Kaufmann ;Scherzingen;Kreuzlingen;FDP;2004;;FDP;männlich
+2013;Zweifel;Fritz;Kaufmann;Scherzingen;Kreuzlingen;FDP;2004;;FDP;männlich
+2014;Zweifel;Fritz;Kaufmann;Scherzingen;Kreuzlingen;FDP;2004;;FDP;männlich
+2015;Zweifel;Fritz;Kaufmann;Scherzingen;Kreuzlingen;FDP;2004;;FDP;männlich
+2016;Zweifel;Fritz;Kaufmann;Scherzingen;Kreuzlingen;FDP;2004;;FDP;männlich
 2009;Zweifel;Fritz;Gemeindeammann;Scherzingen;Kreuzlingen;FDP;2004;1965;FDP;männlich
 2010;Zweifel;Fritz;Kaufmann;Scherzingen;Kreuzlingen;FDP;2004;1965;FDP;männlich
 2011;Zweifel;Fritz;Kaufmann;Scherzingen;Kreuzlingen;FDP;2004;1965;FDP;männlich
-2012;Zweifel;Fritz;"Kaufmann
-";Scherzingen;Kreuzlingen;FDP;2004;1965;FDP;männlich
+2012;Zweifel;Fritz;Kaufmann;Scherzingen;Kreuzlingen;FDP;2004;1965;FDP;männlich
