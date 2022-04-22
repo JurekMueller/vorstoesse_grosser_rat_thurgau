@@ -1,160 +1,200 @@
-// Copyright 2021 Observable, Inc.
-// Released under the ISC license.
-// https://observablehq.com/@d3/force-directed-graph
+// Code adapted from https://gist.github.com/colbenkharrl/dcb5590173931bb594e195020aaa959d
 
-function ForceGraph({
-    nodes, // an iterable of node objects (typically [{id}, …])
-    links // an iterable of link objects (typically [{source, target}, …])
-  }, {
-    nodeId = d => d.id, // given d in nodes, returns a unique identifier (string)
-    nodeGroup, // given d in nodes, returns an (ordinal) value for color
-    nodeGroups, // an array of ordinal values representing the node groups
-    nodeTitle, // given d in nodes, a title string
-    nodeFill = "currentColor", // node stroke fill (if not using a group color encoding)
-    nodeStroke = "#fff", // node stroke color
-    nodeStrokeWidth = 1.5, // node stroke width, in pixels
-    nodeStrokeOpacity = 1, // node stroke opacity
-    nodeRadius = 5, // node radius, in pixels
-    nodeStrength,
-    linkSource = ({source}) => source, // given d in links, returns a node identifier string
-    linkTarget = ({target}) => target, // given d in links, returns a node identifier string
-    linkStroke = "#999", // link stroke color
-    linkStrokeOpacity = 0.6, // link stroke opacity
-    linkStrokeWidth = 1.5, // given d in links, returns a stroke width in pixels
-    linkStrokeLinecap = "round", // link stroke linecap
-    linkStrength,
-    colors = d3.schemeTableau10, // an array of color strings, for the node groups
-    width = 640, // outer width, in pixels
-    height = 400, // outer height, in pixels
-    invalidation // when this promise resolves, stop the simulation
-  } = {}) {
-    // Compute values.
-    const N = d3.map(nodes, nodeId).map(intern);
-    const LS = d3.map(links, linkSource).map(intern);
-    const LT = d3.map(links, linkTarget).map(intern);
-    if (nodeTitle === undefined) nodeTitle = (_, i) => N[i];
-    const T = nodeTitle == null ? null : d3.map(nodes, nodeTitle);
-    const G = nodeGroup == null ? null : d3.map(nodes, nodeGroup).map(intern);
-    const W = typeof linkStrokeWidth !== "function" ? null : d3.map(links, linkStrokeWidth);
-    const L = typeof linkStroke !== "function" ? null : d3.map(links, linkStroke);
-  
-    // Replace the input nodes and links with mutable objects for the simulation.
-    nodes = d3.map(nodes, (_, i) => ({id: N[i]}));
-    links = d3.map(links, (_, i) => ({source: LS[i], target: LT[i]}));
-  
-    // Compute default domains.
-    if (G && nodeGroups === undefined) nodeGroups = d3.sort(G);
-  
-    // Construct the scales.
-    const color = nodeGroup == null ? null : d3.scaleOrdinal(nodeGroups, colors);
-  
-    // Construct the forces.
-    const forceNode = d3.forceManyBody();
-    const forceLink = d3.forceLink(links).id(({index: i}) => N[i]);
-    if (nodeStrength !== undefined) forceNode.strength(nodeStrength);
-    if (linkStrength !== undefined) forceLink.strength(linkStrength);
-  
-    const simulation = d3.forceSimulation(nodes)
-        .force("link", forceLink)
-        .force("charge", forceNode)
-        .force("center",  d3.forceCenter())
-        .on("tick", ticked);
-  
-    const svg = d3.create("svg")
-        .attr("width", width)
-        .attr("height", height)
-        .attr("viewBox", [-width / 2, -height / 2, width, height])
-        .attr("style", "max-width: 100%; height: auto; height: intrinsic;");
-  
-    const link = svg.append("g")
-        .attr("stroke", typeof linkStroke !== "function" ? linkStroke : null)
-        .attr("stroke-opacity", linkStrokeOpacity)
-        .attr("stroke-width", typeof linkStrokeWidth !== "function" ? linkStrokeWidth : null)
-        .attr("stroke-linecap", linkStrokeLinecap)
-      .selectAll("line")
-      .data(links)
-      .join("line");
-  
-    const node = svg.append("g")
-        .attr("fill", nodeFill)
-        .attr("stroke", nodeStroke)
-        .attr("stroke-opacity", nodeStrokeOpacity)
-        .attr("stroke-width", nodeStrokeWidth)
-      .selectAll("circle")
-      .data(nodes)
-      .join("circle")
-        .attr("r", nodeRadius)
-        .call(drag(simulation));
-  
-    if (W) link.attr("stroke-width", ({index: i}) => W[i]);
-    if (L) link.attr("stroke", ({index: i}) => L[i]);
-    if (G) node.attr("fill", ({index: i}) => color(G[i]));
-    if (T) node.append("title").text(({index: i}) => T[i]);
-    if (invalidation != null) invalidation.then(() => simulation.stop());
-  
-    function intern(value) {
-      return value !== null && typeof value === "object" ? value.valueOf() : value;
-    }
-  
-    function ticked() {
-      link
-        .attr("x1", d => d.source.x)
-        .attr("y1", d => d.source.y)
-        .attr("x2", d => d.target.x)
-        .attr("y2", d => d.target.y);
-  
-      node
-        .attr("cx", d => d.x)
-        .attr("cy", d => d.y);
-    }
-  
-    function drag(simulation) {    
-      function dragstarted(event) {
-        if (!event.active) simulation.alphaTarget(0.3).restart();
-        event.subject.fx = event.subject.x;
-        event.subject.fy = event.subject.y;
-      }
-      
-      function dragged(event) {
-        event.subject.fx = event.x;
-        event.subject.fy = event.y;
-      }
-      
-      function dragended(event) {
-        if (!event.active) simulation.alphaTarget(0);
-        event.subject.fx = null;
-        event.subject.fy = null;
-      }
-      
-      return d3.drag()
-        .on("start", dragstarted)
-        .on("drag", dragged)
-        .on("end", dragended);
-    }
-  
-    return Object.assign(svg.node(), {scales: {color}});
-  }
+//	data stores
+// store holds all nodes, graph only the ones visualised
+var graph, store;
+
+//	svg selection and sizing
+var svg = d3.select("#network-svg"),
+    width = +svg.style("width").replace("px", ""), // the + is casting a string to a number
+    height = +svg.style("height").replace("px", ""),
+    radius = 10;
+
+//	d3 color scales
+var color = d3.scaleOrdinal(d3.schemeCategory10);
+
+// node and link hold the DOMs
+var link = svg.append("g").selectAll(".link"),
+	node = svg.append("g").selectAll(".node");
+
+//	force simulation initialization
+var simulation = d3.forceSimulation()
+	.force("link", d3.forceLink()
+		.id(function(d) { return d.id; })) // why id?
+	.force("charge", d3.forceManyBody()
+		.strength(-65))
+	// .force("center", d3.forceCenter(width / 2, height / 2))
+	// applying forceX and forceY instead of center leads to a more even distribution
+	.force("x", d3.forceX(width / 2))
+    .force("y", d3.forceY(height / 2))
+	.on("tick", ticked);
+
+//	filtered types
+typeFilterList = [];
+
+//	filter button event handlers
+// The $ sign is a shorthand for the function socument.getElementById()
+// it is used here first to access all filter buttons and then to acess the specific button with $(this)
+$(".filter-btn").on("click", function() {
+	var id = $(this).attr("value");
+	if (typeFilterList.includes(id)) {
+		// if id is in list remove it
+        typeFilterList.splice(typeFilterList.indexOf(id), 1)
+	} else {
+		// if id not in list add it
+        typeFilterList.push(id);
+	}
+	filter();
+	update();
+});
+
+//	data read and store
+d3.json("../Daten_Thurgau/netzwerk.json").then(function(g) {
+	// if (err) throw err;
+	
+	var nodeByID = {};
+    // nodeByID has then the form {id: node}
+	g.nodes.forEach(function(n) {
+		nodeByID[n.id] = n;
+	});
+    // adds info about source and target groups to links. why?
+	g.links.forEach(function(l) {
+		l.sourceGroup = nodeByID[l.source].Geschlecht.toString(); // why to string?
+		l.targetGroup = nodeByID[l.target].Geschlecht.toString();
+	});
+
+	graph = g;
+	//the $ sign is used to acess jQuery functions
+	// the extend function merges two objects. As the target is empty and deep is true,
+	// this is basically just a deep copy of the array.
+	store = $.extend(true, {}, g);
+
+	update();
+});
 
 
-let width, invalidation
+//	general update pattern for updating the graph
+function update() {
+	//	UPDATE
+	// The key function gives binds data to a specific DOM (e.g. not just the first one), I think...
+	node = node.data(graph.nodes, function(d) { return d.id;});
+	//	EXIT
+	node.exit().remove();
+	//	ENTER
+	var newNode = node.enter().append("circle")
+		.attr("class", "node")
+		.attr("r", radius)
+		.attr("fill", function(d) {return color(d.Geschlecht);})
+		// This adds drag listeners to the nodes
+		.call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended)
+        )
 
-const miserables = d3.json("miserables.json"); // this is a promise and operations on the data can be done as with the .then(function(d) {}) operator.
-// miserables.then(function(d) {console.log(d);});
+    newNode.append("title")
+      .text(function(d) { return  "Name: " + d.Name + "\n" + "Geschlecht: " + d.Geschlecht; });
+	//	ENTER + UPDATE
+	node = node.merge(newNode);
 
-const test = miserables.then(
-    ForceGraph(this,{
-    nodeId: d => d.id,
-    nodeGroup: d => d.group,
-    nodeTitle: d => `${d.id}\n${d.group}`,
-    linkStrokeWidth: l => Math.sqrt(l.value),
-    width,
-    height: 600,
-    invalidation // a promise to stop the simulation when the cell is re-run
-  })
-);
+	//	UPDATE
+	link = link.data(graph.links, function(d) { return d.id;});
+	//	EXIT
+	link.exit().remove();
+	//	ENTER
+	newLink = link.enter().append("line")
+		.attr("class", "link")
+		.attr("stroke-width",function(d) {return d.value.length});
 
-console.log(test)
+	newLink.append("title")
+      .text(function(d) { return "source: " + d.source + "\n" + "target: " + d.target; });
+	//	ENTER + UPDATE
+	link = link.merge(newLink);
 
-// const container = document.getElementById('network-div');
-// container.appendChild(chart);
+	//	update simulation nodes, links, and alpha
+	simulation
+		.nodes(graph.nodes)
+		// I think this could also be at simulation declaration why
 
+  	simulation.force("link")
+  		.links(graph.links);
+
+  	// alpha is basically the "strength" or "temperature" of the simulation.
+	// It decays over time. If it reaches 0 the simulation stops.
+	// Default values are alpha=1 alphaTarget=0
+	simulation.alpha(1).alphaTarget(0).restart();
+}
+
+//	drag event handlers
+// why. might be rewritten by passing event
+function dragstarted(event,d) {
+	// event.active indicates how many other drag events are active (e.g. on multitouch)
+	// if this is the only one event.active = 0
+	// This part prevents the simulation from restarting if it is not the first drag event.
+	if (!event.active) simulation.alphaTarget(0.3).restart();
+	// fx and fy are fixed positions (not subject to forces)
+	d.fx = d.x;
+	d.fy = d.y;
+	console.log(d);
+}
+
+function dragged(event,d) {
+	d.fx = event.x;
+	d.fy = event.y;
+}
+
+function dragended(event,d) {
+	// This part prevents the simulation from stopping if it is not the last drag event.
+	if (!event.active) simulation.alphaTarget(0);
+	d.fx = null;
+	d.fy = null;
+}
+
+//	tick event handler with bounded box
+//  I think tick event happens every timestep
+function ticked() {
+	// keeps nodes within svg boundaries
+	node
+		.attr("cx", function(d) { return d.x = Math.max(radius, Math.min(width - radius, d.x)); })
+		.attr("cy", function(d) { return d.y = Math.max(radius, Math.min(height - radius, d.y)); });
+	// positions link line between source and target why
+	link
+		.attr("x1", function(d) { return d.source.x; })
+		.attr("y1", function(d) { return d.source.y; })
+		.attr("x2", function(d) { return d.target.x; })
+		.attr("y2", function(d) { return d.target.y; });
+}
+
+//	filter function
+function filter() {
+	//	add and remove nodes from data based on type filters
+	store.nodes.forEach(function(n) {
+		if (!typeFilterList.includes(n.Geschlecht) && n.filtered) {
+			n.filtered = false;
+			graph.nodes.push($.extend(true, {}, n));
+		} else if (typeFilterList.includes(n.Geschlecht) && !n.filtered) {
+			n.filtered = true;
+			graph.nodes.forEach(function(d, i) {
+				if (n.id === d.id) {
+					graph.nodes.splice(i, 1);
+				}
+			});
+		}
+	});
+
+	//	add and remove links from data based on availability of nodes
+	// can this be done smarter (without source/target Group?) why
+	store.links.forEach(function(l) {
+		if (!(typeFilterList.includes(l.sourceGroup) || typeFilterList.includes(l.targetGroup)) && l.filtered) {
+			l.filtered = false;
+			graph.links.push($.extend(true, {}, l));
+		} else if ((typeFilterList.includes(l.sourceGroup) || typeFilterList.includes(l.targetGroup)) && !l.filtered) {
+			l.filtered = true;
+			graph.links.forEach(function(d, i) {
+				if (l.id === d.id) {
+					graph.links.splice(i, 1);
+				}
+			});
+		}
+	});			
+}
