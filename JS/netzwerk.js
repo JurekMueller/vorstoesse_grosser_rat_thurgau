@@ -10,6 +10,45 @@ var svg = d3.select("#network-svg"),
     height = +svg.style("height").replace("px", ""),
     radius = 10;
 
+// checkboxes for type of vorstoss
+var vor_types = [{name:"Parl. Initiative",code:"1"},
+				 {name:"Motion",code:"2"},				 
+				 {name:"Leistungsmotion",code:"3"},
+				 {name:"Interpellation",code:"4"},
+				 {name:"Einfache Anfrage",code:"5"},
+				 {name:"Antrag nach § 52 GO",code:"7"}];
+
+var typeWrapper = d3.select("#typeCheckbox");
+
+var typeButton = typeWrapper
+        .selectAll(".form-check")
+        .data(vor_types)
+        .enter()
+        .append("div")
+        .attr("class", "form-check form-check-inline form-switch");
+typeButton.append("input")
+	.attr("type", "checkbox")
+	.attr("id", function(d) { return d.name; })
+	.attr("value", function(d) { return d.code; })
+	.attr("class", "form-check-input")
+	.property('checked','true')
+	.on("click", function() {
+		var id = $(this).attr("value");
+		if (this.checked && typeFilterList.includes(id)) {
+			// if id is in list remove it
+			typeFilterList.splice(typeFilterList.indexOf(id), 1)
+		} else if (!this.checked && !typeFilterList.includes(id)) {
+			// if id not in list add it
+			typeFilterList.push(id);
+		}
+		filter_type();
+		update();
+	});
+typeButton.append("label")
+    .attr('for', function(d) { return d.name; })
+    .text(function(d) { return d.name; })
+    .attr("class", "form-check-label");
+
 //	d3 color scales
 var color = d3.scaleOrdinal(d3.schemeCategory10);
 
@@ -27,26 +66,12 @@ var simulation = d3.forceSimulation()
 	// applying forceX and forceY instead of center leads to a more even distribution
 	.force("x", d3.forceX(width / 2))
     .force("y", d3.forceY(height / 2))
-	.on("tick", ticked);
+	.on("tick", ticked)
+	.velocityDecay(0.1);
+	// .alphaDecay(0.02);
 
 //	filtered types
 typeFilterList = [];
-
-//	filter button event handlers
-// The $ sign is a shorthand for the function socument.getElementById()
-// it is used here first to access all filter buttons and then to acess the specific button with $(this)
-$(".filter-btn").on("click", function() {
-	var id = $(this).attr("value");
-	if (typeFilterList.includes(id)) {
-		// if id is in list remove it
-        typeFilterList.splice(typeFilterList.indexOf(id), 1)
-	} else {
-		// if id not in list add it
-        typeFilterList.push(id);
-	}
-	filter();
-	update();
-});
 
 //	data read and store
 d3.json("../Daten_Thurgau/netzwerk.json").then(function(g) {
@@ -57,10 +82,9 @@ d3.json("../Daten_Thurgau/netzwerk.json").then(function(g) {
 	g.nodes.forEach(function(n) {
 		nodeByID[n.id] = n;
 	});
-    // adds info about source and target groups to links. why?
-	g.links.forEach(function(l) {
-		l.sourceGroup = nodeByID[l.source].Geschlecht.toString(); // why to string?
-		l.targetGroup = nodeByID[l.target].Geschlecht.toString();
+    // adds ID for links
+	g.links.forEach(function(l,idx) {
+		l.id = idx;
 	});
 
 	graph = g;
@@ -83,19 +107,30 @@ function update() {
 	//	ENTER
 	var newNode = node.enter().append("circle")
 		.attr("class", "node")
-		.attr("r", radius)
 		.attr("fill", function(d) {return color(d.Geschlecht);})
 		// This adds drag listeners to the nodes
 		.call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
           .on("end", dragended)
-        )
+        );
 
-    newNode.append("title")
-      .text(function(d) { return  "Name: " + d.Name + "\n" + "Geschlecht: " + d.Geschlecht; });
+    newNode.append("title");
+
 	//	ENTER + UPDATE
-	node = node.merge(newNode);
+	// Update radius
+	node = node.merge(newNode)
+			.attr("r", function(d) {
+				if (d.geführt.length === 0) {
+					return 2.5
+				} else {
+					return Math.max(d.geführt.length/1.5,3)
+				}	
+			});
+	// Update title based on filtered number of lead vorstösse
+	node.select('title').text(function(d) { return  "Name: " + d.Name + "\n" +
+	  							  "Geschlecht: " + d.Geschlecht + "\n" +
+								  "Geführte Vorst.: " + d.geführt.length; });
 
 	//	UPDATE
 	link = link.data(graph.links, function(d) { return d.id;});
@@ -103,13 +138,13 @@ function update() {
 	link.exit().remove();
 	//	ENTER
 	newLink = link.enter().append("line")
-		.attr("class", "link")
-		.attr("stroke-width",function(d) {return d.value.length});
+		.attr("class", "link");
 
 	newLink.append("title")
       .text(function(d) { return "source: " + d.source + "\n" + "target: " + d.target; });
 	//	ENTER + UPDATE
-	link = link.merge(newLink);
+	link = link.merge(newLink)
+	  .attr("stroke-width",function(d) {return d.value.length});
 
 	//	update simulation nodes, links, and alpha
 	simulation
@@ -117,7 +152,10 @@ function update() {
 		// I think this could also be at simulation declaration why
 
   	simulation.force("link")
-  		.links(graph.links);
+  		.links(graph.links)
+		.strength(function(d) {return Math.min(d.value.length/10,1);})
+		.distance(function(d) {return Math.max(d.value.length*8,50);});
+		// .distance(35);
 
   	// alpha is basically the "strength" or "temperature" of the simulation.
 	// It decays over time. If it reaches 0 the simulation stops.
@@ -135,7 +173,6 @@ function dragstarted(event,d) {
 	// fx and fy are fixed positions (not subject to forces)
 	d.fx = d.x;
 	d.fy = d.y;
-	console.log(d);
 }
 
 function dragged(event,d) {
@@ -165,36 +202,41 @@ function ticked() {
 		.attr("y2", function(d) { return d.target.y; });
 }
 
-//	filter function
-function filter() {
-	//	add and remove nodes from data based on type filters
-	store.nodes.forEach(function(n) {
-		if (!typeFilterList.includes(n.Geschlecht) && n.filtered) {
-			n.filtered = false;
-			graph.nodes.push($.extend(true, {}, n));
-		} else if (typeFilterList.includes(n.Geschlecht) && !n.filtered) {
-			n.filtered = true;
-			graph.nodes.forEach(function(d, i) {
-				if (n.id === d.id) {
-					graph.nodes.splice(i, 1);
-				}
-			});
-		}
-	});
+//	filter function type
+function filter_type() {
+	// reduce/expand vorstösse in graph links && remove links with no vorstösse
+	for (let l of store.links) {
+		for (let v of l.value) {
+			// if type not filtered anymore, add to value list
+			if (!typeFilterList.includes(v.Type.toString()) && v.filtered) {
+				v.filtered = false;
+				graph.links.find(x => x.id === l.id).value.push($.extend(true, {}, v));
+			// if type is newyl filtered add to value list
+			} else if (typeFilterList.includes(v.Type.toString()) && !v.filtered) {
+				v.filtered = true;
+				let idx = graph.links.find(x => x.id === l.id).value.indexOf(v);
+				// console.log(1,graph.links.find(x => x.id === l.id).value);
+				graph.links.find(x => x.id === l.id).value.splice(idx,1);
+				// console.log(2,graph.links.find(x => x.id === l.id).value);
+			};
+		};
+	};
 
-	//	add and remove links from data based on availability of nodes
-	// can this be done smarter (without source/target Group?) why
-	store.links.forEach(function(l) {
-		if (!(typeFilterList.includes(l.sourceGroup) || typeFilterList.includes(l.targetGroup)) && l.filtered) {
-			l.filtered = false;
-			graph.links.push($.extend(true, {}, l));
-		} else if ((typeFilterList.includes(l.sourceGroup) || typeFilterList.includes(l.targetGroup)) && !l.filtered) {
-			l.filtered = true;
-			graph.links.forEach(function(d, i) {
-				if (l.id === d.id) {
-					graph.links.splice(i, 1);
-				}
-			});
-		}
-	});			
+	// reduce/expand geführte vorstösse in graph nodes
+	for (let n of store.nodes) {
+		for (let v of n.geführt) {
+			// if type not filtered anymore, add to value list
+			if (!typeFilterList.includes(v.Type.toString()) && v.filtered) {
+				v.filtered = false;
+				graph.nodes.find(x => x.id === n.id).geführt.push($.extend(true, {}, v));
+			// if type is newyl filtered add to value list
+			} else if (typeFilterList.includes(v.Type.toString()) && !v.filtered) {
+				v.filtered = true;
+				let idx = graph.nodes.find(x => x.id === n.id).geführt.indexOf(v);
+				// console.log(1,graph.links.find(x => x.id === l.id).value);
+				graph.nodes.find(x => x.id === n.id).geführt.splice(idx,1);
+				// console.log(2,graph.links.find(x => x.id === l.id).value);
+			};
+		};
+	};
 }
