@@ -8,10 +8,45 @@ var svg = d3.select("#network-svg"),
     width = +svg.style("width").replace("px", "") - svg.style("border-width").replace("px", ""), // the + is casting a string to a number
     height = +svg.style("height").replace("px", "") - svg.style("border-width").replace("px", "");
 
-//	d3 color scales
-var color = d3.scaleOrdinal(d3.schemeCategory10);
 
-///////////// TYPE CHECKBOX FILTER ////////////////
+///////////// DOM CREATION ////////////////
+
+///////////// DOM CREATION: COLOR DIM SELECT ////////////////
+
+//	colors for parties are picked to resemble oficcialy reported colors:
+// https://statistik.tg.ch/themen-und-daten/staat-und-politik/wahlen-und-abstimmungen/grossratswahlen-2020-hauptseite.html/10545
+// var color = d3.scaleOrdinal(d3.schemeTableau10);
+var colors={
+	'Partei':{'SP':'#cd3700','GP':'#a2c510','CVP':'#e39e00','glp':'#b3ee3a',
+	'EVP':'#00b4e8','FDP':'#0064e6','EDU':'#27408b','SVP':'#3ca433','BDP':'#ffed00'},
+	'Geschlecht':{'weiblich':d3.schemeTableau10[0],'männlich':d3.schemeTableau10[1]}
+};
+
+var colorDim = ['Partei','Geschlecht']
+
+var colorWrapper = d3.select("#colorSelect")
+			.append("select")
+			.attr("class","form-select")
+			.on("change", function() {
+				var val = this.options[this.selectedIndex].value;
+				selectColorDim = val;
+				update();
+			});
+
+var colorOption = colorWrapper
+		.selectAll(".subj-select")
+		.data(colorDim)
+		.enter()
+		.append("option")
+		.attr("id",function(d) {return 'colSel'+d})
+		.attr("value",function(d) {return d})
+		.text(function(d) {return d})
+
+// Select Partei as default
+var selectColorDim = 'Partei'
+d3.select('#colSelPartei').attr('selected',true)
+
+///////////// DOM CREATION: TYPE CHECKBOX FILTER ////////////////
 
 // checkboxes for type of vorstoss
 var vor_types = [{id:"filtParlIni",name:"Parl. Initiative",code:"1"},
@@ -52,7 +87,7 @@ typeButton.append("label")
     .text(function(d) { return d.name; })
     .attr("class", "form-check-label");
 
-///////////// SUBJECT SELECT FILTER ////////////////
+///////////// DOM CREATION:  SUBJECT SELECT FILTER ////////////////
 
 // checkboxes for type of vorstoss
 var vor_subjects;
@@ -63,18 +98,18 @@ d3.json("../Daten_Thurgau/subjects.json").then(function(s) {
 	
 	var subjWrapper = d3.select("#subjectSelect")
 			.append("select")
-			.attr("class","form-select");
+			.attr("class","form-select")
+			.on("change", function() {
+				var val = this.options[this.selectedIndex].value;
+				filteredSubj = val;
+				filterSubj();
+				update();
+			});
 
 	subjWrapper.append("option")
 			.property("selected",true)		
 		    .attr("value","all")
 			.text("Alle Themen")
-			.on("click", function() {
-				var val = $(this).attr("value");
-				filteredSubj = val;
-				filterSubj();
-				update();
-			});
 
 	var subjOption = subjWrapper
 			.selectAll(".subj-select")
@@ -83,16 +118,7 @@ d3.json("../Daten_Thurgau/subjects.json").then(function(s) {
 			.append("option")
 			.attr("value",function(d) {return d.value})
 			.text(function(d) {return d.name})
-			.on("click", function() {
-				var val = $(this).attr("value");
-				filteredSubj = val;
-				filterSubj();
-				update();
-			});
-
-
 	});
-// console.log(vor_subjects);
 
 
 
@@ -305,7 +331,6 @@ function update() {
 	//	ENTER
 	var newNode = node.enter().append("circle")
 		.attr("class", "node")
-		.attr("fill", function(d) {return color(d.Geschlecht);})
 		// This adds drag listeners to the nodes
 		.call(d3.drag()
           .on("start", dragstarted)
@@ -318,13 +343,15 @@ function update() {
 	//	ENTER + UPDATE
 	// Update radius
 	node = node.merge(newNode)
-			.attr("r", radius);
+			.attr("r", radius)
+			.attr("fill", function(d) {return colors[selectColorDim][d[selectColorDim]];})
 	// Update title based on filtered number of lead vorstösse
 	node.select('title').text(function(d) { 
 		let vor = '';
 		d.Vorstösse.forEach(v => vor = vor + v.Name + '\n');
 		return  "Name: " + d.Name + "\n" +
 				"Geschlecht: " + d.Geschlecht + "\n" +
+				"Partei: " + d.Partei + "\n" +
 				"Vorstösse ("+ d.Vorstösse.length +"):\n" +
 				vor;});
 
@@ -367,7 +394,7 @@ function update() {
 	link.select('title').text(function(d) { 
 		let commonVor = '';
 		d.value.forEach(v => commonVor = commonVor + v.Name + '\n');
-		return d.source.Name  + " - " + d.target.Name + "\n" +
+		return d.source.Name + ' ('+ d.source.Partei + ')' + " - " + d.target.Name + ' ('+ d.target.Partei + ')' + "\n" +
 		"Gemeinsame Vorstösse ("+ d.value.length +"):\n" +
 		commonVor;
 	});
