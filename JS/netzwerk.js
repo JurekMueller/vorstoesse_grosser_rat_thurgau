@@ -15,7 +15,7 @@ var svg = d3.select("#network-svg"),
 
 //	colors for parties are picked to resemble oficcialy reported colors:
 // https://statistik.tg.ch/themen-und-daten/staat-und-politik/wahlen-und-abstimmungen/grossratswahlen-2020-hauptseite.html/10545
-// var color = d3.scaleOrdinal(d3.schemeTableau10);
+
 var colors={
 	'Partei':{'SP':'#cd3700','GP':'#a2c510','CVP':'#e39e00','glp':'#b3ee3a',
 	'EVP':'#00b4e8','FDP':'#0064e6','EDU':'#27408b','SVP':'#3ca433','BDP':'#ffed00'},
@@ -45,6 +45,32 @@ var colorOption = colorWrapper
 // Select Partei as default
 var selectColorDim = 'Partei'
 d3.select('#colSelPartei').attr('selected',true)
+
+///////////// DOM CREATION: #LINK SELECT ////////////////
+
+var linkMin = ['1','2','3','4','5']
+
+var linkWrapper = d3.select("#linkSelect")
+			.append("select")
+			.attr("class","form-select")
+			.on("change", function() {
+				var val = this.options[this.selectedIndex].value;
+				selectLinkMin = parseInt(val,10);
+				update();
+			});
+
+var linkOption = linkWrapper
+		.selectAll(".subj-select")
+		.data(linkMin)
+		.enter()
+		.append("option")
+		.attr("id",function(d) {return 'linkSel'+d})
+		.attr("value",function(d) {return d})
+		.text(function(d) {return d})
+
+// Select Partei as default
+var selectLinkMin = 3
+d3.select('#linkSel3').attr('selected',true)
 
 ///////////// DOM CREATION: TYPE CHECKBOX FILTER ////////////////
 
@@ -366,7 +392,13 @@ function update() {
 	newLink.append("title");
 	//	ENTER + UPDATE
 	link = link.merge(newLink)
-	  .attr("stroke-width",function(d) {return d.value.length});
+	  .attr("stroke-width",function(d) {
+			if (d.value.length>=selectLinkMin) {  
+				return d.value.length;
+			} else {
+				return 0;	
+			}
+		});
 
 	//	update simulation nodes, links, and alpha
 	simulation
@@ -377,7 +409,7 @@ function update() {
   		.links(graph.links)
 		// Use the standard function but turn off if value is empty
 		.strength(function(d) {
-			if (d.value.length !== 0) {
+			if (d.value.length >= selectLinkMin) {
 				return 1/Math.min(count(d.source),count(d.target));
 			} else {
 				return 0;
