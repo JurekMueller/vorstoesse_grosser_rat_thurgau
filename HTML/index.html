@@ -12,10 +12,10 @@
             height: 800px;
         }
 
-        .node {
-            stroke: white;
-            stroke-width: 2px;
-        }
+        /* .node {
+            stroke: grey;
+            stroke-width: 1px;
+        } */
 
         .link {
             stroke: gray;
@@ -34,8 +34,15 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col pt-2 pb-2" id="network-div">
+                <div class="col-2 pt-2 pb-2" id="subject-select-div">
+                    <div id="subjectSelect"></div>
+                </div>
+                <div class="col-4 pt-2 pb-2" id="type-checkbox-div">
                     <div id="typeCheckbox"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col pt-2 pb-2" id="network-div">
                     <svg class="rounded-3 border border-3" id="network-svg"></svg>
                 </div>
             </div>
