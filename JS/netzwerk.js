@@ -8,6 +8,10 @@ var svg = d3.select("#network-svg"),
     width = +svg.style("width").replace("px", "") - svg.style("border-width").replace("px", ""), // the + is casting a string to a number
     height = +svg.style("height").replace("px", "") - svg.style("border-width").replace("px", "");
 
+// Add Legend
+svg.append("g")
+  .attr("class", "legendOrdinal")
+  .attr("transform", "translate(20,20)");
 
 ///////////// DOM CREATION ////////////////
 
@@ -17,7 +21,7 @@ var svg = d3.select("#network-svg"),
 // https://statistik.tg.ch/themen-und-daten/staat-und-politik/wahlen-und-abstimmungen/grossratswahlen-2020-hauptseite.html/10545
 
 var colors={
-	'Partei':{'SP':'#cd3700','GP':'#a2c510','CVP':'#e39e00','glp':'#b3ee3a',
+	'Partei':{'SP':'#cd3700','GP':'#a2c510','glp':'#b3ee3a','CVP':'#e39e00',
 	'EVP':'#00b4e8','FDP':'#0064e6','EDU':'#27408b','SVP':'#3ca433','BDP':'#ffed00'},
 	'Geschlecht':{'weiblich':d3.schemeTableau10[0],'männlich':d3.schemeTableau10[1]}
 };
@@ -276,12 +280,15 @@ var simulation = d3.forceSimulation()
 		.id(function(d) { return d.id; })) // why id?
 	.force("charge", d3.forceManyBody()
 		// .strength(-65))
-		.strength(d => Math.min(-1 * radius(d)**1.8,-40)))
+		.strength(d => charge_strength(d)))
 	// .force("center", d3.forceCenter(width / 2, height / 2))
 	// applying forceX and forceY instead of center leads to a more even distribution
-	.force("x", d3.forceX(width / 2))
+	.force("x", d3.forceX(width / 2)
+		.strength(d => center_strength_x(d)))
     .force("y", d3.forceY(height / 2)
-		.strength(0.13))
+		.strength(d => center_strength_y(d)))
+	.force("circular", d3.forceRadial(250,width / 2, height / 2)
+	 	.strength(d => circular_strength(d)))
 	.force("collide", d3.forceCollide()
 		.radius(radius)
 		.strength(0.5))
@@ -367,10 +374,24 @@ function update() {
     newNode.append("title");
 
 	//	ENTER + UPDATE
-	// Update radius
+	// Update colorscale
+	colorScale = d3.scaleOrdinal()
+					.domain(Object.keys(colors[selectColorDim]))
+					.range(Object.values(colors[selectColorDim]));
+	
+					// Update legend
+	var legendOrdinal = d3.legendColor()
+	.shape("path", d3.symbol().type(d3.symbolCircle).size(150)())
+		.shapePadding(10)
+		.scale(colorScale);
+
+	svg.select(".legendOrdinal")
+		.call(legendOrdinal);
+	
+	// Update radius and color
 	node = node.merge(newNode)
 			.attr("r", radius)
-			.attr("fill", function(d) {return colors[selectColorDim][d[selectColorDim]];})
+			.attr("fill", function(d) {return colorScale(d[selectColorDim]);});
 	// Update title based on filtered number of lead vorstösse
 	node.select('title').text(function(d) { 
 		let vor = '';
@@ -472,4 +493,36 @@ function count(d) {
 	return link.filter(function(l) {
 		return l.source.index == d.index || l.target.index == d.index
 	  }).size();
+}
+
+function center_strength_y(d) {
+	if (d.Vorstösse.length===0) {
+		return 0.05;
+	} else {
+		return 0.13;
+	}
+}
+
+function center_strength_x(d) {
+	if (d.Vorstösse.length===0) {
+		return 0.025;
+	} else {
+		return 0.1;
+	}
+}
+
+function circular_strength(d) {
+	if (d.Vorstösse.length===0) {
+		return 0.15;
+	} else {
+		return 0;
+	}
+}
+
+function charge_strength(d) {
+	if (d.Vorstösse.length===0) {
+		return Math.min(-1 * radius(d)**1.8,-40)*1.6;
+	} else {
+		return Math.min(-1 * radius(d)**1.8,-40);
+	}
 }
