@@ -40,17 +40,17 @@ var colorWrapper = d3.select("#colorSelect")
 			});
 
 var colorOption = colorWrapper
-		.selectAll(".subj-select")
+		.selectAll(".color-option")
 		.data(colorDim)
 		.enter()
 		.append("option")
 		.attr("id",function(d) {return 'colSel'+d})
 		.attr("value",function(d) {return d})
-		.text(function(d) {return d})
+		.text(function(d) {return d});
 
 // Select Partei as default
-var selectColorDim = 'Partei'
-d3.select('#colSelPartei').attr('selected',true)
+var selectColorDim = 'Partei';
+d3.select('#colSelPartei').property('selected',true);
 
 ///////////// DOM CREATION: #LINK SELECT ////////////////
 
@@ -59,6 +59,7 @@ var linkMin = ['1','2','3','4','5']
 var linkWrapper = d3.select("#linkSelect")
 			.append("select")
 			.attr("class","form-select")
+			.attr("id",'linkSel')
 			.on("change", function() {
 				var val = this.options[this.selectedIndex].value;
 				selectLinkMin = parseInt(val,10);
@@ -66,7 +67,7 @@ var linkWrapper = d3.select("#linkSelect")
 			});
 
 var linkOption = linkWrapper
-		.selectAll(".subj-select")
+		.selectAll(".link-option")
 		.data(linkMin)
 		.enter()
 		.append("option")
@@ -74,19 +75,19 @@ var linkOption = linkWrapper
 		.attr("value",function(d) {return d})
 		.text(function(d) {return d})
 
-// Select Partei as default
+// Select linkstrength of 3 as default
 var selectLinkMin = 3
-d3.select('#linkSel3').attr('selected',true)
+d3.select('#linkSel3').property('selected',true)
 
 ///////////// DOM CREATION: TYPE CHECKBOX FILTER ////////////////
 
 // checkboxes for type of vorstoss
-var vor_types = [{id:"filtParlIni",name:"Parl. Initiative",code:"1"},
+var vor_types = [{id:"filtParlIni",name:"Parlamentarische Initiative",code:"1"},
 				 {id:"filtMotion",name:"Motion",code:"2"},				 
 				 {id:"filtLeisMotion",name:"Leistungsmotion",code:"3"},
 				 {id:"filtInterp",name:"Interpellation",code:"4"},
 				 {id:"filtEinfAnfr",name:"Einfache Anfrage",code:"5"},
-				 {id:"filtAntrag52",name:"Antrag nach § 52 GO",code:"7"}];
+				 {id:"filtAntrag52",name:"Antrag nach § 52 GO",code:"6"}];
 
 var typeWrapper = d3.select("#typeCheckbox");
 
@@ -95,7 +96,7 @@ var typeButton = typeWrapper
         .data(vor_types)
         .enter()
         .append("div")
-        .attr("class", "form-check form-check-inline form-switch");
+        .attr("class", "form-check form-switch");
 typeButton.append("input")
 	.attr("type", "checkbox")
 	.attr("id", function(d) { return d.id; })
@@ -131,6 +132,7 @@ d3.json("../Daten_Thurgau/subjects.json").then(function(s) {
 	var subjWrapper = d3.select("#subjectSelect")
 			.append("select")
 			.attr("class","form-select")
+			.attr("id",'subjSel')
 			.on("change", function() {
 				var val = this.options[this.selectedIndex].value;
 				filteredSubj = val;
@@ -139,21 +141,55 @@ d3.json("../Daten_Thurgau/subjects.json").then(function(s) {
 			});
 
 	subjWrapper.append("option")
-			.property("selected",true)		
+			.property("selected",true)
+			.attr("id","subjSelall")
 		    .attr("value","all")
 			.text("Alle Themen")
 
 	var subjOption = subjWrapper
-			.selectAll(".subj-select")
+			.selectAll(".subj-option")
 			.data(vor_subj)
 			.enter()
 			.append("option")
+			.attr("id",function(d) {return "subjSel"+d.value.replace(/\s/g, '')})
 			.attr("value",function(d) {return d.value})
 			.text(function(d) {return d.name})
 	});
 
 
+///////////// DOM CREATION:  STORY FILTER ////////////////
 
+function storyFilter(linkStrength=3,subj='all',color='Partei',typeFilter=[]) {
+	typeFilterList = typeFilter;
+	vor_types.forEach(d => typeFilter.includes(d.code) ? d3.select('#'+d.id).property('checked',false) : d3.select('#'+d.id).property('checked',true));
+	
+	selectLinkMin = linkStrength;
+	d3.select('#linkSel'+selectLinkMin).property('selected',true);
+	
+	filteredSubj = subj;
+	d3.select('#subjSel'+filteredSubj.replace(/\s/g, '')).property('selected',true);
+	
+	selectColorDim = color;
+	d3.select('#colSel'+selectColorDim).property('selected',true);
+	filterType();
+	filterSubj();
+	update();
+};
+
+/// Story Parties
+d3.select("#storyPartyAll2").on("click", d => storyFilter(linkStrength=2));
+d3.selectAll("#storyPartyAll3").on("click", d => storyFilter(linkStrength=3));
+d3.select("#storyPartyAll4").on("click", d => storyFilter(linkStrength=4));
+d3.select("#storyPartyLand1").on("click", d => storyFilter(linkStrength=1,subj='Landwirtschaft'));
+d3.select("#storyPartyBesch1").on("click", d => storyFilter(linkStrength=1,subj='Beschäftigung und Arbeit'));
+
+d3.select("#storyGenderAll3").on("click", d => storyFilter(linkStrength=3,sub='all',color='Geschlecht'));
+d3.select("#storyGenderVerkehr1").on("click", d => storyFilter(linkStrength=1,sub='Verkehr',color='Geschlecht'));
+d3.select("#storyGenderSoz1").on("click", d => storyFilter(linkStrength=1,sub='Soziale Fragen',color='Geschlecht'));
+
+d3.select("#storyMostAll3").on("click", d => storyFilter(linkStrength=3,sub='all',color='Dienstjahre'));
+d3.select("#storyMostAllAuftr3").on("click", d => storyFilter(linkStrength=2,sub='all',color='Partei',typeFilter=['4','5','6']));
+d3.select("#storyMostAllAnfr3").on("click", d => storyFilter(linkStrength=2,sub='all',color='Partei',typeFilter=["1","2","3"]));
 ///////////// FILTER FUNCTIONS ////////////////
 
 //	filtered types

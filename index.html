@@ -21,40 +21,257 @@
             stroke: gray;
             /* stroke-width: 4px; */
         }
+
+        .titleBanner {
+            margin-top: 2rem;
+            background-color: #4fbdf2;
+            border-radius: 1.5rem;
+        }
     </style>
 </head>
 <body>
     
+    <!-- Title -->
+    <div class="container-lg">
+        <div class="row"> <!-- justify-content ist für horizontal und align-items für vertikal-->
+            <div class="col text-center mb-5 me-5 ms-5 titleBanner">
+                <h3 class="display-3">Zusammenarbeit der Grossrät:innen <br> im Kanton Thurgau</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Introduction -->
+    <section id="introduction">
+        <div class="container-lg">
+            <div class="row justify-content-center"> 
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Einleitung</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat necessitatibus earum maiores? Blanditiis laudantium aliquam id voluptatibus voluptates possimus fugit, cum similique saepe, rem culpa molestias dignissimos nulla autem porro modi quia, illum temporibus praesentium magni aspernatur. Facere minus rerum fugiat iusto nesciunt saepe consequatur, amet exercitationem aperiam mollitia eos?</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
     <!-- This is the visualisation -->
-    <section id="network-viz">
+    <section class="mb-5" id="networkViz">
         <div class="container-lg" id="network-container">
-            <div class="row"> <!-- justify-content ist für horizontal und align-items für vertikal-->
-                <div class="col text-center">
-                    <h3 class="display-3">Zusammenarbeit der Grossrät:innen</h3>
+            <div class="row justify-content-center">
+                <div class="col-3 mt-5" style="z-index: 1000">
+                    <div class="pt-2 pb-2">
+                        <p>Thema: </p>
+                        <div id="subjectSelect"></div>
+                    </div>
+                    <div class="pt-2 pb-2">
+                        <p>Farbe: </p>
+                        <div id="colorSelect"></div>
+                    </div>
+                    <div class="pt-2 pb-2">
+                        <p>Mindestanzahl Zusammenarbeiten: </p>
+                        <div id="linkSelect"></div>
+                    </div>
+                    <div class="pt-2 pb-2">
+                      <p>Art des Vorstosses: </p>  
+                      <div id="typeCheckbox"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-2 pt-2 pb-2" id="subject-select-div">
-                    <p>Thema: </p>
-                    <div id="subjectSelect"></div>
-                </div>
-                <div class="col-2 pt-2 pb-2" id="color-select-div">
-                    <p>Farbe: </p>
-                    <div id="colorSelect"></div>
-                </div>
-                <div class="col-2 pt-2 pb-2" id="link-select-div">
-                    <p>Mindestanzahl Zusammenarbeiten: </p>
-                    <div id="linkSelect"></div>
-                </div>
-                <div class="col-4 pt-2 pb-2" id="type-checkbox-div">
-                    <div id="typeCheckbox"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col pt-2 pb-2" id="network-div">
+            
+            
+                <div class="col-10 text-end mt-5 mb-2", style="margin-left:-9%; z-index: 1;" id="network-div">
                     <svg class="rounded-3 border border-3" id="network-svg"></svg>
                 </div>
             </div>
+            
+                
+            
+
+        </div>
+    </section>
+
+    <!-- Stories -->
+    <section class="mb-5" id="stories">
+        <div class="container-lg">
+            <div class="row justify-content-center"> 
+                <div class="col-11">
+                    <div class="card rounded-3">
+                        <ul class="nav nav-tabs nav-fill card-body-tabs nav-tabs-border-width-3" data-bs-tabs="tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#storyParty">Gibt es Unterschiede zwischen Partei?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#storyGender">Gibt es Unterschiede zwischen Geschlecht?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#storyMost">Welche Abgeorneten sind am aktivsten?</a>
+                            </li>
+                        </ul>
+                        <form class="card-body tab-content">
+                            <div class="tab-pane active" id="storyParty">
+                                <p class="card-text">
+                                    <p>Obwohl es viel Zusammenarbeit über <a href="javascript:void(0)" id="storyPartyAll2">Parteigrenzen hinweg</a> gibt lassen sich vor allem bei der
+                                    <a href="javascript:void(0)" id="storyPartyAll4">regelmässigen Zussamenarbeit</a> parteiinterne Netzwerke erkennen (z.B. für Parteien GP, SP und SVP).</p>
+                                    
+                                    <p>Es gibt auch einzelne Abgeordnete die <a href="javascript:void(0)" id="storyPartyAll3">parteiübergreifend sehr stark vernetzt</a> sind, aber dafür kaum Collaborationen innerhalb der eigenen Partei aufweisen
+                                    (z.B. Elisabeth Rickenbach von der EVP)</p>
+                                    
+                                    <p>Die Verschiedenen Parteien haben unterschiedliche thematische Schwerpunkte, was sich auch in den Vorstössen bemerkbar macht. 
+                                    So sind beispielsweise die Abgeordneten mit den meisten Vorstössen im Thema  <a href="javascript:void(0)" id="storyPartyLand1">Landwirtschaft</a> 
+                                    bei der SVP und im Thema <a href="javascript:void(0)" id="storyPartyBesch1">Beschäftigung und Arbeit</a> bei der SP. <br>
+                                    <span style="font-weight: bold;">Vorsicht:</span> Die Zuordnung eines Vorstosses zu einem Themenfeld sagt noch nichts über dessen politischen Inhalt aus.</p>
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="storyGender">
+                                <p class=" card-text">
+                                    <p>Von den insgesamt 264 Abgeordneten die zwischen 2012-2021 ein Mandat im Grossen Rat hatten sind zwei Drittel männlich und ein Drittel weiblich.</p>
+                                    <p>Bei genauer Betrachtung (und mit etwas manuellem Entflechten) zeigt sich, dass sich das Netzwerk
+                                      in einen von Männer und einen von Frauen dominierte Teil <a href="javascript:void(0)" id="storyGenderAll3">aufteilen lässt</a>.</p>
+                                    <p>
+                                      Ein Teil der Erklärung für diese Trennung liegt in der <a href="javascript:void(0)" id="storyPartyAll3">Parteizugehörigkeit</a>. 
+                                      <br>
+                                      Das von <span style="font-weight: bold;">Frauen dominierte Netzwerk</span> besteht zu grossen Teilen aus SP Abgeordneten, die mit 60% einen deutlich höheren Frauenanteil als der Durchschnitt aufweist.
+                                      <br>
+                                      Das von <span style="font-weight: bold;">Männern dominierte Netzwerk</span> setzt sich dagegen zu einem grossen Teil aus Abgeordneten der Parteien
+                                      <span style="font-weight: bold;">SVP</span> und <span style="font-weight: bold;">glp</span> zusammen die mit jeweils 23% einen deutlich kleineren Frauenanteil haben als der Durchschnitt.
+                                      <br>
+                                      Interessanterweise sind auch die am stärksten vernetzten Abgeordneten der <span style="font-weight: bold;">GP</span> teil des von Männer dominierten Netzwerkes
+                                      und selbst nur schwach mit Frauen aus der eigenen Partei vernetzt, obwohl der Frauenanteil der GP über den Zeitraum 2012-2021 mit 56% ähnlich hoch ist wie für die SP.
+                                    </p>
+                                    <p>
+                                      Auch in den Themen zu denen Vorstösse eingereicht werden lassen sich Unterschiede zwischen Frauen und Männern erkennen. <br>
+                                      Während beispielsweise Vorstösse im Thema <a href="javascript:void(0)" id="storyGenderVerkehr1">Verkehr</a> hautsächlich von Männern stammen,
+                                      ist das Thema <a href="javascript:void(0)" id="storyGenderSoz1">Soziale Fragen</a> eher von Frauen geprägt.
+                                    </p>
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="storyMost">
+                                <p class=" card-text">
+                                  Die Menge an Vorstössen die ein:e Abgeordnete:r zwischen 2012-2021 eingereicht hat (Bubble Grösse)
+                                  steigt tendenziell mit der Anzahl der geleisteten <a href="javascript:void(0)" id="storyMostAll3">Dienstjahre</a> in dieser Periode.<br>
+                                  <span style="font-weight: bold;">Toni Kappeler (GP)</span> beispielsweise, war in 10 Jahren an 51, und damit an den meisten, Vorstössen beteiligt. <br>
+                                  Doch es gibt auch Ausnahmen wie beispielsweise <span style="font-weight: bold;">Barbara Dätwyler Weber (SP)</span>
+                                  die in nur 3 Jahren, also weniger als einem Drittel der Zeit, schon an 19 Vorstössen beteiligt war. <br>
+                                  Gleichzeitig gibt es auch Abgeordnete die in 10 Jahren bisher keinen Vorstoss eingereicht haben. <br>
+                                  <span style="font-weight: bold;">Vorsicht:</span> Die hier dargestellte Anzahl an eingereichten Vorstössen berücksichtigt
+                                  nicht die Unterstützung durch Mitunterzeichnung (siehe <a href="#data">Erläuterung Daten</a>)</p>
+                                </p>
+                                <p>
+                                  <span style="font-weight: bold;">Toni Kappeler (GP)</span> ist mit 19 Vorstössen auch der aktivste Abgeordnete in der Unterkategorie der Vorstösse
+                                  die einen konkreten Auftrag an den Regierungsrat beinhalten (<a href="javascript:void(0)" id="storyMostAllAuftr3">Parlamentarische Initiative, Motion und Leistungsmotion</a>)
+                                  dicht gefolgt von <span style="font-weight: bold;">Ueli Fisch (glp)</span> mit 18. <br>
+                                  <span style="font-weight: bold;">Peter Dransfeld (GP)</span> dagegen hat mit Abstand die meisten Vorstösse die aus reinen Anfragen an den Regierungsrat bestehen
+                                  (<a href="javascript:void(0)" id="storyMostAllAnfr3">Interpellation, Einfache Anfrage und Antrag nach § 52 GO</a>) eingereicht.
+                                </p>
+                            </div>
+                        </form>
+                   </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- Erläusterung Vorstösse -->
+    <section class="mb-5" id="explenationVor">
+        <div class="container-lg">
+            <div class="row justify-content-center mb-3"> 
+                <div class="col-11 text-center">
+                    <h1 class="display-5">Erläuterung Vorstösse</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center"> 
+                <div class="col-11">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                                Parlamentarische Initiative
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam quasi ad modi fugit delectus nobis eligendi ipsam esse ut odit! Eaque ratione repellat quis ipsam ea asperiores odio, veritatis placeat commodi eveniet.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                              Motion
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nesciunt hic qui laudantium perspiciatis ipsam quisquam amet minus natus magnam repellat, ab, corporis facilis labore, quaerat nemo. Necessitatibus explicabo delectus nostrum odit.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                              Leistungsmotion
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ut in ullam ducimus, consequuntur eum sapiente laboriosam porro harum nostrum, excepturi nulla tempora delectus quia. Distinctio voluptatem commodi corrupti pariatur cupiditate eveniet.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                Interpellation
+                              </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                              <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ut in ullam ducimus, consequuntur eum sapiente laboriosam porro harum nostrum, excepturi nulla tempora delectus quia. Distinctio voluptatem commodi corrupti pariatur cupiditate eveniet.
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                            Einfache Anfrage
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                          <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ut in ullam ducimus, consequuntur eum sapiente laboriosam porro harum nostrum, excepturi nulla tempora delectus quia. Distinctio voluptatem commodi corrupti pariatur cupiditate eveniet.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                            Antrag nach § 52 GO
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                          <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ut in ullam ducimus, consequuntur eum sapiente laboriosam porro harum nostrum, excepturi nulla tempora delectus quia. Distinctio voluptatem commodi corrupti pariatur cupiditate eveniet.
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Daten -->
+    <section id="data">
+        <div class="container-lg">
+            <div class="row justify-content-center"> 
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Erläuterung Daten</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat necessitatibus earum maiores? Blanditiis laudantium aliquam id voluptatibus voluptates possimus fugit, cum similique saepe, rem culpa molestias dignissimos nulla autem porro modi quia, illum temporibus praesentium magni aspernatur. Facere minus rerum fugiat iusto nesciunt saepe consequatur, amet exercitationem aperiam mollitia eos?</p>
+                        </div>
+                    </div>
+                </div>
         </div>
     </section>
 
