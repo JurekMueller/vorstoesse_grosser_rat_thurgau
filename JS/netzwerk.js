@@ -19,14 +19,16 @@ svg.append("g")
 
 //	colors for parties are picked to resemble oficcialy reported colors:
 // https://statistik.tg.ch/themen-und-daten/staat-und-politik/wahlen-und-abstimmungen/grossratswahlen-2020-hauptseite.html/10545
+// colors for service years were picked from a seaborn color palette (Purples_d)
 
 var colors={
 	'Partei':{'SP':'#cd3700','GP':'#a2c510','glp':'#b3ee3a','CVP':'#e39e00',
 	'EVP':'#00b4e8','FDP':'#0064e6','EDU':'#27408b','SVP':'#3ca433','BDP':'#ffed00'},
-	'Geschlecht':{'weiblich':d3.schemeTableau10[0],'männlich':d3.schemeTableau10[1]}
+	'Geschlecht':{'weiblich':d3.schemeTableau10[0],'männlich':d3.schemeTableau10[1]},
+	'Dienstjahre':{'1':'#96c3df','2':'#81b5d8','3':'#6ca8d1', '4':'#569bca', '5':'#418ec4', '6':'#377fb4', '7':'#36709a', '8':'#35607f', '9':'#345166', '10':'#34424c'}
 };
 
-var colorDim = ['Partei','Geschlecht']
+var colorDim = ['Partei','Geschlecht','Dienstjahre']
 
 var colorWrapper = d3.select("#colorSelect")
 			.append("select")
@@ -157,19 +159,6 @@ d3.json("../Daten_Thurgau/subjects.json").then(function(s) {
 //	filtered types
 var typeFilterList = [];
 
-// function changeFilter() {
-// 	var val = $(this).attr("value");
-// 	if (this.checked && typeFilterList.includes(val)) {
-// 		// if val is in list remove it
-// 		typeFilterList.splice(typeFilterList.indexOf(val), 1)
-// 	} else if (!this.checked && !typeFilterList.includes(val)) {
-// 		// if val not in list add it
-// 		typeFilterList.push(val);
-// 	}
-// 	filterType();
-// 	update();
-// };
-
 //	filter function for type
 function filterType() {
 	// reduce/expand Vorstösse in graph links
@@ -229,7 +218,7 @@ function filterSubj() {
 					};
 				};
 			// If select != all change selection on links that are not already filtered
-			} else if (!v.Thema.includes(filteredSubj)) {
+			} else if (!v.Thema.includes(filteredSubj) && !v.unselected) {
 				v.unselected = true;
 				if (!v.filtered) {
 					let idx = graph.links.find(x => x.id === l.id).value.findIndex(x => x.id === v.id);
@@ -262,7 +251,7 @@ function filterSubj() {
 					let idx = graph.nodes.find(x => x.id === n.id).Vorstösse.findIndex(x => x.id === v.id);
 					graph.nodes.find(x => x.id === n.id).Vorstösse.splice(idx,1);
 				};
-			} else if (v.Thema.includes(filteredSubj) && v.unselected && !v.filtered) {
+			} else if (v.Thema.includes(filteredSubj) && v.unselected) {
 				v.unselected = false;
 				if (!v.filtered) {
 					graph.nodes.find(x => x.id === n.id).Vorstösse.push($.extend(true, {}, v));
@@ -391,14 +380,16 @@ function update() {
 	// Update radius and color
 	node = node.merge(newNode)
 			.attr("r", radius)
-			.attr("fill", function(d) {return colorScale(d[selectColorDim]);});
+			.attr("fill", function(d) {
+				return colors[selectColorDim][d[selectColorDim]];});
 	// Update title based on filtered number of lead vorstösse
 	node.select('title').text(function(d) { 
 		let vor = '';
-		d.Vorstösse.forEach(v => vor = vor + v.Name + '\n');
+		d.Vorstösse.forEach(v => vor = vor + '* ' + v.Name + '\n');
 		return  "Name: " + d.Name + "\n" +
 				"Geschlecht: " + d.Geschlecht + "\n" +
 				"Partei: " + d.Partei + "\n" +
+				"Dienstjahre seit 2012: " + + d.Dienstjahre + "\n" +
 				"Vorstösse ("+ d.Vorstösse.length +"):\n" +
 				vor;});
 
