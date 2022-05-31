@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grossrat Thurgau</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
     <style>
         svg {
             width: 90%;
@@ -27,6 +28,11 @@
             background-color: #4fbdf2;
             border-radius: 1.5rem;
         }
+
+        .my_rounded{
+            border-radius: 1.6em;
+            /* box-shadow: 0 5px 10px rgba(0,0,0,.2); */
+        }
     </style>
 </head>
 <body>
@@ -42,51 +48,54 @@
 
     <!-- Introduction -->
     <section id="introduction">
-        <div class="container-lg">
-            <div class="row justify-content-center"> 
-                <div class="col-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Einleitung</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat necessitatibus earum maiores? Blanditiis laudantium aliquam id voluptatibus voluptates possimus fugit, cum similique saepe, rem culpa molestias dignissimos nulla autem porro modi quia, illum temporibus praesentium magni aspernatur. Facere minus rerum fugiat iusto nesciunt saepe consequatur, amet exercitationem aperiam mollitia eos?</p>
-                        </div>
-                    </div>
-                </div>
+    <div class="container-lg">
+      <div class="row justify-content-center mb-3"> 
+        <div class="col-11 text-center">
+          <h5 class="display-5">Einleitung</h5>
         </div>
+      </div>    
+      <div class="row justify-content-center"> 
+        <div class="col-12">
+          <div class="card shadow my_rounded">
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat necessitatibus earum maiores? Blanditiis laudantium aliquam id voluptatibus voluptates possimus fugit, cum similique saepe, rem culpa molestias dignissimos nulla autem porro modi quia, illum temporibus praesentium magni aspernatur. Facere minus rerum fugiat iusto nesciunt saepe consequatur, amet exercitationem aperiam mollitia eos?</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- This is the visualisation -->
     <section class="mb-5" id="networkViz">
         <div class="container-lg" id="network-container">
-            <div class="row justify-content-center">
-                <div class="col-3 mt-5" style="z-index: 1000">
-                    <div class="pt-2 pb-2">
-                        <p>Thema: </p>
-                        <div id="subjectSelect"></div>
-                    </div>
-                    <div class="pt-2 pb-2">
-                        <p>Farbe: </p>
-                        <div id="colorSelect"></div>
-                    </div>
-                    <div class="pt-2 pb-2">
-                        <p>Mindestanzahl Zusammenarbeiten: </p>
-                        <div id="linkSelect"></div>
-                    </div>
-                    <div class="pt-2 pb-2">
-                      <p>Art des Vorstosses: </p>  
-                      <div id="typeCheckbox"></div>
-                    </div>
-                </div>
-            
-            
-                <div class="col-10 text-end mt-5 mb-2", style="margin-left:-9%; z-index: 1;" id="network-div">
-                    <svg class="rounded-3 border border-3" id="network-svg"></svg>
-                </div>
+          <div class="row justify-content-center mt-5"> 
+            <div class="col-11 text-center">
+              <h5 class="display-5">Netzwerkvisualisierung</h5>
             </div>
-            
-                
-            
-
+          </div>  
+          <div class="row justify-content-center">
+              <div class="col-3 mt-5" style="z-index: 1000">
+                  <div class="pt-2 pb-2">
+                      <p class="fw-bold">Thema: </p>
+                      <div id="subjectSelect"></div>
+                  </div>
+                  <div class="pt-2 pb-2">
+                      <p class="fw-bold">Farbe: </p>
+                      <div id="colorSelect"></div>
+                  </div>
+                  <div class="pt-2 pb-2">
+                      <p class="fw-bold">Mindestanzahl Zusammenarbeiten: </p>
+                      <div id="linkSelect"></div>
+                  </div>
+                  <div class="pt-2 pb-2">
+                    <p class="fw-bold">Art des Vorstosses: </p>  
+                    <div id="typeCheckbox"></div>
+                  </div>
+              </div>
+              <div class="col-10 text-end mt-5 mb-2", style="margin-left:-9%; z-index: 1;" id="network-div">
+                  <svg class="shadow my_rounded border border-3" id="network-svg"></svg>
+              </div>
+            </div>
         </div>
     </section>
 
@@ -95,16 +104,16 @@
         <div class="container-lg">
             <div class="row justify-content-center"> 
                 <div class="col-11">
-                    <div class="card rounded-3">
+                    <div class="card my_rounded shadow">
                         <ul class="nav nav-tabs nav-fill card-body-tabs nav-tabs-border-width-3" data-bs-tabs="tabs">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#storyParty">Gibt es Unterschiede zwischen Partei?</a>
+                                <a class="nav-link active text-reset fw-bold" aria-current="true" data-bs-toggle="tab" href="#storyParty">Gibt es Unterschiede zwischen Partei?</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" href="#storyGender">Gibt es Unterschiede zwischen Geschlecht?</a>
+                                <a class="nav-link text-reset fw-bold" data-bs-toggle="tab" href="#storyGender">Gibt es Unterschiede zwischen Geschlecht?</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" href="#storyMost">Welche Abgeorneten sind am aktivsten?</a>
+                                <a class="nav-link text-reset fw-bold" data-bs-toggle="tab" href="#storyMost">Welche Abgeorneten sind am aktivsten?</a>
                             </li>
                         </ul>
                         <form class="card-body tab-content">
@@ -154,7 +163,7 @@
                                   die in nur 3 Jahren, also weniger als einem Drittel der Zeit, schon an 19 Vorstössen beteiligt war. <br>
                                   Gleichzeitig gibt es auch Abgeordnete die in 10 Jahren bisher keinen Vorstoss eingereicht haben. <br>
                                   <span style="font-weight: bold;">Vorsicht:</span> Die hier dargestellte Anzahl an eingereichten Vorstössen berücksichtigt
-                                  nicht die Unterstützung durch Mitunterzeichnung (siehe <a href="#data">Erläuterung Daten</a>)</p>
+                                  nicht die Unterstützung durch Mitunterzeichnung (siehe <a href="#data">Dateninhalt</a>)</p>
                                 </p>
                                 <p>
                                   <span style="font-weight: bold;">Toni Kappeler (GP)</span> ist mit 19 Vorstössen auch der aktivste Abgeordnete in der Unterkategorie der Vorstösse
@@ -180,7 +189,7 @@
             </div>
             <div class="row justify-content-center"> 
                 <div class="col-11">
-                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion shadow" id="accordionPanelsStayOpenExample">
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
@@ -189,7 +198,11 @@
                           </h2>
                           <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                             <div class="accordion-body">
-                              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam quasi ad modi fugit delectus nobis eligendi ipsam esse ut odit! Eaque ratione repellat quis ipsam ea asperiores odio, veritatis placeat commodi eveniet.
+                              Eine Parlamentarische Initiative übergibt dem Regierungsrat einen Entwurf für einen neuen Erlass oder eine Abänderung eines Gesetzes oder einer Verordnung zur Prüfung.
+                              Der Regierungsrat nimmt innerhalb der Frist von zwei Monaten Stellung. <br>
+                              Das Büro des Grossen Rates kann dann die Initiative zurückweisen wenn sie sich auf einen Gegenstand bezieht, der schon als im Grossen Rat behandelt wird oder
+                              innerhalb eines halben Jahres vorgelegt wird.
+                              Geschieht dies nicht, stimmt der Grosse Rat über eine vorläufige Unterstützung ab. Wird diese Angenommen wird eine Kommission mit der weiteren Ausarbeitung beauftragt.
                             </div>
                           </div>
                         </div>
@@ -201,7 +214,9 @@
                           </h2>
                           <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                             <div class="accordion-body">
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nesciunt hic qui laudantium perspiciatis ipsam quisquam amet minus natus magnam repellat, ab, corporis facilis labore, quaerat nemo. Necessitatibus explicabo delectus nostrum odit.
+                              Eine Motion beauftragt den Regierungsrat einen Entwurf für einen neuen Erlass oder eine Abänderung eines Gesetzes oder einer Verordnung auszuarbeiten.
+                              Der Regierungsrat nimmt innerhalb der Frist von einem Jahr Stellung. <br>
+                              Anschliessend wird über die Motion im Grossen Rat abgestimmt. Wird sie angenommen, hat der Regierungsrat zwei Jahre Zeit den Auftrag zu bearbeiten. 
                             </div>
                           </div>
                         </div>
@@ -213,7 +228,9 @@
                           </h2>
                           <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                             <div class="accordion-body">
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ut in ullam ducimus, consequuntur eum sapiente laboriosam porro harum nostrum, excepturi nulla tempora delectus quia. Distinctio voluptatem commodi corrupti pariatur cupiditate eveniet.
+                              Mit einer Leistungsmotion wird dem Regierungsrat der Auftrag erteilt, eine Änderung im Haushaltsbudget vorszunehmen.
+                              Der Regierungsrat nimmt innerhalb der Frist von einem drei Monaten Stellung. <br>
+                              Anschliessend wird über die Motion im Grossen Rat abgestimmt. Wird sie angenommen, muss der Antrag spätestens im übernächsten Budget berücksichtigt werden. 
                             </div>
                           </div>
                         </div>
@@ -225,7 +242,8 @@
                             </h2>
                             <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
                               <div class="accordion-body">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ut in ullam ducimus, consequuntur eum sapiente laboriosam porro harum nostrum, excepturi nulla tempora delectus quia. Distinctio voluptatem commodi corrupti pariatur cupiditate eveniet.
+                                Eine Interpellation ist eine umfangreiche Anfrage an den Regierungsrat mit einer Beantwortungsfrist von einem Jahr.
+                                Nach deren Beantwortung kann nach Bedarf eine Diskussion im grossen Rat geführt werden.
                               </div>
                             </div>
                           </div>
@@ -238,11 +256,12 @@
                         </h2>
                         <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
                           <div class="accordion-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ut in ullam ducimus, consequuntur eum sapiente laboriosam porro harum nostrum, excepturi nulla tempora delectus quia. Distinctio voluptatem commodi corrupti pariatur cupiditate eveniet.
+                            Eine Einfache Anfrage ist ähnlich der Interpellation eine Anfrage and den Regierungsrat, allerdings ohne anschliessende Diskussion und gewöhnlich weniger umfangreich.
+                            Eine Antwort erfolgt innerhalb von zwei Monaten.
                           </div>
                         </div>
                       </div>
-                      <div class="accordion-item">
+                      <div class="accordion-item shadow">
                         <h2 class="accordion-header" id="panelsStayOpen-headingSix">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
                             Antrag nach § 52 GO
@@ -250,36 +269,153 @@
                         </h2>
                         <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
                           <div class="accordion-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ut in ullam ducimus, consequuntur eum sapiente laboriosam porro harum nostrum, excepturi nulla tempora delectus quia. Distinctio voluptatem commodi corrupti pariatur cupiditate eveniet.
+                            Anträge nach § 52 der Geschäftsordnung beinhalten beispielsweise die Beauftragung des Regierungsrats mit der Einholung von Berichten oder Anordnung von Untersuchungen.
+                            Es gilt das gleiche Verfahren wie für Motionen.
                           </div>
                         </div>
                       </div>
                   </div>
-                    </div>
-                </div>
             </div>
-    </section>
-
-    <!-- Daten -->
-    <section id="data">
-        <div class="container-lg">
-            <div class="row justify-content-center"> 
-                <div class="col-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Erläuterung Daten</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat necessitatibus earum maiores? Blanditiis laudantium aliquam id voluptatibus voluptates possimus fugit, cum similique saepe, rem culpa molestias dignissimos nulla autem porro modi quia, illum temporibus praesentium magni aspernatur. Facere minus rerum fugiat iusto nesciunt saepe consequatur, amet exercitationem aperiam mollitia eos?</p>
-                        </div>
-                    </div>
-                </div>
         </div>
     </section>
 
-    <script src="JS/d3.js"></script>
+    <!-- Daten -->
+    <section id="data" class="mb-5">
+        <div class="container-lg">
+        <div class="row justify-content-center mb-3"> 
+          <div class="col-11 text-center">
+              <h1 class="display-5">Erläuterung Daten</h1>
+          </div>
+        </div>  
+        <div class="row justify-content-center"> 
+            <div class="col-11">
+                <div class="accordion shadow" id="accordionpanelsStayOpen2Example">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen2-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen2-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen2-collapseOne">
+                          Dateninhalt
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen2-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen2-headingOne">
+                        <div class="accordion-body">
+                          Die hier verwendeten Daten bestehen aus zwei Teilen. Der erste Datensatz beinhaltet <span class="fw-bold">Informationen der Grossrät:innen des Kantons Thurgau über den Zeitraum 2008-2021</span>.
+                          Dieser Datensatz ist das Ergebnis der Zusammenführung von jährlichen Mitgliedslisten, weshalb es für jede:rn Grosrät:in einen seperaten Eintrag pro Dienstjahr gibt. <br>
+                          Der zweite Datensatz enthält <span class="fw-bold">Informationen über die im Grossen Rat eingereichten Vorstösse über den Zeitraum 2012-2021</span>. Teil der enthaltenen Informationen sind die
+                          Namen der Vorstösser:innen die zur Verknüpfung der beiden Datensätze genutzt wurden. <br>
+                          <span class="fw-bold">Vorsicht:</span> Generell gibt es für Vorstösse einen Kreis von Unterstützer:innen der deutlich über den der Vorstösser:innen hinausgeht
+                          und die ihre Unterstützung durch Mitunterzeichnung Ausdruck geben. Informationen über Mitunterzeichner:innen sind nicht im Datensatz enthalten und wurden bei der
+                          Erstellung der Netzwerkvisualisierung nicht mitberücksichtigt.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen2-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen2-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen2-collapseTwo">
+                          Datenquelle
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen2-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen2-headingTwo">
+                        <div class="accordion-body">
+                          Die <span class="fw-bold">Originaldaten</span> zu den <a href="./Daten_Thurgau/Mitglieder_GR_2008_2021_original.csv">Grossrät:innen</a>
+                          und den <a href="./Daten_Thurgau/Vorstoesse_GR_ab_2012_Themen_def_original.csv">Vorstössen</a> wurden von
+                          <a href="https://statistik.tg.ch/ueber-uns/team-und-kontakt.html/8843" target="_blank" rel="noopener noreferrer">Daniela Koller</a>
+                          aus der OGD-Koordinationsstelle des Kantons Thurgau zur Verfügung gestellt.
+                          Der Datensatz zu den Vorstössen ist auch auf der
+                          <a href="https://data.tg.ch/explore/dataset/sk-stat-75/table/?sort=datum_vorstoss_eingang" target="_blank" rel="noopener noreferrer">OGD-Plattform</a>
+                          des Kantons Thurgau verfügbar, allerdings ohne die Themenzuordnung. Zusätzliche detailierte Informationen zu den einzelnen Vorstössen lassen sich über die
+                          <a href="https://grgeko.tg.ch/" target="_blank" rel="noopener noreferrer"> elektronische Geschäftsdatenbank</a> des Kantons Thurgau abfragen.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen2-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen2-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen2-collapseThree">
+                          Datenbereinigung
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen2-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen2-headingThree">
+                        <div class="accordion-body">
+                          <p>
+                            Die orgnialen Daten wurden nach eigenem Ermessen aufgeräumt und gereinigt um ein eindeutiges Matching
+                            zwischen den Namen in der Mitgliederliste und in der Liste der Vorstösse zu ermöglichen. Insbesondere wurden folgende Änderungen vorgenommen:
+                            <ul>
+                              <li>Parteiname glp einheitlicht klein geschrieben</li>
+                              <li>Entfernung aller Zeilenumbrüche und führenden/folgenden Leerzeichen</li>
+                              <li>Ersetzen von Spitznamen durch Vornamen</li>
+                              <li>Bei Doppelnamen: Einheitliche Schreibweise mit beiden Namen</li>
+                              <li>Entfernung/Änderung von fehlerhaften oder doppelten Einträgen in der Parteiliste (bspw. bei falscher Partei)</li>
+                            </ul>
+                            Die so <span class="fw-bold">bereinigten Datensätze</span> für die <a href="./Daten_Thurgau/Mitglieder_GR_2008_2021_cleaned.csv">Grossrät:innen</a>
+                            und die <a href="./Daten_Thurgau/Vorstoesse_GR_ab_2012_Themen_def_cleaned.csv">Vorstösse</a> können über die entsprechenden Links bezogen werden.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item shadow">
+                        <h2 class="accordion-header" id="panelsStayOpen2-headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen2-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen2-collapseFour">
+                            Datenaufbereitung
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen2-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen2-headingFour">
+                          <div class="accordion-body">
+                            <p>
+                              Nach der Datenbereinigung wurden die für die Netzwerkvisualisierung relevanten Daten aus dem Zeitraum 2012-2021
+                              in ein <a href="./Daten_Thurgau/netzwerk.json">Netzwerk JSON-Format</a> (bestehend aus Nodes und Links) umstrukturiert. <br>
+                              Bei Grossrät:innen die innerhalb dieser Periode die <span class="fw-bold">Partei gewechselt</span> haben wurde die aktuellste Parteizugehörigkeit übernommen. <br>
+                              Die <span class="fw-bold">Anzahl der Dienstjahre</span> eines:einer Grosrät:in seit 2012 wurde über die Anzahl der jährlichen Einträge in der Mitgliederliste bestimmt.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Explenation Code -->
+    <section id="code" class="mb-5">
+      <div class="container-lg">
+      <div class="row justify-content-center mb-3"> 
+        <div class="col-11 text-center">
+            <h1 class="display-5">Erläuterung Code</h1>
+        </div>
+      </div>
+      <div class="row justify-content-center"> 
+        <div class="col-12">
+          <div class="card shadow my_rounded">
+            
+            <div class="card-body">
+              <p class="card-text">
+                Die interaktive Visualsierung wurde hauptsätzlich mit der Javaskript Bibliothek <a href="https://d3js.org/" target="_blank" rel="noopener noreferrer">D3.js</a> gebaut.
+                Darüber hinaus wurde <a href="https://d3-legend.susielu.com/" target="_blank" rel="noopener noreferrer">D3-legend.js</a> verwendet um die Legenden zu erstellen,
+                <a href="https://jquery.com/" target="_blank" rel="noopener noreferrer">jQuery</a> für einzelne Komfortfunktionen
+                und <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">Bootstrap</a> beim Design der Webseite. <br>
+
+                Die <span class="fw-bold">initiale Codebasis</span> für die Visualisierung wurde von einem
+                <a href="https://gist.github.com/colbenkharrl/dcb5590173931bb594e195020aaa959d" target="_blank" rel="noopener noreferrer">Minimaleispiel</a> für ein gefiltertes Netzwerk übernommen. <br>
+
+                Der gesamte <span class="fw-bold">Quellcode</span>, die Daten und der Entwicklungsprozess sind auf 
+                <a href="https://github.com/JurekMueller/vorstoesse_grosser_rat_thurgau" target="_blank" rel="noopener noreferrer">Github</a> unter
+                der <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank" rel="noopener noreferrer">Mozilla Public License 2.0</a> veröffentlicht.
+              </p>
+              <div class="text-center">
+                <a href="https://d3js.org/" target="_blank" rel="noopener noreferrer"><img src="Images/d3.svg" style="width: 7%; height: auto;"></a>
+                <a href="https://jquery.com/" target="_blank" rel="noopener noreferrer"><img src="Images/JQuery-Logo.svg" style="width: 13%; height: auto;"></a>
+                <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer"><img src="Images/Bootstrap_logo.svg" style="width: 7%; height: auto;"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <script src="JS/d3.min.js"></script>
     <script src="JS/d3-legend.js"></script>
     <script src="JS/jquery-3.6.0.js"></script>
-    <script src="JS/d3-legend.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="JS/bootstrap.min.js"></script>
 
     <script src="JS/netzwerk.js"></script>
 </body>
