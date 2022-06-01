@@ -11,6 +11,7 @@
         svg {
             width: 90%;
             height: 800px;
+            background-color: white;
         }
 
         /* .node {
@@ -24,25 +25,60 @@
         }
 
         .titleBanner {
-            margin-top: 2rem;
-            background-color: #4fbdf2;
-            border-radius: 1.5rem;
+            padding-top: 2rem;
+            /* background-color: #4fbdf2; */
+            /* border-radius: 1.5rem; */
+        }
+
+        .impressum {
+          /* margin-top: 2rem; */
+          background-color: #4fbdf2;
+          height: 12em;
+          text-align: center;
         }
 
         .my_rounded{
             border-radius: 1.6em;
             /* box-shadow: 0 5px 10px rgba(0,0,0,.2); */
         }
+        .text-justify{
+          text-align: justify;
+        }
+        .pMarg{
+          margin-bottom: 0.9em;
+        }
+        a {
+          text-decoration: none;
+          font-weight: bold;
+        }
+        body{
+          background-color: rgb(240, 240, 240);
+        }
     </style>
 </head>
 <body>
     
     <!-- Title -->
-    <div class="container-lg">
+    <div class="container-fluid mb-5">
         <div class="row"> <!-- justify-content ist für horizontal und align-items für vertikal-->
-            <div class="col text-center mb-5 me-5 ms-5 titleBanner">
+            <div class="col text-center mb-3 titleBanner">
                 <h3 class="display-3">Zusammenarbeit der Grossrät:innen <br> im Kanton Thurgau</h3>
             </div>
+        </div>
+        <div class="row">
+          <div class="col" style="height: 1.1em; background-color: #fcef00;"></div>
+        </div>
+        <div class="row">
+          <div class="col" style="height: 1.8em; background-color: #a3c900;"></div>
+        </div>
+        <div class="row">
+          <div class="col" style="height: 1.1em; background-color: #43a929;"></div>
+        </div>
+        <div class="row">
+          <div class="col" style="height: 1.1em; background-color: #3a97da;"></div>
+        </div>
+        <div class="row">
+          <div class="col" style="height: 3.5em; background-color: #4fbdf2;"></div>
         </div>
     </div>
 
@@ -58,7 +94,31 @@
         <div class="col-12">
           <div class="card shadow my_rounded">
             <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat necessitatibus earum maiores? Blanditiis laudantium aliquam id voluptatibus voluptates possimus fugit, cum similique saepe, rem culpa molestias dignissimos nulla autem porro modi quia, illum temporibus praesentium magni aspernatur. Facere minus rerum fugiat iusto nesciunt saepe consequatur, amet exercitationem aperiam mollitia eos?</p>
+              <p class="card-text">
+                <p class="pMarg">Die <strong>Visualisierung</strong> auf dieser Seite zeigt die <strong>Aktivitäten und Zusammenarbeit</strong> von Mitgliedern des Grossen Rats von Thurgau (Kantonsparlament) im Rahmen von parlamentarischen <strong>Vorstössen</strong>.
+                Diese werden als <strong>Netzwerkansicht</strong> dargestellt, mit den Grossrät:innen als Knoten und den gemeinsam eingereichten Vorstössen als Verbindungen.
+                Die Dargestellten Daten decken den <strong>Zeitraum von 2012-2021</strong> ab. </p>
+
+                <p class="pMarg">Die <strong>Grösse der Knoten</strong> entspricht der Anzahl an den jeweils beteiligten Vorstössen.
+                Die <strong>Farbe</strong> signalisiert eine von drei wählbaren persönlichen Eigenschaften (Partei, Geschlecht, Dienstjahre seit 2012).
+                Grossrät:innen ohne eingereichten Vorstoss werden im äusseren Ring gesammelt.</p>
+                
+                <p class="pMarg">Die <strong>Breite der Verbindung</strong> zwischen zwei Grossrät:innen zeigt an wie viele Vorstösse gemeinsam eingereicht wurden.
+                Es kann frei gewählt werden ab wie vielen gemeinsamen Vorstössen eine Verbindung angezeigt werden soll (standardmässig ab 3). </p>
+
+                <p class="pMarg">Die für die Visualisierung <strong>berücksichtigten Vorstösse</strong> können nach <strong>Art und Thema gefiltert</strong> werden.
+                Um einen <strong>Einstieg in die Mehrdimensionalität</strong> der Dargestellten Informationen zu ermöglichen,
+                werden weiter unten einige mögliche <a href="#stories">Fragestellungen und Beobachtungen</a> geschildert und durch Links auf der Visualisierung sichtbar gemacht. </p>
+
+                <p class="pMarg">Die verschiedenen <a href="#explenationVor">Vorstossarten</a>, die zugrundeliegenden <a href="#data">Daten</a>
+                und der zugrundeliegende <a href="#code">Code</a> werden unten im Detail erläutert.</p>
+
+                <p class="pMarg text-center h5 mt-3">
+                  <strong>Diese Visualisierung ist interaktiv: Ziehen Sie die Knoten, achten Sie auf die Tooltips und Filtern Sie nach belieben. <br>
+                  Viel Spass beim spielen und Entdecken!</strong>
+                </p>
+
+              </p>
             </div>
           </div>
         </div>
@@ -93,7 +153,7 @@
                   </div>
               </div>
               <div class="col-10 text-end mt-5 mb-2", style="margin-left:-9%; z-index: 1;" id="network-div">
-                  <svg class="shadow my_rounded border border-3" id="network-svg"></svg>
+                  <svg class="shadow my_rounded border border-2" id="network-svg"></svg>
               </div>
             </div>
         </div>
@@ -120,7 +180,7 @@
                             <div class="tab-pane active" id="storyParty">
                                 <p class="card-text">
                                     <p>Obwohl es viel Zusammenarbeit über <a href="javascript:void(0)" id="storyPartyAll2">Parteigrenzen hinweg</a> gibt lassen sich vor allem bei der
-                                    <a href="javascript:void(0)" id="storyPartyAll4">regelmässigen Zussamenarbeit</a> parteiinterne Netzwerke erkennen (z.B. für Parteien GP, SP und SVP).</p>
+                                    <a href="javascript:void(0)" id="storyPartyAll4">regelmässigen Zusammenarbeit</a> parteiinterne Netzwerke erkennen (z.B. für Parteien GP, SP und SVP).</p>
                                     
                                     <p>Es gibt auch einzelne Abgeordnete die <a href="javascript:void(0)" id="storyPartyAll3">parteiübergreifend sehr stark vernetzt</a> sind, aber dafür kaum Collaborationen innerhalb der eigenen Partei aufweisen
                                     (z.B. Elisabeth Rickenbach von der EVP)</p>
@@ -401,9 +461,9 @@
                 der <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank" rel="noopener noreferrer">Mozilla Public License 2.0</a> veröffentlicht.
               </p>
               <div class="text-center">
-                <a href="https://d3js.org/" target="_blank" rel="noopener noreferrer"><img src="Images/d3.svg" style="width: 7%; height: auto;"></a>
-                <a href="https://jquery.com/" target="_blank" rel="noopener noreferrer"><img src="Images/JQuery-Logo.svg" style="width: 13%; height: auto;"></a>
-                <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer"><img src="Images/Bootstrap_logo.svg" style="width: 7%; height: auto;"></a>
+                <a href="https://d3js.org/" target="_blank" rel="noopener noreferrer"><img src="./Images/d3.svg" style="width: 7%; height: auto;"></a>
+                <a href="https://jquery.com/" target="_blank" rel="noopener noreferrer"><img src="./Images/JQuery-Logo.svg" style="width: 13%; height: auto;"></a>
+                <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer"><img src="./Images/Bootstrap_logo.svg" style="width: 7%; height: auto;"></a>
               </div>
             </div>
           </div>
@@ -411,7 +471,41 @@
       </div>
     </div>
   </section>
-
+  
+  <!-- Impressum -->
+  <section id="Impressum">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col" style="height: 1.1em; background-color: #fcef00;"></div>
+      </div>
+      <div class="row">
+        <div class="col" style="height: 1.8em; background-color: #a3c900;"></div>
+      </div>
+      <div class="row">
+        <div class="col" style="height: 1.1em; background-color: #43a929;"></div>
+      </div>
+      <div class="row">
+        <div class="col" style="height: 1.1em; background-color: #3a97da;"></div>
+      </div>
+      <div class="row"> 
+        <div class="col impressum d-flex align-items-center justify-content-center">
+          <div class="">
+            <p class="h5">Die interaktive Visualisierung die auf dieser Seite vorgestellt wird entstand im Rahmen der
+            <a href="https://www.digitale-nachhaltigkeit.unibe.ch/studium/open_data_veranstaltung/fruehjahrssemester_2022/index_ger.html" target="_blank" rel="noopener noreferrer">Open Data Vorlesung</a> der Uni Bern im Frühlingssemester 2021/2022
+            </p>
+            <p class="h5"><strong>Autor: Jurek Müller</strong>
+              <a class="ps-2 pe-1" href="https://www.linkedin.com/in/jurek-m%C3%BCller-a21424210/" target="_blank" rel="noopener noreferrer"><img src="./Images/linkedin.svg" style="width: 2%; height: auto;"></a>
+              <a class="ps-1 pe-1" href="mailto:jurek_mueller@yahoo.de" target="_blank" rel="noopener noreferrer"><img src="./Images/envelope.svg" style="width: 2%; height: auto;"></a>
+              <a class="ps-1" href="https://github.com/JurekMueller/" target="_blank" rel="noopener noreferrer"><img src="./Images/github.svg" style="width: 2%; height: auto;"></a>
+            </p>
+            <p class="h5"><strong>Lizenz: </strong><a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank" rel="noopener noreferrer">Mozilla Public License 2.0</a></p>
+            <p class="h5">Zuletzt aktualisiert: 02.06.2022</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
     <script src="JS/d3.min.js"></script>
     <script src="JS/d3-legend.js"></script>
     <script src="JS/jquery-3.6.0.js"></script>
