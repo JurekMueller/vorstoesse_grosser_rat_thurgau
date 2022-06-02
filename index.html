@@ -87,7 +87,7 @@
     <div class="container-lg">
       <div class="row justify-content-center mb-3"> 
         <div class="col-11 text-center">
-          <h5 class="display-5">Einleitung</h5>
+          <h5 class="display-4">Einleitung</h5>
         </div>
       </div>    
       <div class="row justify-content-center"> 
@@ -97,25 +97,25 @@
               <p class="card-text">
                 <p class="pMarg">Die <strong>Visualisierung</strong> auf dieser Seite zeigt die <strong>Aktivitäten und Zusammenarbeit</strong> von Mitgliedern des Grossen Rats von Thurgau (Kantonsparlament) im Rahmen von parlamentarischen <strong>Vorstössen</strong>.
                 Diese werden als <strong>Netzwerkansicht</strong> dargestellt, mit den Grossrät:innen als Knoten und den gemeinsam eingereichten Vorstössen als Verbindungen.
-                Die Dargestellten Daten decken den <strong>Zeitraum von 2012-2021</strong> ab. </p>
+                Die dargestellten Daten decken den <strong>Zeitraum von 2012 bis 2021</strong> ab. </p>
 
-                <p class="pMarg">Die <strong>Grösse der Knoten</strong> entspricht der Anzahl an den jeweils beteiligten Vorstössen.
-                Die <strong>Farbe</strong> signalisiert eine von drei wählbaren persönlichen Eigenschaften (Partei, Geschlecht, Dienstjahre seit 2012).
-                Grossrät:innen ohne eingereichten Vorstoss werden im äusseren Ring gesammelt.</p>
+                <p class="pMarg">Die <strong>Grösse der Knoten</strong> entspricht der Anzahl der persönlich eingereichten Vorstösse.
+                Die <strong>Farbe</strong> der Knoten signalisiert eine von drei wählbaren persönlichen Eigenschaften (Partei, Geschlecht, Dienstjahre seit 2012).
+                Grossrät:innen ohne eingereichten Vorstoss werden im äussersten Ring dargestellt.</p>
                 
-                <p class="pMarg">Die <strong>Breite der Verbindung</strong> zwischen zwei Grossrät:innen zeigt an wie viele Vorstösse gemeinsam eingereicht wurden.
-                Es kann frei gewählt werden ab wie vielen gemeinsamen Vorstössen eine Verbindung angezeigt werden soll (standardmässig ab 3). </p>
+                <p class="pMarg">Die <strong>Breite der Verbindung</strong> zwischen zwei Grossrät:innen zeigt an, wie viele Vorstösse gemeinsam eingereicht wurden.
+                Um eine bessere Übersicht zu gewährleisten, kann frei gewählt werden ab wie vielen gemeinsamen Vorstössen eine Verbindung angezeigt werden soll (standardmässig ab 3). </p>
 
                 <p class="pMarg">Die für die Visualisierung <strong>berücksichtigten Vorstösse</strong> können nach <strong>Art und Thema gefiltert</strong> werden.
-                Um einen <strong>Einstieg in die Mehrdimensionalität</strong> der Dargestellten Informationen zu ermöglichen,
-                werden weiter unten einige mögliche <a href="#stories">Fragestellungen und Beobachtungen</a> geschildert und durch Links auf der Visualisierung sichtbar gemacht. </p>
+                Um einen <strong>Einstieg in die Mehrdimensionalität</strong> der dargestellten Informationen zu ermöglichen,
+                sind weiter unten einige mögliche <a href="#stories">Fragestellungen und Beobachtungen</a> beschrieben, die durch Links auf der Visualisierung sichtbar gemacht werden können. </p>
 
                 <p class="pMarg">Die verschiedenen <a href="#explenationVor">Vorstossarten</a>, die zugrundeliegenden <a href="#data">Daten</a>
                 und der zugrundeliegende <a href="#code">Code</a> werden unten im Detail erläutert.</p>
 
                 <p class="pMarg text-center h5 mt-3">
-                  <strong>Diese Visualisierung ist interaktiv: Ziehen Sie die Knoten, achten Sie auf die Tooltips und Filtern Sie nach belieben. <br>
-                  Viel Spass beim spielen und Entdecken!</strong>
+                  <strong>Diese Visualisierung ist interaktiv: Ziehen Sie die Knoten, lesen Sie die Tooltips und filtern Sie nach Belieben. <br>
+                  Viel Spass beim Spielen und Entdecken!</strong>
                 </p>
 
               </p>
@@ -130,7 +130,7 @@
         <div class="container-lg" id="network-container">
           <div class="row justify-content-center mt-5"> 
             <div class="col-11 text-center">
-              <h5 class="display-5">Netzwerkvisualisierung</h5>
+              <h5 class="display-4">Netzwerkvisualisierung</h5>
             </div>
           </div>  
           <div class="row justify-content-center">
@@ -179,58 +179,58 @@
                         <form class="card-body tab-content">
                             <div class="tab-pane active" id="storyParty">
                                 <p class="card-text">
-                                    <p>Obwohl es viel Zusammenarbeit über <a href="javascript:void(0)" id="storyPartyAll2">Parteigrenzen hinweg</a> gibt lassen sich vor allem bei der
-                                    <a href="javascript:void(0)" id="storyPartyAll4">regelmässigen Zusammenarbeit</a> parteiinterne Netzwerke erkennen (z.B. für Parteien GP, SP und SVP).</p>
+                                    <p>Obwohl es viel Zusammenarbeit über <a href="javascript:void(0)" id="storyPartyAll1">Parteigrenzen hinweg</a> gibt, lassen sich vor allem bei der
+                                    <a href="javascript:void(0)" id="storyPartyAll4">regelmässigen Zusammenarbeit</a> <strong>parteiinterne Netzwerke erkennen</strong> (z.B. für Parteien GP, SP und SVP).</p>
                                     
-                                    <p>Es gibt auch einzelne Abgeordnete die <a href="javascript:void(0)" id="storyPartyAll3">parteiübergreifend sehr stark vernetzt</a> sind, aber dafür kaum Collaborationen innerhalb der eigenen Partei aufweisen
-                                    (z.B. Elisabeth Rickenbach von der EVP)</p>
+                                    <p>Es gibt auch einzelne Abgeordnete, die <a href="javascript:void(0)" id="storyPartyAll3">parteiübergreifend sehr stark vernetzt</a> sind, aber dafür kaum Kollaborationen innerhalb der eigenen Partei aufweisen
+                                    (z.B. <strong>Elisabeth Rickenbach</strong> von der EVP)</p>
                                     
-                                    <p>Die Verschiedenen Parteien haben unterschiedliche thematische Schwerpunkte, was sich auch in den Vorstössen bemerkbar macht. 
+                                    <p>Die verschiedenen Parteien haben unterschiedliche <strong>thematische Schwerpunkte</strong>, was sich auch in den Vorstössen bemerkbar macht. 
                                     So sind beispielsweise die Abgeordneten mit den meisten Vorstössen im Thema  <a href="javascript:void(0)" id="storyPartyLand1">Landwirtschaft</a> 
-                                    bei der SVP und im Thema <a href="javascript:void(0)" id="storyPartyBesch1">Beschäftigung und Arbeit</a> bei der SP. <br>
+                                    bei der <strong>SVP</strong> und im Thema <a href="javascript:void(0)" id="storyPartyBesch1">Beschäftigung und Arbeit</a> bei der <strong>SP</strong>.<br>
                                     <span style="font-weight: bold;">Vorsicht:</span> Die Zuordnung eines Vorstosses zu einem Themenfeld sagt noch nichts über dessen politischen Inhalt aus.</p>
                                 </p>
                             </div>
                             <div class="tab-pane" id="storyGender">
                                 <p class=" card-text">
-                                    <p>Von den insgesamt 264 Abgeordneten die zwischen 2012-2021 ein Mandat im Grossen Rat hatten sind zwei Drittel männlich und ein Drittel weiblich.</p>
-                                    <p>Bei genauer Betrachtung (und mit etwas manuellem Entflechten) zeigt sich, dass sich das Netzwerk
-                                      in einen von Männer und einen von Frauen dominierte Teil <a href="javascript:void(0)" id="storyGenderAll3">aufteilen lässt</a>.</p>
+                                    <p>Von den insgesamt 264 Abgeordneten die, zwischen 2012 und 2021 ein Mandat im Grossen Rat hatten, sind <strong>zwei Drittel männlich und ein Drittel weiblich</strong>.</p>
+                                    <p>Bei genauer Betrachtung (und mit etwas Entflechten) zeigt sich, dass sich das Netzwerk
+                                      in einen von <strong>Männer</strong> und einen von <strong>Frauen</strong> dominierte Teil <a href="javascript:void(0)" id="storyGenderAll3">aufteilen lässt</a>.</p>
                                     <p>
                                       Ein Teil der Erklärung für diese Trennung liegt in der <a href="javascript:void(0)" id="storyPartyAll3">Parteizugehörigkeit</a>. 
                                       <br>
-                                      Das von <span style="font-weight: bold;">Frauen dominierte Netzwerk</span> besteht zu grossen Teilen aus SP Abgeordneten, die mit 60% einen deutlich höheren Frauenanteil als der Durchschnitt aufweist.
+                                      Das von <span style="font-weight: bold;">Frauen dominierte Netzwerk</span> besteht zu grossen Teilen aus <strong>SP</strong> Abgeordneten, die mit 60 % einen deutlich höheren Frauenanteil als der Durchschnitt aufweist.
                                       <br>
                                       Das von <span style="font-weight: bold;">Männern dominierte Netzwerk</span> setzt sich dagegen zu einem grossen Teil aus Abgeordneten der Parteien
-                                      <span style="font-weight: bold;">SVP</span> und <span style="font-weight: bold;">glp</span> zusammen die mit jeweils 23% einen deutlich kleineren Frauenanteil haben als der Durchschnitt.
-                                      <br>
+                                      <span style="font-weight: bold;">SVP</span> und <span style="font-weight: bold;">glp</span> zusammen, die mit jeweils 23 % einen deutlich kleineren Frauenanteil haben als der Durchschnitt.
+                                      
                                       Interessanterweise sind auch die am stärksten vernetzten Abgeordneten der <span style="font-weight: bold;">GP</span> teil des von Männer dominierten Netzwerkes
-                                      und selbst nur schwach mit Frauen aus der eigenen Partei vernetzt, obwohl der Frauenanteil der GP über den Zeitraum 2012-2021 mit 56% ähnlich hoch ist wie für die SP.
+                                      und selbst nur schwach mit Frauen aus der eigenen Partei vernetzt, obwohl der Frauenanteil der GP mit 56 % ähnlich hoch ist wie bei der SP.
                                     </p>
                                     <p>
-                                      Auch in den Themen zu denen Vorstösse eingereicht werden lassen sich Unterschiede zwischen Frauen und Männern erkennen. <br>
-                                      Während beispielsweise Vorstösse im Thema <a href="javascript:void(0)" id="storyGenderVerkehr1">Verkehr</a> hautsächlich von Männern stammen,
+                                      Auch bei den <strong>Themen</strong>, zu denen Vorstösse eingereicht werden, lassen sich Unterschiede zwischen Frauen und Männern erkennen. <br>
+                                      Während beispielsweise Vorstösse aus dem Thema <a href="javascript:void(0)" id="storyGenderVerkehr1">Verkehr</a> hauptsächlich von Männern stammen,
                                       ist das Thema <a href="javascript:void(0)" id="storyGenderSoz1">Soziale Fragen</a> eher von Frauen geprägt.
                                     </p>
                                 </p>
                             </div>
                             <div class="tab-pane" id="storyMost">
                                 <p class=" card-text">
-                                  Die Menge an Vorstössen die ein:e Abgeordnete:r zwischen 2012-2021 eingereicht hat (Bubble Grösse)
-                                  steigt tendenziell mit der Anzahl der geleisteten <a href="javascript:void(0)" id="storyMostAll3">Dienstjahre</a> in dieser Periode.<br>
+                                  Die <strong>Anzahl der Vorstösse</strong>, die ein:e Abgeordnete:r zwischen 2012 und 2021 eingereicht hat,
+                                  steigt tendenziell mit der Anzahl der geleisteten <a href="javascript:void(0)" id="storyMostAll3">Dienstjahre</a> seit 2012.<br>
                                   <span style="font-weight: bold;">Toni Kappeler (GP)</span> beispielsweise, war in 10 Jahren an 51, und damit an den meisten, Vorstössen beteiligt. <br>
-                                  Doch es gibt auch Ausnahmen wie beispielsweise <span style="font-weight: bold;">Barbara Dätwyler Weber (SP)</span>
-                                  die in nur 3 Jahren, also weniger als einem Drittel der Zeit, schon an 19 Vorstössen beteiligt war. <br>
-                                  Gleichzeitig gibt es auch Abgeordnete die in 10 Jahren bisher keinen Vorstoss eingereicht haben. <br>
+                                  Ein Beispiel für einen sehr aktiven (relativen) Neuzugang ist <span style="font-weight: bold;">Barbara Dätwyler Weber (SP)</span>,
+                                  die in nur 3 Jahren bereits an 19 Vorstössen beteiligt war.<br>
+                                  Daneben gibt es aber auch Abgeordnete, die in 10 Jahren Dienstzeit <strong>keinen Vorstoss</strong> eingereicht haben.<br>
                                   <span style="font-weight: bold;">Vorsicht:</span> Die hier dargestellte Anzahl an eingereichten Vorstössen berücksichtigt
                                   nicht die Unterstützung durch Mitunterzeichnung (siehe <a href="#data">Dateninhalt</a>)</p>
                                 </p>
                                 <p>
-                                  <span style="font-weight: bold;">Toni Kappeler (GP)</span> ist mit 19 Vorstössen auch der aktivste Abgeordnete in der Unterkategorie der Vorstösse
-                                  die einen konkreten Auftrag an den Regierungsrat beinhalten (<a href="javascript:void(0)" id="storyMostAllAuftr3">Parlamentarische Initiative, Motion und Leistungsmotion</a>)
-                                  dicht gefolgt von <span style="font-weight: bold;">Ueli Fisch (glp)</span> mit 18. <br>
-                                  <span style="font-weight: bold;">Peter Dransfeld (GP)</span> dagegen hat mit Abstand die meisten Vorstösse die aus reinen Anfragen an den Regierungsrat bestehen
-                                  (<a href="javascript:void(0)" id="storyMostAllAnfr3">Interpellation, Einfache Anfrage und Antrag nach § 52 GO</a>) eingereicht.
+                                  <span style="font-weight: bold;">Toni Kappeler (GP)</span> ist mit 19 Vorstössen auch der aktivste Abgeordnete in der Unterkategorie der <strong>Vorstösse,
+                                  die einen konkreten Auftrag</strong> an den Regierungsrat beinhalten (<a href="javascript:void(0)" id="storyMostAllAuftr3">Parlamentarische Initiative, Motion und Leistungsmotion</a>),
+                                  dicht gefolgt von <span style="font-weight: bold;">Ueli Fisch (glp)</span> mit 18 Vorstössen. <br>
+                                  <span style="font-weight: bold;">Peter Dransfeld (GP)</span> dagegen reichte, mit 38, die mit Abstand meisten Vorstösse ein, welche aus <strong>Anfragen</strong> an den Regierungsrat bestehen
+                                  (<a href="javascript:void(0)" id="storyMostAllAnfr3">Interpellation, Einfache Anfrage und Antrag nach § 52 GO</a>).
                                 </p>
                             </div>
                         </form>
@@ -244,7 +244,7 @@
         <div class="container-lg">
             <div class="row justify-content-center mb-3"> 
                 <div class="col-11 text-center">
-                    <h1 class="display-5">Erläuterung Vorstösse</h1>
+                    <h1 class="display-4">Erläuterung Vorstösse</h1>
                 </div>
             </div>
             <div class="row justify-content-center"> 
@@ -258,11 +258,11 @@
                           </h2>
                           <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                             <div class="accordion-body">
-                              Eine Parlamentarische Initiative übergibt dem Regierungsrat einen Entwurf für einen neuen Erlass oder eine Abänderung eines Gesetzes oder einer Verordnung zur Prüfung.
+                              Eine <strong>Parlamentarische Initiative</strong> übergibt dem Regierungsrat einen Entwurf für einen neuen Erlass oder eine Abänderung eines Gesetzes oder einer Verordnung zur Prüfung.
                               Der Regierungsrat nimmt innerhalb der Frist von zwei Monaten Stellung. <br>
-                              Das Büro des Grossen Rates kann dann die Initiative zurückweisen wenn sie sich auf einen Gegenstand bezieht, der schon als im Grossen Rat behandelt wird oder
+                              Das Büro des Grossen Rates kann dann die Initiative zurückweisen, wenn sie sich auf einen Gegenstand bezieht, der schon im Grossen Rat behandelt wird oder
                               innerhalb eines halben Jahres vorgelegt wird.
-                              Geschieht dies nicht, stimmt der Grosse Rat über eine vorläufige Unterstützung ab. Wird diese Angenommen wird eine Kommission mit der weiteren Ausarbeitung beauftragt.
+                              Geschieht dies nicht, stimmt der Grosse Rat über eine vorläufige Unterstützung ab. Wird diese angenommen, wird eine Kommission mit der weiteren Ausarbeitung beauftragt.
                             </div>
                           </div>
                         </div>
@@ -274,9 +274,9 @@
                           </h2>
                           <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                             <div class="accordion-body">
-                              Eine Motion beauftragt den Regierungsrat einen Entwurf für einen neuen Erlass oder eine Abänderung eines Gesetzes oder einer Verordnung auszuarbeiten.
+                              Eine <strong>Motion</strong> beauftragt den Regierungsrat, einen Entwurf für einen neuen Erlass oder eine Abänderung eines Gesetzes oder einer Verordnung auszuarbeiten.
                               Der Regierungsrat nimmt innerhalb der Frist von einem Jahr Stellung. <br>
-                              Anschliessend wird über die Motion im Grossen Rat abgestimmt. Wird sie angenommen, hat der Regierungsrat zwei Jahre Zeit den Auftrag zu bearbeiten. 
+                              Anschliessend wird über die Motion im Grossen Rat abgestimmt. Wird sie angenommen, hat der Regierungsrat zwei Jahre Zeit, den Auftrag zu bearbeiten. 
                             </div>
                           </div>
                         </div>
@@ -288,8 +288,8 @@
                           </h2>
                           <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                             <div class="accordion-body">
-                              Mit einer Leistungsmotion wird dem Regierungsrat der Auftrag erteilt, eine Änderung im Haushaltsbudget vorszunehmen.
-                              Der Regierungsrat nimmt innerhalb der Frist von einem drei Monaten Stellung. <br>
+                              Mit einer <strong>Leistungsmotion</strong> wird dem Regierungsrat der Auftrag erteilt, eine Änderung im Haushaltsbudget vorzunehmen.
+                              Der Regierungsrat nimmt innerhalb der Frist von einem drei Monaten Stellung.<br>
                               Anschliessend wird über die Motion im Grossen Rat abgestimmt. Wird sie angenommen, muss der Antrag spätestens im übernächsten Budget berücksichtigt werden. 
                             </div>
                           </div>
@@ -302,8 +302,8 @@
                             </h2>
                             <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
                               <div class="accordion-body">
-                                Eine Interpellation ist eine umfangreiche Anfrage an den Regierungsrat mit einer Beantwortungsfrist von einem Jahr.
-                                Nach deren Beantwortung kann nach Bedarf eine Diskussion im grossen Rat geführt werden.
+                                Eine <strong>Interpellation</strong> ist eine umfangreiche Anfrage an den Regierungsrat mit einer Beantwortungsfrist von einem Jahr.
+                                Nach deren Beantwortung kann nach Bedarf eine Diskussion im Grossen Rat geführt werden.
                               </div>
                             </div>
                           </div>
@@ -316,7 +316,7 @@
                         </h2>
                         <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
                           <div class="accordion-body">
-                            Eine Einfache Anfrage ist ähnlich der Interpellation eine Anfrage and den Regierungsrat, allerdings ohne anschliessende Diskussion und gewöhnlich weniger umfangreich.
+                            Eine <strong>Einfache Anfrage</strong> ist ähnlich der Interpellation eine Anfrage an den Regierungsrat, allerdings ohne anschliessende Diskussion und gewöhnlich weniger umfangreich.
                             Eine Antwort erfolgt innerhalb von zwei Monaten.
                           </div>
                         </div>
@@ -329,7 +329,7 @@
                         </h2>
                         <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
                           <div class="accordion-body">
-                            Anträge nach § 52 der Geschäftsordnung beinhalten beispielsweise die Beauftragung des Regierungsrats mit der Einholung von Berichten oder Anordnung von Untersuchungen.
+                            <strong>Anträge nach § 52 der Geschäftsordnung</strong> beinhalten beispielsweise die Beauftragung des Regierungsrats mit der Einholung von Berichten oder der Anordnung von Untersuchungen.
                             Es gilt das gleiche Verfahren wie für Motionen.
                           </div>
                         </div>
@@ -344,7 +344,7 @@
         <div class="container-lg">
         <div class="row justify-content-center mb-3"> 
           <div class="col-11 text-center">
-              <h1 class="display-5">Erläuterung Daten</h1>
+              <h1 class="display-4">Erläuterung Daten</h1>
           </div>
         </div>  
         <div class="row justify-content-center"> 
@@ -358,10 +358,10 @@
                       </h2>
                       <div id="panelsStayOpen2-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen2-headingOne">
                         <div class="accordion-body">
-                          Die hier verwendeten Daten bestehen aus zwei Teilen. Der erste Datensatz beinhaltet <span class="fw-bold">Informationen der Grossrät:innen des Kantons Thurgau über den Zeitraum 2008-2021</span>.
-                          Dieser Datensatz ist das Ergebnis der Zusammenführung von jährlichen Mitgliedslisten, weshalb es für jede:rn Grosrät:in einen seperaten Eintrag pro Dienstjahr gibt. <br>
-                          Der zweite Datensatz enthält <span class="fw-bold">Informationen über die im Grossen Rat eingereichten Vorstösse über den Zeitraum 2012-2021</span>. Teil der enthaltenen Informationen sind die
-                          Namen der Vorstösser:innen die zur Verknüpfung der beiden Datensätze genutzt wurden. <br>
+                          Die hier verwendeten Daten bestehen aus zwei Teilen. Der erste Datensatz beinhaltet <span class="fw-bold">Informationen über die Grossrät:innen des Kantons Thurgau aus dem Zeitraum 2008-2021</span>.
+                          Dieser Datensatz ist das Ergebnis einer Zusammenführung von jährlichen Mitgliederlisten, weshalb es für jede:n Grosrät:in einen separaten Eintrag pro Dienstjahr gibt.<br>
+                          Der zweite Datensatz enthält <span class="fw-bold">Informationen über die im Grossen Rat eingereichten Vorstösse aus dem Zeitraum 2012-2021</span>. Teil der enthaltenen Informationen sind die
+                          Namen der Vorstösser:innen, die zur Verknüpfung der beiden Datensätze genutzt wurden. <br>
                           <span class="fw-bold">Vorsicht:</span> Generell gibt es für Vorstösse einen Kreis von Unterstützer:innen der deutlich über den der Vorstösser:innen hinausgeht
                           und die ihre Unterstützung durch Mitunterzeichnung Ausdruck geben. Informationen über Mitunterzeichner:innen sind nicht im Datensatz enthalten und wurden bei der
                           Erstellung der Netzwerkvisualisierung nicht mitberücksichtigt.
@@ -382,7 +382,7 @@
                           aus der OGD-Koordinationsstelle des Kantons Thurgau zur Verfügung gestellt.
                           Der Datensatz zu den Vorstössen ist auch auf der
                           <a href="https://data.tg.ch/explore/dataset/sk-stat-75/table/?sort=datum_vorstoss_eingang" target="_blank" rel="noopener noreferrer">OGD-Plattform</a>
-                          des Kantons Thurgau verfügbar, allerdings ohne die Themenzuordnung. Zusätzliche detailierte Informationen zu den einzelnen Vorstössen lassen sich über die
+                          des Kantons Thurgau verfügbar, allerdings ohne die Themenzuordnung. Zusätzliche detaillierte Informationen zu den einzelnen Vorstössen lassen sich über die
                           <a href="https://grgeko.tg.ch/" target="_blank" rel="noopener noreferrer"> elektronische Geschäftsdatenbank</a> des Kantons Thurgau abfragen.
                         </div>
                       </div>
@@ -396,14 +396,14 @@
                       <div id="panelsStayOpen2-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen2-headingThree">
                         <div class="accordion-body">
                           <p>
-                            Die orgnialen Daten wurden nach eigenem Ermessen aufgeräumt und gereinigt um ein eindeutiges Matching
+                            Die originalen Daten wurden nach eigenem Ermessen aufgeräumt und gereinigt, um ein eindeutiges Matching
                             zwischen den Namen in der Mitgliederliste und in der Liste der Vorstösse zu ermöglichen. Insbesondere wurden folgende Änderungen vorgenommen:
                             <ul>
-                              <li>Parteiname glp einheitlicht klein geschrieben</li>
-                              <li>Entfernung aller Zeilenumbrüche und führenden/folgenden Leerzeichen</li>
+                              <li>Parteiname glp einheitliche kleingeschrieben</li>
+                              <li>Entfernung aller Zeilenumbrüche, Anführungszeichen und führende/folgende Leerzeichen</li>
                               <li>Ersetzen von Spitznamen durch Vornamen</li>
                               <li>Bei Doppelnamen: Einheitliche Schreibweise mit beiden Namen</li>
-                              <li>Entfernung/Änderung von fehlerhaften oder doppelten Einträgen in der Parteiliste (bspw. bei falscher Partei)</li>
+                              <li>Entfernung/Änderung von fehlerhaften oder doppelten Einträgen in der Mitgliederliste (bspw. bei falscher Partei)</li>
                             </ul>
                             Die so <span class="fw-bold">bereinigten Datensätze</span> für die <a href="./Daten_Thurgau/Mitglieder_GR_2008_2021_cleaned.csv">Grossrät:innen</a>
                             und die <a href="./Daten_Thurgau/Vorstoesse_GR_ab_2012_Themen_def_cleaned.csv">Vorstösse</a> können über die entsprechenden Links bezogen werden.
@@ -421,9 +421,9 @@
                           <div class="accordion-body">
                             <p>
                               Nach der Datenbereinigung wurden die für die Netzwerkvisualisierung relevanten Daten aus dem Zeitraum 2012-2021
-                              in ein <a href="./Daten_Thurgau/netzwerk.json">Netzwerk JSON-Format</a> (bestehend aus Nodes und Links) umstrukturiert. <br>
-                              Bei Grossrät:innen die innerhalb dieser Periode die <span class="fw-bold">Partei gewechselt</span> haben wurde die aktuellste Parteizugehörigkeit übernommen. <br>
-                              Die <span class="fw-bold">Anzahl der Dienstjahre</span> eines:einer Grosrät:in seit 2012 wurde über die Anzahl der jährlichen Einträge in der Mitgliederliste bestimmt.
+                              in ein <a href="./Daten_Thurgau/netzwerk.json">Netzwerk JSON-Format</a> (bestehend aus Knoten und Verbindungen) umstrukturiert. <br>
+                              Bei Grossrät:innen, die innerhalb dieser Periode die <span class="fw-bold">Partei gewechselt</span> haben, wurde die aktuellste Parteizugehörigkeit übernommen. <br>
+                              Die <span class="fw-bold">Anzahl der Dienstjahre</span> eine:r Grosrät:in seit 2012 wurde über die Anzahl der jährlichen Einträge in der Mitgliederliste bestimmt.
                             </p>
                           </div>
                         </div>
@@ -439,7 +439,7 @@
       <div class="container-lg">
       <div class="row justify-content-center mb-3"> 
         <div class="col-11 text-center">
-            <h1 class="display-5">Erläuterung Code</h1>
+            <h1 class="display-4">Erläuterung Code</h1>
         </div>
       </div>
       <div class="row justify-content-center"> 
@@ -448,13 +448,13 @@
             
             <div class="card-body">
               <p class="card-text">
-                Die interaktive Visualsierung wurde hauptsätzlich mit der Javaskript Bibliothek <a href="https://d3js.org/" target="_blank" rel="noopener noreferrer">D3.js</a> gebaut.
-                Darüber hinaus wurde <a href="https://d3-legend.susielu.com/" target="_blank" rel="noopener noreferrer">D3-legend.js</a> verwendet um die Legenden zu erstellen,
+                Die interaktive Visualisierung wurde hauptsächlich mit der Javaskript Bibliothek <a href="https://d3js.org/" target="_blank" rel="noopener noreferrer">D3.js</a> gebaut.
+                Darüber hinaus wurde <a href="https://d3-legend.susielu.com/" target="_blank" rel="noopener noreferrer">D3-legend.js</a> verwendet, um die Legenden zu erstellen,
                 <a href="https://jquery.com/" target="_blank" rel="noopener noreferrer">jQuery</a> für einzelne Komfortfunktionen
                 und <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">Bootstrap</a> beim Design der Webseite. <br>
 
                 Die <span class="fw-bold">initiale Codebasis</span> für die Visualisierung wurde von einem
-                <a href="https://gist.github.com/colbenkharrl/dcb5590173931bb594e195020aaa959d" target="_blank" rel="noopener noreferrer">Minimaleispiel</a> für ein gefiltertes Netzwerk übernommen. <br>
+                <a href="https://gist.github.com/colbenkharrl/dcb5590173931bb594e195020aaa959d" target="_blank" rel="noopener noreferrer">Minimalbeispiel</a> für ein gefiltertes Netzwerk übernommen. <br>
 
                 Der gesamte <span class="fw-bold">Quellcode</span>, die Daten und der Entwicklungsprozess sind auf 
                 <a href="https://github.com/JurekMueller/vorstoesse_grosser_rat_thurgau" target="_blank" rel="noopener noreferrer">Github</a> unter
@@ -490,7 +490,7 @@
       <div class="row"> 
         <div class="col impressum d-flex align-items-center justify-content-center">
           <div class="">
-            <p class="h5">Die interaktive Visualisierung die auf dieser Seite vorgestellt wird entstand im Rahmen der
+            <p class="h5">Die interaktive Visualisierung, die auf dieser Seite vorgestellt wird, entstand im Rahmen der
             <a href="https://www.digitale-nachhaltigkeit.unibe.ch/studium/open_data_veranstaltung/fruehjahrssemester_2022/index_ger.html" target="_blank" rel="noopener noreferrer">Open Data Vorlesung</a> der Uni Bern im Frühlingssemester 2021/2022
             </p>
             <p class="h5"><strong>Autor: Jurek Müller</strong>

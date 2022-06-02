@@ -46,7 +46,7 @@ var colorOption = colorWrapper
 		.append("option")
 		.attr("id",function(d) {return 'colSel'+d})
 		.attr("value",function(d) {return d})
-		.text(function(d) {return d});
+		.text(d => d==='Dienstjahre' ? 'Dienstjahre seit 2012' : d);
 
 // Select Partei as default
 var selectColorDim = 'Partei';
@@ -177,7 +177,7 @@ function storyFilter(linkStrength=3,subj='all',color='Partei',typeFilter=[]) {
 };
 
 /// Story Parties
-d3.select("#storyPartyAll2").on("click", d => storyFilter(linkStrength=2));
+d3.select("#storyPartyAll1").on("click", d => storyFilter(linkStrength=1));
 d3.selectAll("#storyPartyAll3").on("click", d => storyFilter(linkStrength=3));
 d3.select("#storyPartyAll4").on("click", d => storyFilter(linkStrength=4));
 d3.select("#storyPartyLand1").on("click", d => storyFilter(linkStrength=1,subj='Landwirtschaft'));
